@@ -1,28 +1,73 @@
-name: Daily Commit
+name: Daily Randomized Commits
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # once daily at 00:00 UTC
-  workflow_dispatch:       # Still allows manual trigger
+    - cron: "0 0 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 18 * * *"
+  workflow_dispatch:
 
 jobs:
-  auto-commit:
+  select-window:
     runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.pick.outputs.run }}
+      delay: ${{ steps.pick.outputs.delay }}
+    steps:
+      - id: pick
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "delay=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          case "${{ github.event.schedule }}" in
+            "0 0 * * *") SLOT=0 ;;
+            "0 6 * * *") SLOT=1 ;;
+            "0 12 * * *") SLOT=2 ;;
+            "0 18 * * *") SLOT=3 ;;
+          esac
+
+          DAY_SEED=$(date -u +%Y%j)
+          CHOSEN_SLOT=$((10#$DAY_SEED % 4))
+          if [ "$SLOT" -eq "$CHOSEN_SLOT" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "delay=$((RANDOM % 46))" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "delay=0" >> "$GITHUB_OUTPUT"
+          fi
+
+  auto-commit:
+    needs: select-window
+    if: needs.select-window.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
 
     steps:
+      - name: Wait for randomized start
+        run: sleep "$((${{ needs.select-window.outputs.delay }} * 60))"
+
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
+          fetch-depth: 0
 
-      - name: Make a change to daily.txt
-        run: |
-          echo "Daily ping: $(date -u)" >> daily.txt
-
-      - name: Commit and push changes
+      - name: Create and push randomized commits
+        shell: bash
         run: |
           git config user.name "marco13-moo"
           git config user.email "210023993+marco13-moo@users.noreply.github.com"
-          git add daily.txt
-          git commit -m "🤖 Daily update on $(date -u)" || echo "Nothing to commit"
+
+          COMMIT_COUNT=$((RANDOM % 6 + 1))
+          for ((i=1; i<=COMMIT_COUNT; i++)); do
+            echo "Daily ping: $(date -u +'%Y-%m-%dT%H:%M:%SZ') [$i/$COMMIT_COUNT]" >> daily.txt
+            git add daily.txt
+            git commit -m "Daily update ($i/$COMMIT_COUNT)"
+          done
+
           git push
