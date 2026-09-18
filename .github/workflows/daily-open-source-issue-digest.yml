@@ -1,0 +1,55 @@
+name: Daily open-source issue digest
+
+on:
+  schedule:
+    # Daily at 08:15 UTC. GitHub may defer scheduled workflows during peak load.
+    - cron: "15 8 * * *"
+  workflow_dispatch:
+    inputs:
+      commit_results:
+        description: Commit generated Markdown to the repository
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: open-source-issue-digest
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Verify the generator
+        run: bash tests/generate-digest.test.sh
+
+  generate:
+    needs: verify
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Generate the digest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/generate-digest.sh
+
+      - name: Commit the refreshed digest
+        if: github.event_name == 'schedule' || inputs.commit_results
+        run: |
+          if git diff --quiet -- digests; then
+            echo "Digest is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add digests
+          git commit -m "docs: refresh open-source issue digest"
+          git push

@@ -1,0 +1,17 @@
+# One public GitHub repository per line. Blank lines and comments are ignored.
+torvalds/linux
+systemd/systemd
+containerd/containerd
+omacom/omarchy
+microsoft/vscode
+google/googletest
+facebook/react
+openai/openai-python
+nasa/openmct
+apache/kafka
+tensorflow/tensorflow
+rust-lang/rust
+nodejs/node
+golang/go
+llvm/llvm-project
+mozilla/gecko-dev
