@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-11
+# Open-source issue digest — 2026-10-12
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,45 +10,45 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [Failed to initialize NvPCR index: No such file or directory](https://github.com/systemd/systemd/issues/43848) — updated 2026-10-11T11:21:31Z
-- [systemd-report: io.systemd.Manager exceeds the 4096 per-source cap on a desktop](https://github.com/systemd/systemd/issues/44125) — updated 2026-10-10T17:38:42Z
-- [Session stuck in "closing" state indefinitely when ReleaseSession arrives after scope has already stopped (Abandon fails with ScopeNotRunning)](https://github.com/systemd/systemd/issues/43745) — updated 2026-10-10T11:00:05Z
+- [LinkLocalAddressing and IPv6LinkLocalAddressGenerationMode not honored for wireguard links](https://github.com/systemd/systemd/issues/44005) — updated 2026-10-12T16:33:44Z
+- ["systemctl is-system-running --wait" may hang indefinitely for non-root users](https://github.com/systemd/systemd/issues/44150) — updated 2026-10-12T15:01:06Z
+- [State of forward secure sealing](https://github.com/systemd/systemd/issues/40073) — updated 2026-10-12T14:11:41Z
 
 ## containerd/containerd
 
-- [[SIG-Node]: 4216 - Support image pull per runtime class](https://github.com/containerd/containerd/issues/14252) — updated 2026-10-10T01:02:32Z
-- [CRI: add a shared-netns handler that groups Pods by RuntimeClass name](https://github.com/containerd/containerd/issues/14315) — updated 2026-10-09T23:27:39Z
-- [Integrate with systemd watchdog for daemon health](https://github.com/containerd/containerd/issues/10329) — updated 2026-10-09T20:12:28Z
+- [[diff/applier plugin] support sync-fs for data persistence](https://github.com/containerd/containerd/issues/9497) — updated 2026-10-12T17:35:26Z
+- [diff service `sync_fs` is not applied to transfer-service unpacks (CRI's default pull path)](https://github.com/containerd/containerd/issues/14336) — updated 2026-10-12T17:35:21Z
+- [erofs snapshotter: power loss leaves committed layers unreadable or missing](https://github.com/containerd/containerd/issues/14333) — updated 2026-10-12T11:05:29Z
 
 ## omacom/omarchy
 
-- [Feature: window layout snapshots (save and restore workspace arrangements)](https://github.com/omacom/omarchy/issues/8535) — updated 2026-10-11T14:47:00Z
-- [Update: Reproducible Tray-Triggered Bar Interaction Failure — Additional Test Results](https://github.com/omacom/omarchy/issues/15036) — updated 2026-10-11T14:42:31Z
-- [Top-bar widgets intermittently stop responding to mouse clicks](https://github.com/omacom/omarchy/issues/10030) — updated 2026-10-11T14:42:07Z
+- [Codex agent collector times out on rateLimits RPC due to buffered reader and 4s deadline](https://github.com/omacom/omarchy/issues/10143) — updated 2026-10-12T17:50:49Z
+- [Kernel 7.2.3 (shipped in 4.0.3): ELAN i2c-hid touchpad intermittently freezes — A/B confirmed vs linux-lts](https://github.com/omacom/omarchy/issues/11245) — updated 2026-10-12T17:47:21Z
+- [PipeWire runs without realtime priority on a stock install (rtkit is not included)](https://github.com/omacom/omarchy/issues/9390) — updated 2026-10-12T17:40:27Z
 
 ## microsoft/vscode
 
-- [Markdown preview: one long unbreakable token makes all lines in a word-wrapped code block wrap at that token's width](https://github.com/microsoft/vscode/issues/340918) — updated 2026-10-11T14:48:29Z
-- [sandbox & sandbox.fileSystem.userConfiguredPaths creates dirs for denied relative paths](https://github.com/microsoft/vscode/issues/340838) — updated 2026-10-11T14:45:29Z
-- [File icon disappears for files named "gltf.cpp", "gltf.cc", or "gltf" (no extension), while "gltf.hpp" works fine](https://github.com/microsoft/vscode/issues/340917) — updated 2026-10-11T14:31:49Z
+- [Cloud Automations should show repo name and not org in card](https://github.com/microsoft/vscode/issues/341117) — updated 2026-10-12T17:53:21Z
+- [Configure tools quick pick doesn't save selections unless OK is clicked](https://github.com/microsoft/vscode/issues/341102) — updated 2026-10-12T17:51:51Z
+- [Cloud Automation runs show up in sessions bar as regular cloud runs](https://github.com/microsoft/vscode/issues/341116) — updated 2026-10-12T17:51:40Z
 
 ## google/googletest
 
+- [[Bug]: Premature-exit marker I/O failures have missing or misleading diagnostics](https://github.com/google/googletest/issues/5118) — updated 2026-10-12T14:52:39Z
+- [[Bug]: Threadsafe death tests pass without running when the test name contains ':' (e.g. typed test named "std::string")](https://github.com/google/googletest/issues/5105) — updated 2026-10-12T04:30:29Z
 - [[Bug]: Tests are reported as completed when GTEST_SKIP is used inside an environment's SetUp](https://github.com/google/googletest/issues/4653) — updated 2026-10-11T02:01:24Z
-- [[FR]: Making `EXPECT_THAT` of `(Unordered)ElementsAreArray` human/AI readable](https://github.com/google/googletest/issues/4934) — updated 2026-10-08T03:16:01Z
-- [[Bug]: googletest linker errors (unresolved symbols) on Apple Silicon](https://github.com/google/googletest/issues/5110) — updated 2026-10-04T13:14:19Z
 
 ## facebook/react
 
-- [Bug: eslint-plugin-react-hooks fails handling null chaining operator (react-hooks/immutability)](https://github.com/react/react/issues/35167) — updated 2026-10-11T13:12:38Z
-- [Bug: error recovery is disabled when the recovery retry is only interrupted for selective hydration (regression from #37739)](https://github.com/react/react/issues/37809) — updated 2026-10-11T11:35:14Z
-- [Bug: ResponderEventPlugin counts touch events, not touches, so a coalesced multi-touch cancel leaves trackedTouchCount stuck](https://github.com/react/react/issues/37571) — updated 2026-10-11T08:37:22Z
+- [Reconsider providing a cleaner hook-based solution to derived state](https://github.com/react/react/issues/33041) — updated 2026-10-12T16:39:24Z
+- [[React 19] Upgrading React causes infinite refetching](https://github.com/react/react/issues/30799) — updated 2026-10-12T16:14:39Z
+- [[Compiler Bug]: destructured parameter defaults are silently not compiled under @babel/core 8](https://github.com/react/react/issues/37406) — updated 2026-10-12T11:56:51Z
 
 ## openai/openai-python
 
-- [Responses create spends CPU proportional to the body size transforming a body it returns unchanged](https://github.com/openai/openai-python/issues/4021) — updated 2026-10-11T09:46:31Z
-- [Maintain tiktoken](https://github.com/openai/openai-python/issues/4042) — updated 2026-10-10T23:33:32Z
-- [Bug: accumulate_delta corrupts tool call items on out-of-order delta indexes](https://github.com/openai/openai-python/issues/4022) — updated 2026-10-09T23:22:49Z
+- [responses.parse() matches a namespaced function call to a top-level tool by name alone](https://github.com/openai/openai-python/issues/4064) — updated 2026-10-12T14:12:01Z
+- [ChatCompletionStream.get_final_completion() can return an incomplete result after an early EOF](https://github.com/openai/openai-python/issues/4063) — updated 2026-10-12T06:09:13Z
+- [Maintain tiktoken](https://github.com/openai/openai-python/issues/4042) — updated 2026-10-12T05:50:44Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [tf.nn.softmax raises AbortedError for rank >= 6 with oneDNN](https://github.com/tensorflow/tensorflow/issues/128814) — updated 2026-10-11T08:59:55Z
-- [GlobalMaxPooling1D/2D/3D` raise in eager mode for zero-batch inputs while `tf.function` returns the expected shape](https://github.com/tensorflow/tensorflow/issues/128748) — updated 2026-10-10T22:56:56Z
-- [tf.keras.layers.LSTM` fails on zero-batch inputs while `SimpleRNN` and `GRU` return the expected empty output](https://github.com/tensorflow/tensorflow/issues/128751) — updated 2026-10-10T22:40:30Z
+- [[XLA] betainc returns NaN at endpoints with infinite shape parameters](https://github.com/tensorflow/tensorflow/issues/128991) — updated 2026-10-12T17:50:14Z
+- [[XLA] Complex log loses infinite real component for NaN + Inf*i](https://github.com/tensorflow/tensorflow/issues/128990) — updated 2026-10-12T17:50:10Z
+- [[XLA] Incorrect special-value handling in igamma and igammac](https://github.com/tensorflow/tensorflow/issues/128989) — updated 2026-10-12T17:50:06Z
 
 ## rust-lang/rust
 
-- [1.100 beta crater regression: "can't find crate for `yote_recordstore_rust`"](https://github.com/rust-lang/rust/issues/164086) — updated 2026-10-11T14:42:07Z
-- [1.100 beta crater regression: "can't find crate for docmatic"](https://github.com/rust-lang/rust/issues/164160) — updated 2026-10-11T14:33:28Z
-- [1.100 beta crater regression: test failures in 64+ crates with "No such file or directory"](https://github.com/rust-lang/rust/issues/164098) — updated 2026-10-11T14:28:56Z
+- [Wrong hint for multiple mutable borrows](https://github.com/rust-lang/rust/issues/164169) — updated 2026-10-12T17:39:59Z
+- [`impl Trait` bounds incorrectly assumed to be not-live](https://github.com/rust-lang/rust/issues/163886) — updated 2026-10-12T17:21:29Z
+- [Tracking issue for future-compatibility warning `recursion_depth_exceeding_limit`](https://github.com/rust-lang/rust/issues/159228) — updated 2026-10-12T16:32:58Z
 
 ## nodejs/node
 
-- [Fatal `Check failed: IsCompatibleCode` in v26.11.1: please backport the V8 fix for crbug 525686865](https://github.com/nodejs/node/issues/66661) — updated 2026-10-11T14:50:25Z
-- [Problem with newer `less`](https://github.com/nodejs/node/issues/66440) — updated 2026-10-11T13:12:12Z
-- [Background node process corrupts terminal state with tcsetattr() on exit](https://github.com/nodejs/node/issues/35536) — updated 2026-10-11T11:02:28Z
+- [compile cache: one file per module makes the cache cost more than it saves on Windows; a packed layout fixes it](https://github.com/nodejs/node/issues/66584) — updated 2026-10-12T17:37:06Z
+- [crypto: segfault in `X509Certificate.toLegacyObject()` / `tls.TLSSocket.getPeerCertificate()` for EC certs on curves without a NIST name (e.g. brainpool), regression in v23.7.0](https://github.com/nodejs/node/issues/66681) — updated 2026-10-12T14:17:44Z
+- [Build failure: undefined reference to VisitUint64Add3WithCarry on Loong64](https://github.com/nodejs/node/issues/66633) — updated 2026-10-12T09:12:48Z
 
 ## golang/go
 
-- [x/tools: umbrella for flakes on ppc](https://github.com/golang/go/issues/73988) — updated 2026-10-11T13:59:05Z
-- [runtime: linux/s390x test timeout](https://github.com/golang/go/issues/60413) — updated 2026-10-11T13:59:05Z
-- [net/http: Transport discards an already-received response when the request-body write fails first](https://github.com/golang/go/issues/82143) — updated 2026-10-11T13:21:38Z
+- [os: TestPipeThreads fails with GOMAXPROCS above 200](https://github.com/golang/go/issues/82164) — updated 2026-10-12T17:30:42Z
+- [runtime: shrink g to 384 bytes](https://github.com/golang/go/issues/82163) — updated 2026-10-12T17:23:05Z
+- [x/tools/internal/gocommand: TestCancel_ProcessGroup failures](https://github.com/golang/go/issues/82088) — updated 2026-10-12T17:05:51Z
 
 ## llvm/llvm-project
 
-- [Constant-length reverse loop is not simplified after a stack copy at O3](https://github.com/llvm/llvm-project/issues/230978) — updated 2026-10-11T14:47:39Z
-- [Request Commit Access For JacketPants](https://github.com/llvm/llvm-project/issues/230754) — updated 2026-10-11T14:17:09Z
-- [dejagnu test fails to compile with clang g++.old-deja/g++.pt/friend13.C](https://github.com/llvm/llvm-project/issues/11153) — updated 2026-10-11T14:05:55Z
+- [[SPIR-V] Crash in SPIRVModuleAnalysis on PHI operands of fcmp/atomic store since #229736](https://github.com/llvm/llvm-project/issues/231171) — updated 2026-10-12T17:49:49Z
+- [[LoopIdiom] Recognize right-shift trailing-zero counting loop](https://github.com/llvm/llvm-project/issues/231219) — updated 2026-10-12T17:46:36Z
+- [Unused member not flagged as "is not used"](https://github.com/llvm/llvm-project/issues/227409) — updated 2026-10-12T17:44:32Z
 
 ## mozilla/gecko-dev
 
