@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-12
+# Open-source issue digest — 2026-10-13
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [LinkLocalAddressing and IPv6LinkLocalAddressGenerationMode not honored for wireguard links](https://github.com/systemd/systemd/issues/44005) — updated 2026-10-12T16:33:44Z
-- ["systemctl is-system-running --wait" may hang indefinitely for non-root users](https://github.com/systemd/systemd/issues/44150) — updated 2026-10-12T15:01:06Z
-- [State of forward secure sealing](https://github.com/systemd/systemd/issues/40073) — updated 2026-10-12T14:11:41Z
+- [Enable network namespace based isolation for AF_VSOCK sockets](https://github.com/systemd/systemd/issues/44171) — updated 2026-10-13T13:49:38Z
+- [systemd-ukify errors if the very last section of uki.conf doesn't specify all keys used in the config](https://github.com/systemd/systemd/issues/44160) — updated 2026-10-13T13:33:52Z
+- [State of forward secure sealing](https://github.com/systemd/systemd/issues/40073) — updated 2026-10-13T09:09:16Z
 
 ## containerd/containerd
 
-- [[diff/applier plugin] support sync-fs for data persistence](https://github.com/containerd/containerd/issues/9497) — updated 2026-10-12T17:35:26Z
-- [diff service `sync_fs` is not applied to transfer-service unpacks (CRI's default pull path)](https://github.com/containerd/containerd/issues/14336) — updated 2026-10-12T17:35:21Z
-- [erofs snapshotter: power loss leaves committed layers unreadable or missing](https://github.com/containerd/containerd/issues/14333) — updated 2026-10-12T11:05:29Z
+- [[SIG-Node]: 4216 - Support image pull per runtime class](https://github.com/containerd/containerd/issues/14252) — updated 2026-10-13T13:08:58Z
+- [diff service `sync_fs` is not applied to transfer-service unpacks (CRI's default pull path)](https://github.com/containerd/containerd/issues/14336) — updated 2026-10-13T10:51:15Z
+- [Containerd multipart fetch cancelled by progress timeout](https://github.com/containerd/containerd/issues/12811) — updated 2026-10-13T00:42:49Z
 
 ## omacom/omarchy
 
-- [Codex agent collector times out on rateLimits RPC due to buffered reader and 4s deadline](https://github.com/omacom/omarchy/issues/10143) — updated 2026-10-12T17:50:49Z
-- [Kernel 7.2.3 (shipped in 4.0.3): ELAN i2c-hid touchpad intermittently freezes — A/B confirmed vs linux-lts](https://github.com/omacom/omarchy/issues/11245) — updated 2026-10-12T17:47:21Z
-- [PipeWire runs without realtime priority on a stock install (rtkit is not included)](https://github.com/omacom/omarchy/issues/9390) — updated 2026-10-12T17:40:27Z
+- [Shell renders black (bar, launcher, menus) on Qt 6.12: QtQuick Color shadows qs.Commons.Color singleton](https://github.com/omacom/omarchy/issues/15322) — updated 2026-10-13T15:41:50Z
+- [omarchy-menu renders a fully black screen on one output (root, system and select menus); apps menu and emojis overlay render fine](https://github.com/omacom/omarchy/issues/15276) — updated 2026-10-13T15:00:42Z
+- [Helium profile-error dialogs tile the workspace into progressively smaller panes](https://github.com/omacom/omarchy/issues/15309) — updated 2026-10-13T14:43:10Z
 
 ## microsoft/vscode
 
-- [Cloud Automations should show repo name and not org in card](https://github.com/microsoft/vscode/issues/341117) — updated 2026-10-12T17:53:21Z
-- [Configure tools quick pick doesn't save selections unless OK is clicked](https://github.com/microsoft/vscode/issues/341102) — updated 2026-10-12T17:51:51Z
-- [Cloud Automation runs show up in sessions bar as regular cloud runs](https://github.com/microsoft/vscode/issues/341116) — updated 2026-10-12T17:51:40Z
+- [Chat window "x" disappears on smaller window](https://github.com/microsoft/vscode/issues/256333) — updated 2026-10-13T15:58:53Z
+- [Copilot Chat add extra characters to terminal commands](https://github.com/microsoft/vscode/issues/320947) — updated 2026-10-13T15:58:11Z
+- [Hard to drag window](https://github.com/microsoft/vscode/issues/328251) — updated 2026-10-13T15:57:18Z
 
 ## google/googletest
 
@@ -40,21 +40,21 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Reconsider providing a cleaner hook-based solution to derived state](https://github.com/react/react/issues/33041) — updated 2026-10-12T16:39:24Z
-- [[React 19] Upgrading React causes infinite refetching](https://github.com/react/react/issues/30799) — updated 2026-10-12T16:14:39Z
-- [[Compiler Bug]: destructured parameter defaults are silently not compiled under @babel/core 8](https://github.com/react/react/issues/37406) — updated 2026-10-12T11:56:51Z
+- [Transition never commits: a Flight chunk's synchronous then() pings from inside the render phase while the root is already suspended-with-delay, and the ping is dropped (React 19.2.8, Next 15.5 same-route navigation)](https://github.com/react/react/issues/37830) — updated 2026-10-13T15:36:01Z
+- [[Compiler Bug]: set-state-in-effect false negative whenever tagged template literals are present](https://github.com/react/react/issues/35029) — updated 2026-10-13T13:07:55Z
+- [[Compiler Bug]: Literal destructuring defaults (`= []` / `= {}`) silently disable memoization when a hook call follows](https://github.com/react/react/issues/37735) — updated 2026-10-13T11:13:28Z
 
 ## openai/openai-python
 
+- [Maintain tiktoken](https://github.com/openai/openai-python/issues/4042) — updated 2026-10-13T01:14:38Z
 - [responses.parse() matches a namespaced function call to a top-level tool by name alone](https://github.com/openai/openai-python/issues/4064) — updated 2026-10-12T14:12:01Z
 - [ChatCompletionStream.get_final_completion() can return an incomplete result after an early EOF](https://github.com/openai/openai-python/issues/4063) — updated 2026-10-12T06:09:13Z
-- [Maintain tiktoken](https://github.com/openai/openai-python/issues/4042) — updated 2026-10-12T05:50:44Z
 
 ## nasa/openmct
 
+- [Re-implement plan execution monitoring via CouchDB using a provider via Plan API](https://github.com/nasa/openmct/issues/8440) — updated 2026-10-13T14:29:19Z
 - [[Notebook] Commiting Shift Logs is indicating object lock](https://github.com/nasa/openmct/issues/7942) — updated 2026-10-08T13:27:27Z
 - [[Forms] Some way to share data between fields](https://github.com/nasa/openmct/issues/5668) — updated 2026-10-08T00:49:41Z
-- [[Path Hover] Path hover popup sometimes doesn't disappear ](https://github.com/nasa/openmct/issues/6989) — updated 2026-09-28T16:57:34Z
 
 ## apache/kafka
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [[XLA] betainc returns NaN at endpoints with infinite shape parameters](https://github.com/tensorflow/tensorflow/issues/128991) — updated 2026-10-12T17:50:14Z
-- [[XLA] Complex log loses infinite real component for NaN + Inf*i](https://github.com/tensorflow/tensorflow/issues/128990) — updated 2026-10-12T17:50:10Z
-- [[XLA] Incorrect special-value handling in igamma and igammac](https://github.com/tensorflow/tensorflow/issues/128989) — updated 2026-10-12T17:50:06Z
+- [tf.constant` and `tf.convert_to_tensor` reject Python-list NaN to int but silently cast NumPy-array NaN to integer minimum](https://github.com/tensorflow/tensorflow/issues/127822) — updated 2026-10-13T14:56:08Z
+- [_MklLayerNorm fusion uses the default epsilon for a hand-written layer norm, wrong results in tf.function](https://github.com/tensorflow/tensorflow/issues/128636) — updated 2026-10-13T14:44:31Z
+- [[XLA] ReverseSequence fails to preserve a bounded-dynamic sequence dimension](https://github.com/tensorflow/tensorflow/issues/128953) — updated 2026-10-13T14:38:10Z
 
 ## rust-lang/rust
 
-- [Wrong hint for multiple mutable borrows](https://github.com/rust-lang/rust/issues/164169) — updated 2026-10-12T17:39:59Z
-- [`impl Trait` bounds incorrectly assumed to be not-live](https://github.com/rust-lang/rust/issues/163886) — updated 2026-10-12T17:21:29Z
-- [Tracking issue for future-compatibility warning `recursion_depth_exceeding_limit`](https://github.com/rust-lang/rust/issues/159228) — updated 2026-10-12T16:32:58Z
+- [double-free in safe code using thread-locals, when calling process::exit()](https://github.com/rust-lang/rust/issues/164243) — updated 2026-10-13T15:58:32Z
+- [Tracking Issue for `unix_send_signal`](https://github.com/rust-lang/rust/issues/141975) — updated 2026-10-13T15:52:48Z
+- [Tracking Issue for `sync_nonpoison` and `nonpoison_{condvar,mutex,rwlock}`](https://github.com/rust-lang/rust/issues/134645) — updated 2026-10-13T15:49:26Z
 
 ## nodejs/node
 
-- [compile cache: one file per module makes the cache cost more than it saves on Windows; a packed layout fixes it](https://github.com/nodejs/node/issues/66584) — updated 2026-10-12T17:37:06Z
-- [crypto: segfault in `X509Certificate.toLegacyObject()` / `tls.TLSSocket.getPeerCertificate()` for EC certs on curves without a NIST name (e.g. brainpool), regression in v23.7.0](https://github.com/nodejs/node/issues/66681) — updated 2026-10-12T14:17:44Z
-- [Build failure: undefined reference to VisitUint64Add3WithCarry on Loong64](https://github.com/nodejs/node/issues/66633) — updated 2026-10-12T09:12:48Z
+- [Worker with large inline source map aborts process in V8 HandleDebugMagicComments](https://github.com/nodejs/node/issues/64155) — updated 2026-10-13T14:36:37Z
+- [doc: QuicStream.direction / id is incorrectly documented as nullable](https://github.com/nodejs/node/issues/66686) — updated 2026-10-13T08:46:47Z
+- [Proposal: Improve partial CSV processing performance by enabling buffer‑based operations](https://github.com/nodejs/node/issues/66658) — updated 2026-10-13T05:22:41Z
 
 ## golang/go
 
-- [os: TestPipeThreads fails with GOMAXPROCS above 200](https://github.com/golang/go/issues/82164) — updated 2026-10-12T17:30:42Z
-- [runtime: shrink g to 384 bytes](https://github.com/golang/go/issues/82163) — updated 2026-10-12T17:23:05Z
-- [x/tools/internal/gocommand: TestCancel_ProcessGroup failures](https://github.com/golang/go/issues/82088) — updated 2026-10-12T17:05:51Z
+- [runtime/secret:runtimesecret: TestSignalStacks failures](https://github.com/golang/go/issues/77337) — updated 2026-10-13T15:55:15Z
+- [runtime/secret:runtimesecret: TestCore failures](https://github.com/golang/go/issues/79650) — updated 2026-10-13T15:55:14Z
+- [x/tools/gopls/internal/test/integration/diagnostics: TestModTidyUnsavedReplacedGoMod/default failures](https://github.com/golang/go/issues/82162) — updated 2026-10-13T15:34:00Z
 
 ## llvm/llvm-project
 
-- [[SPIR-V] Crash in SPIRVModuleAnalysis on PHI operands of fcmp/atomic store since #229736](https://github.com/llvm/llvm-project/issues/231171) — updated 2026-10-12T17:49:49Z
-- [[LoopIdiom] Recognize right-shift trailing-zero counting loop](https://github.com/llvm/llvm-project/issues/231219) — updated 2026-10-12T17:46:36Z
-- [Unused member not flagged as "is not used"](https://github.com/llvm/llvm-project/issues/227409) — updated 2026-10-12T17:44:32Z
+- [[CIR] Implement handling of AArch64 (Arm) SVE intrinsics](https://github.com/llvm/llvm-project/issues/223963) — updated 2026-10-13T15:58:27Z
+- [TestConcurrentTwoWatchpointsOneSignal.py randomly fails](https://github.com/llvm/llvm-project/issues/231557) — updated 2026-10-13T15:58:17Z
+- [[clang-tidy] modernize-use-equals-default: false positive on value-initialized non-empty class members/bases changes semantics](https://github.com/llvm/llvm-project/issues/231561) — updated 2026-10-13T15:55:47Z
 
 ## mozilla/gecko-dev
 
