@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-15
+# Open-source issue digest — 2026-10-16
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,49 +10,49 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [systemd 262: user manager takes ~6s in manager_enumerate(), 261.3 is instant](https://github.com/systemd/systemd/issues/44216) — updated 2026-10-15T13:08:58Z
-- [pid1 freezes at boot: concurrent daemon-reload while D-Bus is starting trips assert(!m->pending_reload_message_dbus) in method_reload()](https://github.com/systemd/systemd/issues/44203) — updated 2026-10-14T23:02:23Z
-- [Journal Export Formats documentation description of control codepoints does not match behavior](https://github.com/systemd/systemd/issues/44202) — updated 2026-10-14T21:51:11Z
+- [Journal Export Formats documentation description of control codepoints does not match behavior](https://github.com/systemd/systemd/issues/44202) — updated 2026-10-16T07:12:28Z
+- [systemd 258 doesn't like /etc/fstab mounting nfs home](https://github.com/systemd/systemd/issues/39177) — updated 2026-10-16T04:36:57Z
+- [logind: VT switch back to X hangs indefinitely since v258 (startx, no display manager)](https://github.com/systemd/systemd/issues/43352) — updated 2026-10-15T23:24:30Z
 
 ## containerd/containerd
 
-- [runc shim: task.State blocks behind an in-flight Delete, causing 2s State timeouts](https://github.com/containerd/containerd/issues/14379) — updated 2026-10-15T10:50:46Z
-- [[nix-snapshotter] Broken containers after 257a590 (v2.4.0-beta.0)](https://github.com/containerd/containerd/issues/14367) — updated 2026-10-15T09:27:34Z
-- [should it be `size-offset` in line 301 (`core/content/helpers.go`, `seekReader()`)](https://github.com/containerd/containerd/issues/14278) — updated 2026-10-15T07:16:58Z
+- [runc shim: task.State blocks behind an in-flight Delete, causing 2s State timeouts](https://github.com/containerd/containerd/issues/14379) — updated 2026-10-16T11:06:50Z
+- [Supported 2.3 LTS dependency refresh/backport for gRPC transport and related dependencies](https://github.com/containerd/containerd/issues/14196) — updated 2026-10-15T17:19:41Z
+- [provide a portable mechanism for processes within container to obtain their image and container ids](https://github.com/containerd/containerd/issues/8185) — updated 2026-10-15T14:08:19Z
 
 ## omacom/omarchy
 
-- [Lock-screen fingerprint retries with no backoff, overheats/disables sensor overnight; polkit fingerprint never actually captures](https://github.com/omacom/omarchy/issues/13748) — updated 2026-10-15T12:59:13Z
-- [More locale-dependent output parsing: sed bracket ranges [a-z] and [A-Z] break under non-English locales](https://github.com/omacom/omarchy/issues/15548) — updated 2026-10-15T12:21:39Z
-- [Quickshell lock freezes on display wake after 4.0.3: session stays locked with no lock surface (no-real-screen)](https://github.com/omacom/omarchy/issues/11794) — updated 2026-10-15T12:09:23Z
+- [Nautilus 'file operations' popup prevents hover/click anywhere else](https://github.com/omacom/omarchy/issues/13326) — updated 2026-10-16T13:10:54Z
+- [Screensaver doesn't go fullscreen and exits when the bar calendar panel is open](https://github.com/omacom/omarchy/issues/15643) — updated 2026-10-16T12:50:41Z
+- [Super+J errors on scrolling workspaces: "no such layoutmsg for scrolling"](https://github.com/omacom/omarchy/issues/15642) — updated 2026-10-16T12:46:49Z
 
 ## microsoft/vscode
 
-- [let insert ai in it I will help you guys](https://github.com/microsoft/vscode/issues/341769) — updated 2026-10-15T13:24:45Z
-- [API: Allow revealing a text document without expanding its editor group while preserving focus](https://github.com/microsoft/vscode/issues/341752) — updated 2026-10-15T13:21:24Z
-- [Bundled microsoft-authentication logs the full MSAL account JSON — including `aio`, `sid`/`sub` and ID-token claims — on every start](https://github.com/microsoft/vscode/issues/341756) — updated 2026-10-15T13:21:21Z
+- [[Story] Consistent link navigation: Alt+click, link sources and sinks, and handler selection](https://github.com/microsoft/vscode/issues/342050) — updated 2026-10-16T13:13:14Z
+- [New automation UI background shouldn't be different from other dialogs](https://github.com/microsoft/vscode/issues/342036) — updated 2026-10-16T13:12:27Z
+- [[Agents window] /clear command no longer closes session and opens a new one](https://github.com/microsoft/vscode/issues/330446) — updated 2026-10-16T13:12:06Z
 
 ## google/googletest
 
+- [[Bug]: JSON output does not escape RecordProperty keys](https://github.com/google/googletest/issues/5124) — updated 2026-10-16T04:25:44Z
+- [Xml Generation from Google test does not show skipped test cases count in tag testsuites](https://github.com/google/googletest/issues/3836) — updated 2026-10-15T18:03:16Z
 - [[Bug]: posix::FOpen() fails on non-ASCII paths on Windows(MSVC) due to improper Latin-1decoding](https://github.com/google/googletest/issues/5121) — updated 2026-10-14T08:42:00Z
-- [[Bug]: Premature-exit marker I/O failures have missing or misleading diagnostics](https://github.com/google/googletest/issues/5118) — updated 2026-10-12T14:52:39Z
-- [[Bug]: Threadsafe death tests pass without running when the test name contains ':' (e.g. typed test named "std::string")](https://github.com/google/googletest/issues/5105) — updated 2026-10-12T04:30:29Z
 
 ## facebook/react
 
-- [Feature Request: Expose a public API for creating synthetic events (or programmatically dispatching change events)](https://github.com/react/react/issues/37691) — updated 2026-10-15T10:03:21Z
-- [Bug: Suspense fallback remounts on hydration after use(browser()) + client use(promise)](https://github.com/react/react/issues/37620) — updated 2026-10-15T04:01:19Z
-- [[Compiler Bug]: Compiler behavior with and without useCallback](https://github.com/react/react/issues/33628) — updated 2026-10-14T17:49:28Z
+- [[DevTools Bug]: Operation packets accumulate until the first frontend connects](https://github.com/react/react/issues/37874) — updated 2026-10-16T12:16:00Z
+- [React Refresh can schedule roots removed during the same refresh](https://github.com/react/react/issues/37409) — updated 2026-10-16T05:16:23Z
+- [Bug: dev-only "two <ViewTransition name> mounted at the same time" warning is a false positive after `name` changes to undefined/another name](https://github.com/react/react/issues/37866) — updated 2026-10-16T02:48:31Z
 
 ## openai/openai-python
 
+- [Bug: accumulate_delta corrupts tool call items on out-of-order delta indexes](https://github.com/openai/openai-python/issues/4022) — updated 2026-10-15T17:03:21Z
 - [ChatCompletionStream.get_final_completion() can return an incomplete result after an early EOF](https://github.com/openai/openai-python/issues/4063) — updated 2026-10-15T06:23:37Z
 - [Maintain tiktoken](https://github.com/openai/openai-python/issues/4042) — updated 2026-10-15T02:24:33Z
-- [Blocking the event loop since 3.x ?](https://github.com/openai/openai-python/issues/3777) — updated 2026-10-14T07:49:46Z
 
 ## nasa/openmct
 
-- [Enhance plots when "small"](https://github.com/nasa/openmct/issues/8454) — updated 2026-10-14T23:04:19Z
+- [Enhance plots when "small"](https://github.com/nasa/openmct/issues/8454) — updated 2026-10-15T21:32:04Z
 - [Re-implement plan execution monitoring via CouchDB using a provider via Plan API](https://github.com/nasa/openmct/issues/8440) — updated 2026-10-13T14:29:19Z
 - [[Notebook] Commiting Shift Logs is indicating object lock](https://github.com/nasa/openmct/issues/7942) — updated 2026-10-08T13:27:27Z
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [Possible memory leak in Go SessionOptions.c(): C.CBytes(Config) is not freed when TF_SetConfig fails](https://github.com/tensorflow/tensorflow/issues/129133) — updated 2026-10-15T09:48:53Z
-- [tf.linalg.set_diag under XLA rejects or truncates a matrix with a dynamic dimension](https://github.com/tensorflow/tensorflow/issues/129054) — updated 2026-10-15T09:34:27Z
-- [[XLA] UniformQuantize uses incorrect rounding at half-integer values](https://github.com/tensorflow/tensorflow/issues/129087) — updated 2026-10-15T09:33:28Z
+- [[XLA] Complex exp(-Inf + Inf*i) returns NaN on CPU XLA and GPU](https://github.com/tensorflow/tensorflow/issues/128988) — updated 2026-10-16T12:21:33Z
+- [TF 2.20/2.21 load the runtime with RTLD_GLOBAL, exposing bundled BoringSSL/curl process-wide; 2.22.0rc0 is RTLD_LOCAL again. Please keep it (and consider 2.21.x)](https://github.com/tensorflow/tensorflow/issues/129050) — updated 2026-10-16T11:36:32Z
+- [tf.while_loop preserves a 0-D NumPy loop variable in eager but tensorizes it under tf.function, changing body semantics](https://github.com/tensorflow/tensorflow/issues/128634) — updated 2026-10-16T11:05:00Z
 
 ## rust-lang/rust
 
-- [miscompilation via engineered StableSourceFileId hash collisions](https://github.com/rust-lang/rust/issues/164348) — updated 2026-10-15T13:14:08Z
-- [Tracking issue for MCP 1044: Move `hir::Param`s from `Body` of functions to `FnDecl`.](https://github.com/rust-lang/rust/issues/164357) — updated 2026-10-15T13:13:33Z
-- [double-free in safe code using thread-locals, when calling process::exit()](https://github.com/rust-lang/rust/issues/164243) — updated 2026-10-15T12:10:09Z
+- [1.98 Build speed regression - GNU ld on arm](https://github.com/rust-lang/rust/issues/164275) — updated 2026-10-16T12:37:26Z
+- [Diverging block incorrectly inferred as () after never type fallback](https://github.com/rust-lang/rust/issues/164343) — updated 2026-10-16T12:30:49Z
+- [program miscompiles to division by zero with `checked_div().unwrap_unchecked()`](https://github.com/rust-lang/rust/issues/164431) — updated 2026-10-16T11:37:44Z
 
 ## nodejs/node
 
-- [inspector: Network.loadingFinished sent for a request the session never saw](https://github.com/nodejs/node/issues/66747) — updated 2026-10-15T12:51:21Z
-- [Support providing AbortSignal to the `fs.stat` functions](https://github.com/nodejs/node/issues/57751) — updated 2026-10-15T10:50:09Z
-- [Windows WinGet configuration failures (Failed to create instance: -2147023174)](https://github.com/nodejs/node/issues/66755) — updated 2026-10-15T10:26:18Z
+- [TransformStream error during pipeTo crashes the process despite being caught (v26.4.0 regression)](https://github.com/nodejs/node/issues/64561) — updated 2026-10-16T09:10:56Z
+- [http: 'drain' is never emitted for chunked responses with multi-byte strings (v24.22.0 regression)](https://github.com/nodejs/node/issues/66781) — updated 2026-10-16T06:17:02Z
+- [fs.cp overwrites destination symlinks despite force: false](https://github.com/nodejs/node/issues/66774) — updated 2026-10-16T05:52:17Z
 
 ## golang/go
 
-- [proposal: crypto/passkey: new package](https://github.com/golang/go/issues/80663) — updated 2026-10-15T13:14:27Z
-- [cmd/go: TestScript/build_cc_cache_issue64589 failures](https://github.com/golang/go/issues/82238) — updated 2026-10-15T13:02:49Z
-- [x/tools: umbrella for flakes on ppc](https://github.com/golang/go/issues/73988) — updated 2026-10-15T13:02:46Z
+- [proposal: container/...: generic collection types](https://github.com/golang/go/issues/80590) — updated 2026-10-16T13:10:13Z
+- [x/tools/gopls: panic in go/types: "encountered an incomplete alias"](https://github.com/golang/go/issues/82263) — updated 2026-10-16T12:49:24Z
+- [x/tools/gopls: "package name is %q, want %q" bug in typeCheckBatch.importPackage due to snapshot read inconsistency](https://github.com/golang/go/issues/64235) — updated 2026-10-16T12:41:56Z
 
 ## llvm/llvm-project
 
-- [presubmit failure seems unrelated](https://github.com/llvm/llvm-project/issues/232144) — updated 2026-10-15T13:25:27Z
-- [[SelectionDAG] `nsz minnum` can produce different sign than inputs](https://github.com/llvm/llvm-project/issues/232320) — updated 2026-10-15T13:17:27Z
-- [Assertion `(allocSize == allocSizeWithoutCookie) == CalculateCookiePadding(*this, E).isZero()' failed in 32 bits](https://github.com/llvm/llvm-project/issues/232250) — updated 2026-10-15T13:06:02Z
+- [[clang] Crash in LinkageComputer when a builtin template is a template template argument of an emitted entity](https://github.com/llvm/llvm-project/issues/232739) — updated 2026-10-16T13:14:24Z
+- [libclang: CXUnsavedFile::length should use a fixed-width type](https://github.com/llvm/llvm-project/issues/160729) — updated 2026-10-16T13:09:54Z
+- [[mlir][tosa][tosa-to-linalg] Tracking issue for TOSA v1.1 changes](https://github.com/llvm/llvm-project/issues/229721) — updated 2026-10-16T13:09:01Z
 
 ## mozilla/gecko-dev
 
