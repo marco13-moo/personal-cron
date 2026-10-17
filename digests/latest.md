@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-16
+# Open-source issue digest — 2026-10-17
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,9 +10,9 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [Journal Export Formats documentation description of control codepoints does not match behavior](https://github.com/systemd/systemd/issues/44202) — updated 2026-10-16T07:12:28Z
-- [systemd 258 doesn't like /etc/fstab mounting nfs home](https://github.com/systemd/systemd/issues/39177) — updated 2026-10-16T04:36:57Z
-- [logind: VT switch back to X hangs indefinitely since v258 (startx, no display manager)](https://github.com/systemd/systemd/issues/43352) — updated 2026-10-15T23:24:30Z
+- [pid1 freezes at boot: concurrent daemon-reload while D-Bus is starting trips assert(!m->pending_reload_message_dbus) in method_reload()](https://github.com/systemd/systemd/issues/44203) — updated 2026-10-17T03:55:30Z
+- [hwdb: uaccess for hidraw config interfaces of USB audio devices (headphones/DACs with EQ)](https://github.com/systemd/systemd/issues/44251) — updated 2026-10-17T01:50:55Z
+- [pcrlock: Predict/make-policy does not give a correct prediction for PCR 7 causing unsealing to fail](https://github.com/systemd/systemd/issues/40381) — updated 2026-10-16T23:38:54Z
 
 ## containerd/containerd
 
@@ -22,21 +22,21 @@ _No qualifying open issues._
 
 ## omacom/omarchy
 
-- [Nautilus 'file operations' popup prevents hover/click anywhere else](https://github.com/omacom/omarchy/issues/13326) — updated 2026-10-16T13:10:54Z
-- [Screensaver doesn't go fullscreen and exits when the bar calendar panel is open](https://github.com/omacom/omarchy/issues/15643) — updated 2026-10-16T12:50:41Z
-- [Super+J errors on scrolling workspaces: "no such layoutmsg for scrolling"](https://github.com/omacom/omarchy/issues/15642) — updated 2026-10-16T12:46:49Z
+- [Shell renders fully black on Qt 6.12 — QtQuick's Color type shadows the qs.Commons Color singleton (fix exists on quattro, needs backport)](https://github.com/omacom/omarchy/issues/15545) — updated 2026-10-17T11:58:29Z
+- [Quickshell lock freezes on display wake after 4.0.3: session stays locked with no lock surface (no-real-screen)](https://github.com/omacom/omarchy/issues/11794) — updated 2026-10-17T11:32:26Z
+- [omarchy-install-service-1password launches 1Password without setsid, so it dies on SIGHUP when the installer terminal closes](https://github.com/omacom/omarchy/issues/7870) — updated 2026-10-17T11:14:48Z
 
 ## microsoft/vscode
 
-- [[Story] Consistent link navigation: Alt+click, link sources and sinks, and handler selection](https://github.com/microsoft/vscode/issues/342050) — updated 2026-10-16T13:13:14Z
-- [New automation UI background shouldn't be different from other dialogs](https://github.com/microsoft/vscode/issues/342036) — updated 2026-10-16T13:12:27Z
-- [[Agents window] /clear command no longer closes session and opens a new one](https://github.com/microsoft/vscode/issues/330446) — updated 2026-10-16T13:12:06Z
+- [Copilot apply_patch converts space indentation to tabs in files without existing indentation](https://github.com/microsoft/vscode/issues/342265) — updated 2026-10-17T12:05:42Z
+- ["Sign in to use GitHub Copilot" dialog appears in every existing window when a new window is opened](https://github.com/microsoft/vscode/issues/342264) — updated 2026-10-17T12:01:09Z
+- [Windows emojis aren't registering in VS Code following the latest update.](https://github.com/microsoft/vscode/issues/338128) — updated 2026-10-17T11:44:00Z
 
 ## google/googletest
 
+- [[FR]: Ability to configure OsStackTraceGetterInterface at runtime](https://github.com/google/googletest/issues/4781) — updated 2026-10-17T10:44:18Z
+- [[FR]: Some way to filter by source file name defining the tests](https://github.com/google/googletest/issues/4771) — updated 2026-10-17T09:03:13Z
 - [[Bug]: JSON output does not escape RecordProperty keys](https://github.com/google/googletest/issues/5124) — updated 2026-10-16T04:25:44Z
-- [Xml Generation from Google test does not show skipped test cases count in tag testsuites](https://github.com/google/googletest/issues/3836) — updated 2026-10-15T18:03:16Z
-- [[Bug]: posix::FOpen() fails on non-ASCII paths on Windows(MSVC) due to improper Latin-1decoding](https://github.com/google/googletest/issues/5121) — updated 2026-10-14T08:42:00Z
 
 ## facebook/react
 
@@ -46,15 +46,15 @@ _No qualifying open issues._
 
 ## openai/openai-python
 
+- [Maintain tiktoken](https://github.com/openai/openai-python/issues/4042) — updated 2026-10-16T23:38:56Z
+- [Streaming helpers re-parse the whole accumulated JSON on every delta (quadratic in output size)](https://github.com/openai/openai-python/issues/4090) — updated 2026-10-16T18:18:52Z
 - [Bug: accumulate_delta corrupts tool call items on out-of-order delta indexes](https://github.com/openai/openai-python/issues/4022) — updated 2026-10-15T17:03:21Z
-- [ChatCompletionStream.get_final_completion() can return an incomplete result after an early EOF](https://github.com/openai/openai-python/issues/4063) — updated 2026-10-15T06:23:37Z
-- [Maintain tiktoken](https://github.com/openai/openai-python/issues/4042) — updated 2026-10-15T02:24:33Z
 
 ## nasa/openmct
 
+- [[Documentation] API.md documents setClock(clock, clockOffsets), but setClock ignores the offsets](https://github.com/nasa/openmct/issues/8455) — updated 2026-10-16T21:35:07Z
 - [Enhance plots when "small"](https://github.com/nasa/openmct/issues/8454) — updated 2026-10-15T21:32:04Z
 - [Re-implement plan execution monitoring via CouchDB using a provider via Plan API](https://github.com/nasa/openmct/issues/8440) — updated 2026-10-13T14:29:19Z
-- [[Notebook] Commiting Shift Logs is indicating object lock](https://github.com/nasa/openmct/issues/7942) — updated 2026-10-08T13:27:27Z
 
 ## apache/kafka
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [[XLA] Complex exp(-Inf + Inf*i) returns NaN on CPU XLA and GPU](https://github.com/tensorflow/tensorflow/issues/128988) — updated 2026-10-16T12:21:33Z
-- [TF 2.20/2.21 load the runtime with RTLD_GLOBAL, exposing bundled BoringSSL/curl process-wide; 2.22.0rc0 is RTLD_LOCAL again. Please keep it (and consider 2.21.x)](https://github.com/tensorflow/tensorflow/issues/129050) — updated 2026-10-16T11:36:32Z
-- [tf.while_loop preserves a 0-D NumPy loop variable in eager but tensorizes it under tf.function, changing body semantics](https://github.com/tensorflow/tensorflow/issues/128634) — updated 2026-10-16T11:05:00Z
+- [[XLA] Complex log1p(-1+0j) returns zero instead of -Inf on CPU and GPU](https://github.com/tensorflow/tensorflow/issues/128983) — updated 2026-10-17T07:33:02Z
+- [[XLA] Complex sin/cos produce NaN for infinite imaginary inputs](https://github.com/tensorflow/tensorflow/issues/128985) — updated 2026-10-17T07:27:52Z
+- [Sparse segment mean/sum gives random result on empty tensor](https://github.com/tensorflow/tensorflow/issues/72785) — updated 2026-10-17T01:43:56Z
 
 ## rust-lang/rust
 
-- [1.98 Build speed regression - GNU ld on arm](https://github.com/rust-lang/rust/issues/164275) — updated 2026-10-16T12:37:26Z
-- [Diverging block incorrectly inferred as () after never type fallback](https://github.com/rust-lang/rust/issues/164343) — updated 2026-10-16T12:30:49Z
-- [program miscompiles to division by zero with `checked_div().unwrap_unchecked()`](https://github.com/rust-lang/rust/issues/164431) — updated 2026-10-16T11:37:44Z
+- [std::fmt::Formatter write_fmt (append or replace ?)](https://github.com/rust-lang/rust/issues/164466) — updated 2026-10-17T11:38:05Z
+- [Should path separators participate in Path/PathBuf `Hash` impl?](https://github.com/rust-lang/rust/issues/164415) — updated 2026-10-17T11:19:31Z
+- [`O_PATH` is silently dropped in `musl`](https://github.com/rust-lang/rust/issues/164464) — updated 2026-10-17T10:59:18Z
 
 ## nodejs/node
 
-- [TransformStream error during pipeTo crashes the process despite being caught (v26.4.0 regression)](https://github.com/nodejs/node/issues/64561) — updated 2026-10-16T09:10:56Z
-- [http: 'drain' is never emitted for chunked responses with multi-byte strings (v24.22.0 regression)](https://github.com/nodejs/node/issues/66781) — updated 2026-10-16T06:17:02Z
-- [fs.cp overwrites destination symlinks despite force: false](https://github.com/nodejs/node/issues/66774) — updated 2026-10-16T05:52:17Z
+- [Fail to cross build for RISC-V](https://github.com/nodejs/node/issues/66803) — updated 2026-10-17T10:14:56Z
+- [sqlite: statements with JOINs are re-prepared on every run since SQLite 3.54 (sqlite3_clear_bindings)](https://github.com/nodejs/node/issues/66800) — updated 2026-10-17T08:18:31Z
+- [Unreachable code reached, Cannot toggle network tracking](https://github.com/nodejs/node/issues/64308) — updated 2026-10-17T01:22:42Z
 
 ## golang/go
 
-- [proposal: container/...: generic collection types](https://github.com/golang/go/issues/80590) — updated 2026-10-16T13:10:13Z
-- [x/tools/gopls: panic in go/types: "encountered an incomplete alias"](https://github.com/golang/go/issues/82263) — updated 2026-10-16T12:49:24Z
-- [x/tools/gopls: "package name is %q, want %q" bug in typeCheckBatch.importPackage due to snapshot read inconsistency](https://github.com/golang/go/issues/64235) — updated 2026-10-16T12:41:56Z
+- [cmd/go: TestScript/cgo_bad_directives failures](https://github.com/golang/go/issues/82295) — updated 2026-10-17T11:36:22Z
+- [cmd/go/internal/modfetch: TestCodeRepo/github.com_rsc_vgotest1_v2/v2.0.1 failures](https://github.com/golang/go/issues/82294) — updated 2026-10-17T11:36:20Z
+- [cmd/go/internal/verylongtest: TestScript/mod_sumdb_golang failures](https://github.com/golang/go/issues/80589) — updated 2026-10-17T11:36:19Z
 
 ## llvm/llvm-project
 
-- [[clang] Crash in LinkageComputer when a builtin template is a template template argument of an emitted entity](https://github.com/llvm/llvm-project/issues/232739) — updated 2026-10-16T13:14:24Z
-- [libclang: CXUnsavedFile::length should use a fixed-width type](https://github.com/llvm/llvm-project/issues/160729) — updated 2026-10-16T13:09:54Z
-- [[mlir][tosa][tosa-to-linalg] Tracking issue for TOSA v1.1 changes](https://github.com/llvm/llvm-project/issues/229721) — updated 2026-10-16T13:09:01Z
+- [clang-format SpacesInContainerLiterals: false adds spaces in JavaScript when assigning dict to module.exports](https://github.com/llvm/llvm-project/issues/62698) — updated 2026-10-17T11:46:47Z
+- [[clang] Assertion `SI.isSigned() == E->getType()->isSignedIntegerOrEnumerationType() && "Invalid evaluation result."' failed.](https://github.com/llvm/llvm-project/issues/114174) — updated 2026-10-17T11:46:24Z
+- [[MLIR][Presburger] subtract loses complement points when floor-division bounds are tightened](https://github.com/llvm/llvm-project/issues/233073) — updated 2026-10-17T11:45:39Z
 
 ## mozilla/gecko-dev
 
