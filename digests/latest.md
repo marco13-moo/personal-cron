@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-17
+# Open-source issue digest — 2026-10-18
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [pid1 freezes at boot: concurrent daemon-reload while D-Bus is starting trips assert(!m->pending_reload_message_dbus) in method_reload()](https://github.com/systemd/systemd/issues/44203) — updated 2026-10-17T03:55:30Z
-- [hwdb: uaccess for hidraw config interfaces of USB audio devices (headphones/DACs with EQ)](https://github.com/systemd/systemd/issues/44251) — updated 2026-10-17T01:50:55Z
-- [pcrlock: Predict/make-policy does not give a correct prediction for PCR 7 causing unsealing to fail](https://github.com/systemd/systemd/issues/40381) — updated 2026-10-16T23:38:54Z
+- [Resolve printf-style unit modifiers in systemd-run's `-p`](https://github.com/systemd/systemd/issues/44275) — updated 2026-10-18T12:32:35Z
+- [machined: CleanPool deletes images that are a part of non-hidden .mstacks](https://github.com/systemd/systemd/issues/44268) — updated 2026-10-18T00:49:33Z
+- [hwdb: uaccess for hidraw config interfaces of USB audio devices (headphones/DACs with EQ)](https://github.com/systemd/systemd/issues/44251) — updated 2026-10-17T13:39:31Z
 
 ## containerd/containerd
 
-- [runc shim: task.State blocks behind an in-flight Delete, causing 2s State timeouts](https://github.com/containerd/containerd/issues/14379) — updated 2026-10-16T11:06:50Z
+- [runc shim: task.State blocks behind an in-flight Delete, causing 2s State timeouts](https://github.com/containerd/containerd/issues/14379) — updated 2026-10-17T20:55:07Z
 - [Supported 2.3 LTS dependency refresh/backport for gRPC transport and related dependencies](https://github.com/containerd/containerd/issues/14196) — updated 2026-10-15T17:19:41Z
 - [provide a portable mechanism for processes within container to obtain their image and container ids](https://github.com/containerd/containerd/issues/8185) — updated 2026-10-15T14:08:19Z
 
 ## omacom/omarchy
 
-- [Shell renders fully black on Qt 6.12 — QtQuick's Color type shadows the qs.Commons Color singleton (fix exists on quattro, needs backport)](https://github.com/omacom/omarchy/issues/15545) — updated 2026-10-17T11:58:29Z
-- [Quickshell lock freezes on display wake after 4.0.3: session stays locked with no lock surface (no-real-screen)](https://github.com/omacom/omarchy/issues/11794) — updated 2026-10-17T11:32:26Z
-- [omarchy-install-service-1password launches 1Password without setsid, so it dies on SIGHUP when the installer terminal closes](https://github.com/omacom/omarchy/issues/7870) — updated 2026-10-17T11:14:48Z
+- [qs ipc client writes Qt diagnostics to stdout, breaking `omarchy plugin list` and JSON consumers (Qt 6.12 locale warning)](https://github.com/omacom/omarchy/issues/15834) — updated 2026-10-18T12:31:02Z
+- [Agents follow the omarchy skill into sudo and never reach pkexec](https://github.com/omacom/omarchy/issues/14498) — updated 2026-10-18T12:21:54Z
+- [Direct boot keeps booting the old `linux` UKI after the linux-omarchy migration](https://github.com/omacom/omarchy/issues/12145) — updated 2026-10-18T12:16:35Z
 
 ## microsoft/vscode
 
-- [Copilot apply_patch converts space indentation to tabs in files without existing indentation](https://github.com/microsoft/vscode/issues/342265) — updated 2026-10-17T12:05:42Z
-- ["Sign in to use GitHub Copilot" dialog appears in every existing window when a new window is opened](https://github.com/microsoft/vscode/issues/342264) — updated 2026-10-17T12:01:09Z
-- [Windows emojis aren't registering in VS Code following the latest update.](https://github.com/microsoft/vscode/issues/338128) — updated 2026-10-17T11:44:00Z
+- [Agent Host: an unresponsive window blocks every send in a chat indefinitely (retryFailedClientSyncIfNeeded has no timeout)](https://github.com/microsoft/vscode/issues/342382) — updated 2026-10-18T12:09:04Z
+- [Enabled search subagent is visible in Chat tools but not available to the assistant](https://github.com/microsoft/vscode/issues/342387) — updated 2026-10-18T12:08:05Z
+- [Evolving the VS Code Interface](https://github.com/microsoft/vscode/issues/334285) — updated 2026-10-18T10:08:29Z
 
 ## google/googletest
 
@@ -40,15 +40,15 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [[DevTools Bug]: Operation packets accumulate until the first frontend connects](https://github.com/react/react/issues/37874) — updated 2026-10-16T12:16:00Z
-- [React Refresh can schedule roots removed during the same refresh](https://github.com/react/react/issues/37409) — updated 2026-10-16T05:16:23Z
-- [Bug: dev-only "two <ViewTransition name> mounted at the same time" warning is a false positive after `name` changes to undefined/another name](https://github.com/react/react/issues/37866) — updated 2026-10-16T02:48:31Z
+- [Bug: Race condition in completeSegment ($RS) causes "Cannot read properties of null (reading 'parentNode')" error](https://github.com/react/react/issues/35056) — updated 2026-10-18T11:13:35Z
+- [Bug:](https://github.com/react/react/issues/37891) — updated 2026-10-18T05:09:04Z
+- [[Compiler Bug]: Local copy of a module-level variable is replaced by the variable itself inside closures](https://github.com/react/react/issues/37888) — updated 2026-10-17T21:45:17Z
 
 ## openai/openai-python
 
-- [Maintain tiktoken](https://github.com/openai/openai-python/issues/4042) — updated 2026-10-16T23:38:56Z
-- [Streaming helpers re-parse the whole accumulated JSON on every delta (quadratic in output size)](https://github.com/openai/openai-python/issues/4090) — updated 2026-10-16T18:18:52Z
-- [Bug: accumulate_delta corrupts tool call items on out-of-order delta indexes](https://github.com/openai/openai-python/issues/4022) — updated 2026-10-15T17:03:21Z
+- [Concurrent first use of streaming decode caches an incomplete discriminator map, so events decode as the wrong class](https://github.com/openai/openai-python/issues/4036) — updated 2026-10-18T03:05:04Z
+- [Streaming helpers re-parse the whole accumulated JSON on every delta (quadratic in output size)](https://github.com/openai/openai-python/issues/4090) — updated 2026-10-17T22:15:35Z
+- [ChatCompletionStream.get_final_completion() can return an incomplete result after an early EOF](https://github.com/openai/openai-python/issues/4063) — updated 2026-10-17T21:29:38Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [[XLA] Complex log1p(-1+0j) returns zero instead of -Inf on CPU and GPU](https://github.com/tensorflow/tensorflow/issues/128983) — updated 2026-10-17T07:33:02Z
-- [[XLA] Complex sin/cos produce NaN for infinite imaginary inputs](https://github.com/tensorflow/tensorflow/issues/128985) — updated 2026-10-17T07:27:52Z
-- [Sparse segment mean/sum gives random result on empty tensor](https://github.com/tensorflow/tensorflow/issues/72785) — updated 2026-10-17T01:43:56Z
+- [Documentation mismatch: Layer/Model.add_metric() shown usable in call(), but Keras 3 disables / breaks it (TF 2.17 + Keras 3.4)](https://github.com/tensorflow/tensorflow/issues/110884) — updated 2026-10-18T12:16:57Z
+- [`tf.experimental.numpy.cumsum` / `cumprod` raise for bool input instead of promoting to int like NumPy](https://github.com/tensorflow/tensorflow/issues/129239) — updated 2026-10-17T16:49:13Z
+- [`tf.experimental.numpy.rad2deg` fails on integer arrays and Python lists](https://github.com/tensorflow/tensorflow/issues/129238) — updated 2026-10-17T16:49:08Z
 
 ## rust-lang/rust
 
-- [std::fmt::Formatter write_fmt (append or replace ?)](https://github.com/rust-lang/rust/issues/164466) — updated 2026-10-17T11:38:05Z
-- [Should path separators participate in Path/PathBuf `Hash` impl?](https://github.com/rust-lang/rust/issues/164415) — updated 2026-10-17T11:19:31Z
-- [`O_PATH` is silently dropped in `musl`](https://github.com/rust-lang/rust/issues/164464) — updated 2026-10-17T10:59:18Z
+- [x86_64-unknown-uefi: link fails with undefined symbol: fmal on nightly (LLVM 23)](https://github.com/rust-lang/rust/issues/164018) — updated 2026-10-18T12:26:50Z
+- [[ICE]: Unexpected type for constructor `Variant(0)`: *const u8](https://github.com/rust-lang/rust/issues/162393) — updated 2026-10-18T12:09:28Z
+- [Tracking issue for documenting individual built-in inert attributes in the standard library using `#[doc(attribute = "…")]`](https://github.com/rust-lang/rust/issues/157604) — updated 2026-10-18T12:05:22Z
 
 ## nodejs/node
 
-- [Fail to cross build for RISC-V](https://github.com/nodejs/node/issues/66803) — updated 2026-10-17T10:14:56Z
-- [sqlite: statements with JOINs are re-prepared on every run since SQLite 3.54 (sqlite3_clear_bindings)](https://github.com/nodejs/node/issues/66800) — updated 2026-10-17T08:18:31Z
-- [Unreachable code reached, Cannot toggle network tracking](https://github.com/nodejs/node/issues/64308) — updated 2026-10-17T01:22:42Z
+- [http2: large queued request body prevents receiving an early response](https://github.com/nodejs/node/issues/66739) — updated 2026-10-18T12:23:08Z
+- [RegExp modifier groups `(?i:…)` / `(?-i:…)` can get the wrong case sensitivity (fixed in V8 15.4, please cherry-pick 4cc98031)](https://github.com/nodejs/node/issues/66277) — updated 2026-10-18T12:00:03Z
+- [fs.cp overwrites destination symlinks despite force: false](https://github.com/nodejs/node/issues/66774) — updated 2026-10-18T11:57:08Z
 
 ## golang/go
 
-- [cmd/go: TestScript/cgo_bad_directives failures](https://github.com/golang/go/issues/82295) — updated 2026-10-17T11:36:22Z
-- [cmd/go/internal/modfetch: TestCodeRepo/github.com_rsc_vgotest1_v2/v2.0.1 failures](https://github.com/golang/go/issues/82294) — updated 2026-10-17T11:36:20Z
-- [cmd/go/internal/verylongtest: TestScript/mod_sumdb_golang failures](https://github.com/golang/go/issues/80589) — updated 2026-10-17T11:36:19Z
+- [x/tools/internal/gocommand: TestCancel_ProcessGroup failures](https://github.com/golang/go/issues/82088) — updated 2026-10-18T12:18:39Z
+- [all: unrecognized failures on `plan9/amd64`](https://github.com/golang/go/issues/60256) — updated 2026-10-18T12:18:38Z
+- [all: unrecognized failures on `plan9/386`](https://github.com/golang/go/issues/60255) — updated 2026-10-18T12:18:38Z
 
 ## llvm/llvm-project
 
-- [clang-format SpacesInContainerLiterals: false adds spaces in JavaScript when assigning dict to module.exports](https://github.com/llvm/llvm-project/issues/62698) — updated 2026-10-17T11:46:47Z
-- [[clang] Assertion `SI.isSigned() == E->getType()->isSignedIntegerOrEnumerationType() && "Invalid evaluation result."' failed.](https://github.com/llvm/llvm-project/issues/114174) — updated 2026-10-17T11:46:24Z
-- [[MLIR][Presburger] subtract loses complement points when floor-division bounds are tightened](https://github.com/llvm/llvm-project/issues/233073) — updated 2026-10-17T11:45:39Z
+- [clang-17 ICE on invalid code in `clang::Expr::EvaluateAsConstantExpr`](https://github.com/llvm/llvm-project/issues/77250) — updated 2026-10-18T12:31:56Z
+- [[clang] warn on operator in macro expansion whose operand doesn't lie entirely within the same macro expansion](https://github.com/llvm/llvm-project/issues/184672) — updated 2026-10-18T12:25:29Z
+- [[libc][math][c++23] Implement rsqrtbf16 math function](https://github.com/llvm/llvm-project/issues/233205) — updated 2026-10-18T11:59:43Z
 
 ## mozilla/gecko-dev
 
