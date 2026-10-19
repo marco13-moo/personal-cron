@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-18
+# Open-source issue digest — 2026-10-19
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,39 +10,39 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [Resolve printf-style unit modifiers in systemd-run's `-p`](https://github.com/systemd/systemd/issues/44275) — updated 2026-10-18T12:32:35Z
-- [machined: CleanPool deletes images that are a part of non-hidden .mstacks](https://github.com/systemd/systemd/issues/44268) — updated 2026-10-18T00:49:33Z
-- [hwdb: uaccess for hidraw config interfaces of USB audio devices (headphones/DACs with EQ)](https://github.com/systemd/systemd/issues/44251) — updated 2026-10-17T13:39:31Z
+- [resolved: stub bypass path truncates oversized UDP replies at a byte offset, leaving TC=1 with stale section counts and no OPT (malformed packet)](https://github.com/systemd/systemd/issues/44293) — updated 2026-10-19T13:57:23Z
+- [`EnqueueUnitJobMany` vs `wheel` group](https://github.com/systemd/systemd/issues/44289) — updated 2026-10-19T10:18:51Z
+- [userdbd: silent worker exec failure causes retry storm (~3 CPU-s per second, 14,875 PIDs per boot)](https://github.com/systemd/systemd/issues/44280) — updated 2026-10-19T07:20:12Z
 
 ## containerd/containerd
 
-- [runc shim: task.State blocks behind an in-flight Delete, causing 2s State timeouts](https://github.com/containerd/containerd/issues/14379) — updated 2026-10-17T20:55:07Z
-- [Supported 2.3 LTS dependency refresh/backport for gRPC transport and related dependencies](https://github.com/containerd/containerd/issues/14196) — updated 2026-10-15T17:19:41Z
-- [provide a portable mechanism for processes within container to obtain their image and container ids](https://github.com/containerd/containerd/issues/8185) — updated 2026-10-15T14:08:19Z
+- [runc shim "delete" fails with getwd ENOENT when bundle is removed concurrently, leaking runc state dirs](https://github.com/containerd/containerd/issues/14416) — updated 2026-10-19T05:33:13Z
+- [RemoveContainer can fail forever with "cannot delete running task" after a failed task create or an Unavailable exit](https://github.com/containerd/containerd/issues/14414) — updated 2026-10-19T05:33:11Z
+- [Support configuring the shim API version for downgrade compatibility](https://github.com/containerd/containerd/issues/14420) — updated 2026-10-19T03:35:25Z
 
 ## omacom/omarchy
 
-- [qs ipc client writes Qt diagnostics to stdout, breaking `omarchy plugin list` and JSON consumers (Qt 6.12 locale warning)](https://github.com/omacom/omarchy/issues/15834) — updated 2026-10-18T12:31:02Z
-- [Agents follow the omarchy skill into sudo and never reach pkexec](https://github.com/omacom/omarchy/issues/14498) — updated 2026-10-18T12:21:54Z
-- [Direct boot keeps booting the old `linux` UKI after the linux-omarchy migration](https://github.com/omacom/omarchy/issues/12145) — updated 2026-10-18T12:16:35Z
+- [Omarchy 4.0.5 / systemd 262: three TPM NvPCR services failed after update](https://github.com/omacom/omarchy/issues/15813) — updated 2026-10-19T15:23:17Z
+- [Screen recording fails on Pascal GPUs: -fallback-cpu-encoding yes doesn't catch NVENC API version mismatch](https://github.com/omacom/omarchy/issues/7640) — updated 2026-10-19T15:12:08Z
+- [External monitors on a USB-C dock never return after undocking (aquamarine 0.15.0 regression)](https://github.com/omacom/omarchy/issues/11019) — updated 2026-10-19T15:05:02Z
 
 ## microsoft/vscode
 
-- [Agent Host: an unresponsive window blocks every send in a chat indefinitely (retryFailedClientSyncIfNeeded has no timeout)](https://github.com/microsoft/vscode/issues/342382) — updated 2026-10-18T12:09:04Z
-- [Enabled search subagent is visible in Chat tools but not available to the assistant](https://github.com/microsoft/vscode/issues/342387) — updated 2026-10-18T12:08:05Z
-- [Evolving the VS Code Interface](https://github.com/microsoft/vscode/issues/334285) — updated 2026-10-18T10:08:29Z
+- [Copilot "Local" mode is missing in VS Code 1.142.0 ](https://github.com/microsoft/vscode/issues/341937) — updated 2026-10-19T15:33:31Z
+- [Very long warning message when plugin is missing](https://github.com/microsoft/vscode/issues/342523) — updated 2026-10-19T15:32:16Z
+- [Every session showing: Installing plugins required by organization](https://github.com/microsoft/vscode/issues/342521) — updated 2026-10-19T15:31:48Z
 
 ## google/googletest
 
+- [Example with INSTANTIATE_TEST_CASE_P from doc generates warnings with clang++ -Wshadow-uncaptured-local](https://github.com/google/googletest/issues/5128) — updated 2026-10-19T10:21:03Z
 - [[FR]: Ability to configure OsStackTraceGetterInterface at runtime](https://github.com/google/googletest/issues/4781) — updated 2026-10-17T10:44:18Z
 - [[FR]: Some way to filter by source file name defining the tests](https://github.com/google/googletest/issues/4771) — updated 2026-10-17T09:03:13Z
-- [[Bug]: JSON output does not escape RecordProperty keys](https://github.com/google/googletest/issues/5124) — updated 2026-10-16T04:25:44Z
 
 ## facebook/react
 
+- [[Compiler Bug]: Rust Babel adapter misaligns diagnostic underlines after non-ASCII text](https://github.com/react/react/issues/37897) — updated 2026-10-19T06:20:33Z
+- [Bug: Suspense fallback remounts on hydration after use(browser()) + client use(promise)](https://github.com/react/react/issues/37620) — updated 2026-10-18T14:52:19Z
 - [Bug: Race condition in completeSegment ($RS) causes "Cannot read properties of null (reading 'parentNode')" error](https://github.com/react/react/issues/35056) — updated 2026-10-18T11:13:35Z
-- [Bug:](https://github.com/react/react/issues/37891) — updated 2026-10-18T05:09:04Z
-- [[Compiler Bug]: Local copy of a module-level variable is replaced by the variable itself inside closures](https://github.com/react/react/issues/37888) — updated 2026-10-17T21:45:17Z
 
 ## openai/openai-python
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [Documentation mismatch: Layer/Model.add_metric() shown usable in call(), but Keras 3 disables / breaks it (TF 2.17 + Keras 3.4)](https://github.com/tensorflow/tensorflow/issues/110884) — updated 2026-10-18T12:16:57Z
-- [`tf.experimental.numpy.cumsum` / `cumprod` raise for bool input instead of promoting to int like NumPy](https://github.com/tensorflow/tensorflow/issues/129239) — updated 2026-10-17T16:49:13Z
-- [`tf.experimental.numpy.rad2deg` fails on integer arrays and Python lists](https://github.com/tensorflow/tensorflow/issues/129238) — updated 2026-10-17T16:49:08Z
+- [[XLA] Incorrect special-value handling in igamma and igammac](https://github.com/tensorflow/tensorflow/issues/128989) — updated 2026-10-19T13:23:10Z
+- [Deleting legacy Java client from TensorFlow main repository](https://github.com/tensorflow/tensorflow/issues/58424) — updated 2026-10-19T13:21:44Z
+- [A heap oob write in TensorArray.write](https://github.com/tensorflow/tensorflow/issues/87912) — updated 2026-10-19T13:07:32Z
 
 ## rust-lang/rust
 
-- [x86_64-unknown-uefi: link fails with undefined symbol: fmal on nightly (LLVM 23)](https://github.com/rust-lang/rust/issues/164018) — updated 2026-10-18T12:26:50Z
-- [[ICE]: Unexpected type for constructor `Variant(0)`: *const u8](https://github.com/rust-lang/rust/issues/162393) — updated 2026-10-18T12:09:28Z
-- [Tracking issue for documenting individual built-in inert attributes in the standard library using `#[doc(attribute = "…")]`](https://github.com/rust-lang/rust/issues/157604) — updated 2026-10-18T12:05:22Z
+- [Rustc can't handle non-UTF-8 input paths, but only when `RUST_BACKTRACE` is not set](https://github.com/rust-lang/rust/issues/164585) — updated 2026-10-19T15:34:54Z
+- [Tracking Issue for `cell_get_cloned`](https://github.com/rust-lang/rust/issues/145329) — updated 2026-10-19T15:31:34Z
+- [moving a `Box` out of a packed struct creates a misaligned `&mut Box` to drop it](https://github.com/rust-lang/rust/issues/164561) — updated 2026-10-19T15:31:24Z
 
 ## nodejs/node
 
-- [http2: large queued request body prevents receiving an early response](https://github.com/nodejs/node/issues/66739) — updated 2026-10-18T12:23:08Z
-- [RegExp modifier groups `(?i:…)` / `(?-i:…)` can get the wrong case sensitivity (fixed in V8 15.4, please cherry-pick 4cc98031)](https://github.com/nodejs/node/issues/66277) — updated 2026-10-18T12:00:03Z
-- [fs.cp overwrites destination symlinks despite force: false](https://github.com/nodejs/node/issues/66774) — updated 2026-10-18T11:57:08Z
+- [Build from source on Windows - vcbuild does not prevent failed build attempt without Rust toolchain](https://github.com/nodejs/node/issues/66848) — updated 2026-10-19T15:13:49Z
+- [Intermittent crash on out/doc/llms.txt target on RISC-V](https://github.com/nodejs/node/issues/66845) — updated 2026-10-19T14:53:50Z
+- [Temporal objects before 1582-10-15 are formatted in the Julian calendar (fixed in V8 14.8 by 3102739e)](https://github.com/nodejs/node/issues/66847) — updated 2026-10-19T13:08:50Z
 
 ## golang/go
 
-- [x/tools/internal/gocommand: TestCancel_ProcessGroup failures](https://github.com/golang/go/issues/82088) — updated 2026-10-18T12:18:39Z
-- [all: unrecognized failures on `plan9/amd64`](https://github.com/golang/go/issues/60256) — updated 2026-10-18T12:18:38Z
-- [all: unrecognized failures on `plan9/386`](https://github.com/golang/go/issues/60255) — updated 2026-10-18T12:18:38Z
+- [cmd/go: TestScript/build_cc_cache_issue64589 failures](https://github.com/golang/go/issues/82238) — updated 2026-10-19T15:35:43Z
+- [runtime: TestArenaHintChainGeneration failures](https://github.com/golang/go/issues/82131) — updated 2026-10-19T15:35:43Z
+- [all: unrecognized failures on `plan9/amd64`](https://github.com/golang/go/issues/60256) — updated 2026-10-19T15:35:42Z
 
 ## llvm/llvm-project
 
-- [clang-17 ICE on invalid code in `clang::Expr::EvaluateAsConstantExpr`](https://github.com/llvm/llvm-project/issues/77250) — updated 2026-10-18T12:31:56Z
-- [[clang] warn on operator in macro expansion whose operand doesn't lie entirely within the same macro expansion](https://github.com/llvm/llvm-project/issues/184672) — updated 2026-10-18T12:25:29Z
-- [[libc][math][c++23] Implement rsqrtbf16 math function](https://github.com/llvm/llvm-project/issues/233205) — updated 2026-10-18T11:59:43Z
+- [[KnownFPClass] `minnum`/`maxnum` may return NaN if either argument is an sNaN](https://github.com/llvm/llvm-project/issues/233270) — updated 2026-10-19T15:36:10Z
+- [[clang][ObjC] @finally runs at end of enclosing scope instead of end of @try on windows-msvc (GNUstep runtime)](https://github.com/llvm/llvm-project/issues/233465) — updated 2026-10-19T15:35:39Z
+- [[clang][ObjC] Crash in codegen for @try with both @catch and @finally on windows-msvc (GNUstep runtime)](https://github.com/llvm/llvm-project/issues/233464) — updated 2026-10-19T15:35:00Z
 
 ## mozilla/gecko-dev
 
