@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-19
+# Open-source issue digest — 2026-10-20
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,45 +10,45 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [resolved: stub bypass path truncates oversized UDP replies at a byte offset, leaving TC=1 with stale section counts and no OPT (malformed packet)](https://github.com/systemd/systemd/issues/44293) — updated 2026-10-19T13:57:23Z
-- [`EnqueueUnitJobMany` vs `wheel` group](https://github.com/systemd/systemd/issues/44289) — updated 2026-10-19T10:18:51Z
-- [userdbd: silent worker exec failure causes retry storm (~3 CPU-s per second, 14,875 PIDs per boot)](https://github.com/systemd/systemd/issues/44280) — updated 2026-10-19T07:20:12Z
+- [OSC console size querying hangs at boot in some scenarios](https://github.com/systemd/systemd/issues/35499) — updated 2026-10-20T11:48:54Z
+- [network: use conf/$iface/force_forwarding for IPv6 forwarding on kernel >= 6.17](https://github.com/systemd/systemd/issues/40666) — updated 2026-10-20T10:55:15Z
+- [sysupdate: Failed to fill up destination with zeroes: Device or resource busy](https://github.com/systemd/systemd/issues/44317) — updated 2026-10-20T10:18:19Z
 
 ## containerd/containerd
 
-- [runc shim "delete" fails with getwd ENOENT when bundle is removed concurrently, leaking runc state dirs](https://github.com/containerd/containerd/issues/14416) — updated 2026-10-19T05:33:13Z
-- [RemoveContainer can fail forever with "cannot delete running task" after a failed task create or an Unavailable exit](https://github.com/containerd/containerd/issues/14414) — updated 2026-10-19T05:33:11Z
-- [Support configuring the shim API version for downgrade compatibility](https://github.com/containerd/containerd/issues/14420) — updated 2026-10-19T03:35:25Z
+- [Allow disabling skip of prepare API calls in the metadata snapshotter](https://github.com/containerd/containerd/issues/14437) — updated 2026-10-20T11:16:29Z
+- [runc shim: /tasks/exit often not published, or published after /tasks/delete, since v2.3.0](https://github.com/containerd/containerd/issues/14433) — updated 2026-10-20T09:35:56Z
+- [CRI: containerd restart during StartContainer leaves a running container without IO, and its task delete then fails forever ("failed to drain init process ... io")](https://github.com/containerd/containerd/issues/14426) — updated 2026-10-20T03:37:23Z
 
 ## omacom/omarchy
 
-- [Omarchy 4.0.5 / systemd 262: three TPM NvPCR services failed after update](https://github.com/omacom/omarchy/issues/15813) — updated 2026-10-19T15:23:17Z
-- [Screen recording fails on Pascal GPUs: -fallback-cpu-encoding yes doesn't catch NVENC API version mismatch](https://github.com/omacom/omarchy/issues/7640) — updated 2026-10-19T15:12:08Z
-- [External monitors on a USB-C dock never return after undocking (aquamarine 0.15.0 regression)](https://github.com/omacom/omarchy/issues/11019) — updated 2026-10-19T15:05:02Z
+- [Weather unit mismatch in Omarchy 4](https://github.com/omacom/omarchy/issues/7706) — updated 2026-10-20T12:27:07Z
+- [Lock screen blanking crashes the shell on single-monitor setups, causing a lock/relaunch loop](https://github.com/omacom/omarchy/issues/12079) — updated 2026-10-20T11:59:53Z
+- [Shell hot reload keeps stale plugin QML: Qt.clearComponentCache guard is a no-op on Qt 6](https://github.com/omacom/omarchy/issues/16063) — updated 2026-10-20T11:54:31Z
 
 ## microsoft/vscode
 
-- [Copilot "Local" mode is missing in VS Code 1.142.0 ](https://github.com/microsoft/vscode/issues/341937) — updated 2026-10-19T15:33:31Z
-- [Very long warning message when plugin is missing](https://github.com/microsoft/vscode/issues/342523) — updated 2026-10-19T15:32:16Z
-- [Every session showing: Installing plugins required by organization](https://github.com/microsoft/vscode/issues/342521) — updated 2026-10-19T15:31:48Z
+- ["Open with Code" still missing from context menu in latest version](https://github.com/microsoft/vscode/issues/304214) — updated 2026-10-20T13:30:39Z
+- [Copilot Agent Host does not appear to respect the selected GitHub account when multiple accounts are signed in](https://github.com/microsoft/vscode/issues/340493) — updated 2026-10-20T13:28:37Z
+- [Unify model configuration across chat, subagents, utility flows, and image/speech models](https://github.com/microsoft/vscode/issues/342875) — updated 2026-10-20T13:23:59Z
 
 ## google/googletest
 
+- [[Bug]: Printing a char32_t or char16_t leaves the stream in hex mode](https://github.com/google/googletest/issues/5133) — updated 2026-10-20T13:17:34Z
+- [[Bug]: z/OS has encoding errors when running googletest](https://github.com/google/googletest/issues/5131) — updated 2026-10-20T12:41:00Z
 - [Example with INSTANTIATE_TEST_CASE_P from doc generates warnings with clang++ -Wshadow-uncaptured-local](https://github.com/google/googletest/issues/5128) — updated 2026-10-19T10:21:03Z
-- [[FR]: Ability to configure OsStackTraceGetterInterface at runtime](https://github.com/google/googletest/issues/4781) — updated 2026-10-17T10:44:18Z
-- [[FR]: Some way to filter by source file name defining the tests](https://github.com/google/googletest/issues/4771) — updated 2026-10-17T09:03:13Z
 
 ## facebook/react
 
-- [[Compiler Bug]: Rust Babel adapter misaligns diagnostic underlines after non-ASCII text](https://github.com/react/react/issues/37897) — updated 2026-10-19T06:20:33Z
-- [Bug: Suspense fallback remounts on hydration after use(browser()) + client use(promise)](https://github.com/react/react/issues/37620) — updated 2026-10-18T14:52:19Z
-- [Bug: Race condition in completeSegment ($RS) causes "Cannot read properties of null (reading 'parentNode')" error](https://github.com/react/react/issues/35056) — updated 2026-10-18T11:13:35Z
+- [Bug:](https://github.com/react/react/issues/37914) — updated 2026-10-20T13:12:32Z
+- [[Compiler Bug]: Coverage report shows missing branch coverage](https://github.com/react/react/issues/32950) — updated 2026-10-20T11:08:06Z
+- [Bug: useId generating duplicate IDs](https://github.com/react/react/issues/37911) — updated 2026-10-20T10:41:08Z
 
 ## openai/openai-python
 
+- [fix(auth): SubjectTokenProviderError drops response and duplicates error message in workload identity providers](https://github.com/openai/openai-python/issues/4017) — updated 2026-10-19T21:46:38Z
+- [Blocking the event loop since 3.x ?](https://github.com/openai/openai-python/issues/3777) — updated 2026-10-19T17:37:50Z
 - [Concurrent first use of streaming decode caches an incomplete discriminator map, so events decode as the wrong class](https://github.com/openai/openai-python/issues/4036) — updated 2026-10-18T03:05:04Z
-- [Streaming helpers re-parse the whole accumulated JSON on every delta (quadratic in output size)](https://github.com/openai/openai-python/issues/4090) — updated 2026-10-17T22:15:35Z
-- [ChatCompletionStream.get_final_completion() can return an incomplete result after an early EOF](https://github.com/openai/openai-python/issues/4063) — updated 2026-10-17T21:29:38Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [[XLA] Incorrect special-value handling in igamma and igammac](https://github.com/tensorflow/tensorflow/issues/128989) — updated 2026-10-19T13:23:10Z
-- [Deleting legacy Java client from TensorFlow main repository](https://github.com/tensorflow/tensorflow/issues/58424) — updated 2026-10-19T13:21:44Z
-- [A heap oob write in TensorArray.write](https://github.com/tensorflow/tensorflow/issues/87912) — updated 2026-10-19T13:07:32Z
+- [TensorListScatterIntoExistingList creates wrong-dtype holes for sparse indices](https://github.com/tensorflow/tensorflow/issues/129348) — updated 2026-10-20T09:41:41Z
+- [TensorFlow was not built with CUDA kernel binaries compatible with compute capability 12.0 CUDA_ERROR_INVALID_HANDLE](https://github.com/tensorflow/tensorflow/issues/97387) — updated 2026-10-20T06:34:28Z
+- [tf.math.argmin raises InvalidArgumentError when reduction axis is empty in shape [2, 0]](https://github.com/tensorflow/tensorflow/issues/113185) — updated 2026-10-20T06:07:51Z
 
 ## rust-lang/rust
 
-- [Rustc can't handle non-UTF-8 input paths, but only when `RUST_BACKTRACE` is not set](https://github.com/rust-lang/rust/issues/164585) — updated 2026-10-19T15:34:54Z
-- [Tracking Issue for `cell_get_cloned`](https://github.com/rust-lang/rust/issues/145329) — updated 2026-10-19T15:31:34Z
-- [moving a `Box` out of a packed struct creates a misaligned `&mut Box` to drop it](https://github.com/rust-lang/rust/issues/164561) — updated 2026-10-19T15:31:24Z
+- [`==` and `<=` have different reborrowing behavior](https://github.com/rust-lang/rust/issues/164610) — updated 2026-10-20T13:23:21Z
+- [PGO instrumentation: counter in num_bigint::div_rem_core incremented by a heap address instead of 1](https://github.com/rust-lang/rust/issues/164635) — updated 2026-10-20T13:02:02Z
+- [`RangeInclusive<T>.exhausted` is set inconsistently](https://github.com/rust-lang/rust/issues/164633) — updated 2026-10-20T12:54:56Z
 
 ## nodejs/node
 
-- [Build from source on Windows - vcbuild does not prevent failed build attempt without Rust toolchain](https://github.com/nodejs/node/issues/66848) — updated 2026-10-19T15:13:49Z
-- [Intermittent crash on out/doc/llms.txt target on RISC-V](https://github.com/nodejs/node/issues/66845) — updated 2026-10-19T14:53:50Z
-- [Temporal objects before 1582-10-15 are formatted in the Julian calendar (fixed in V8 14.8 by 3102739e)](https://github.com/nodejs/node/issues/66847) — updated 2026-10-19T13:08:50Z
+- [Various AIX tests pass on Node 22, fail on later supported versions](https://github.com/nodejs/node/issues/61657) — updated 2026-10-20T10:29:02Z
+- [fs.access throws permission error while checking W_OK on writable dir](https://github.com/nodejs/node/issues/28656) — updated 2026-10-20T10:27:03Z
+- [Missing import trace from error stack when loading a module throws an error](https://github.com/nodejs/node/issues/46992) — updated 2026-10-20T08:35:16Z
 
 ## golang/go
 
-- [cmd/go: TestScript/build_cc_cache_issue64589 failures](https://github.com/golang/go/issues/82238) — updated 2026-10-19T15:35:43Z
-- [runtime: TestArenaHintChainGeneration failures](https://github.com/golang/go/issues/82131) — updated 2026-10-19T15:35:43Z
-- [all: unrecognized failures on `plan9/amd64`](https://github.com/golang/go/issues/60256) — updated 2026-10-19T15:35:42Z
+- [cmd/go: vet replays a cached dependency-only (VetxOnly) result for a later root vet of the same package](https://github.com/golang/go/issues/82344) — updated 2026-10-20T13:24:06Z
+- [all: flaky failures on netbsd/arm](https://github.com/golang/go/issues/73820) — updated 2026-10-20T13:20:13Z
+- [runtime: flaky failures on NetBSD since CL 526118](https://github.com/golang/go/issues/62524) — updated 2026-10-20T13:20:12Z
 
 ## llvm/llvm-project
 
-- [[KnownFPClass] `minnum`/`maxnum` may return NaN if either argument is an sNaN](https://github.com/llvm/llvm-project/issues/233270) — updated 2026-10-19T15:36:10Z
-- [[clang][ObjC] @finally runs at end of enclosing scope instead of end of @try on windows-msvc (GNUstep runtime)](https://github.com/llvm/llvm-project/issues/233465) — updated 2026-10-19T15:35:39Z
-- [[clang][ObjC] Crash in codegen for @try with both @catch and @finally on windows-msvc (GNUstep runtime)](https://github.com/llvm/llvm-project/issues/233464) — updated 2026-10-19T15:35:00Z
+- [Implement the `WaveMatch` HLSL Function](https://github.com/llvm/llvm-project/issues/99207) — updated 2026-10-20T13:33:04Z
+- [Implement the `NonUniformResourceIndex` HLSL Function](https://github.com/llvm/llvm-project/issues/99206) — updated 2026-10-20T13:29:16Z
+- [[C2y] N3356 should not apply to while loops](https://github.com/llvm/llvm-project/issues/233839) — updated 2026-10-20T13:24:02Z
 
 ## mozilla/gecko-dev
 
