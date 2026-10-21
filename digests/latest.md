@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-20
+# Open-source issue digest — 2026-10-21
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,39 +10,39 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [OSC console size querying hangs at boot in some scenarios](https://github.com/systemd/systemd/issues/35499) — updated 2026-10-20T11:48:54Z
-- [network: use conf/$iface/force_forwarding for IPv6 forwarding on kernel >= 6.17](https://github.com/systemd/systemd/issues/40666) — updated 2026-10-20T10:55:15Z
-- [sysupdate: Failed to fill up destination with zeroes: Device or resource busy](https://github.com/systemd/systemd/issues/44317) — updated 2026-10-20T10:18:19Z
+- [systemd lacks a method to provide assurance of hardware security measures before cryptsetup](https://github.com/systemd/systemd/issues/44339) — updated 2026-10-21T10:20:54Z
+- [Reset backoff time of `RestartSteps=` after time or successful unit start](https://github.com/systemd/systemd/issues/43813) — updated 2026-10-21T07:24:50Z
+- [RFC: add a graphical-session-compositor.target special unit](https://github.com/systemd/systemd/issues/44336) — updated 2026-10-21T06:58:41Z
 
 ## containerd/containerd
 
-- [Allow disabling skip of prepare API calls in the metadata snapshotter](https://github.com/containerd/containerd/issues/14437) — updated 2026-10-20T11:16:29Z
-- [runc shim: /tasks/exit often not published, or published after /tasks/delete, since v2.3.0](https://github.com/containerd/containerd/issues/14433) — updated 2026-10-20T09:35:56Z
-- [CRI: containerd restart during StartContainer leaves a running container without IO, and its task delete then fails forever ("failed to drain init process ... io")](https://github.com/containerd/containerd/issues/14426) — updated 2026-10-20T03:37:23Z
+- [CRIU failure message names the rootful runtime root for a rootless daemon, and a work/criu-work/dump.log that is never written](https://github.com/containerd/containerd/issues/14443) — updated 2026-10-21T08:59:33Z
+- [runtime/v2: shim delete can fail before exec when the bundle directory has been removed](https://github.com/containerd/containerd/issues/13977) — updated 2026-10-21T07:29:50Z
+- [containerd-shim-runc-v2: 10s stdio drain starves runc.Delete via handleEventTimeout (also 10s)](https://github.com/containerd/containerd/issues/13377) — updated 2026-10-21T01:21:52Z
 
 ## omacom/omarchy
 
-- [Weather unit mismatch in Omarchy 4](https://github.com/omacom/omarchy/issues/7706) — updated 2026-10-20T12:27:07Z
-- [Lock screen blanking crashes the shell on single-monitor setups, causing a lock/relaunch loop](https://github.com/omacom/omarchy/issues/12079) — updated 2026-10-20T11:59:53Z
-- [Shell hot reload keeps stale plugin QML: Qt.clearComponentCache guard is a no-op on Qt 6](https://github.com/omacom/omarchy/issues/16063) — updated 2026-10-20T11:54:31Z
+- [Quickshell SIGSEGV in QIcon::pixmap → QPlatformPixmap::fromFile on QQuickPixmapReader thread when tray items register at login](https://github.com/omacom/omarchy/issues/16176) — updated 2026-10-21T13:41:42Z
+- [Shipped Ghostty epoll workaround can crash Ghostty on x86_64](https://github.com/omacom/omarchy/issues/6868) — updated 2026-10-21T13:37:41Z
+- [Suspend/hibernate broken with NVIDIA on B550 desktop](https://github.com/omacom/omarchy/issues/15764) — updated 2026-10-21T12:54:12Z
 
 ## microsoft/vscode
 
-- ["Open with Code" still missing from context menu in latest version](https://github.com/microsoft/vscode/issues/304214) — updated 2026-10-20T13:30:39Z
-- [Copilot Agent Host does not appear to respect the selected GitHub account when multiple accounts are signed in](https://github.com/microsoft/vscode/issues/340493) — updated 2026-10-20T13:28:37Z
-- [Unify model configuration across chat, subagents, utility flows, and image/speech models](https://github.com/microsoft/vscode/issues/342875) — updated 2026-10-20T13:23:59Z
+- [Add Keep/Undo option and per file review to Copilot harness](https://github.com/microsoft/vscode/issues/343222) — updated 2026-10-21T13:46:08Z
+- [Copilot Chat cannot resolve installed custom skills](https://github.com/microsoft/vscode/issues/334437) — updated 2026-10-21T13:41:25Z
+- [left scroll anchor does not work](https://github.com/microsoft/vscode/issues/260920) — updated 2026-10-21T13:27:19Z
 
 ## google/googletest
 
+- [[Bug]: GoogleMock Python tests are never registered with CTest (regression of #4124)](https://github.com/google/googletest/issues/5070) — updated 2026-10-20T18:04:17Z
 - [[Bug]: Printing a char32_t or char16_t leaves the stream in hex mode](https://github.com/google/googletest/issues/5133) — updated 2026-10-20T13:17:34Z
 - [[Bug]: z/OS has encoding errors when running googletest](https://github.com/google/googletest/issues/5131) — updated 2026-10-20T12:41:00Z
-- [Example with INSTANTIATE_TEST_CASE_P from doc generates warnings with clang++ -Wshadow-uncaptured-local](https://github.com/google/googletest/issues/5128) — updated 2026-10-19T10:21:03Z
 
 ## facebook/react
 
-- [Bug:](https://github.com/react/react/issues/37914) — updated 2026-10-20T13:12:32Z
-- [[Compiler Bug]: Coverage report shows missing branch coverage](https://github.com/react/react/issues/32950) — updated 2026-10-20T11:08:06Z
-- [Bug: useId generating duplicate IDs](https://github.com/react/react/issues/37911) — updated 2026-10-20T10:41:08Z
+- [With Node.js now offering solid support for require(esm), I suggest React consider a pure ESM build for its next major release.](https://github.com/react/react/issues/37091) — updated 2026-10-21T13:13:40Z
+- [Build: Inject the runtime React version from ReactVersions.js](https://github.com/react/react/issues/37043) — updated 2026-10-21T12:19:26Z
+- [[Flight] Let encodeFormAction reuse the default encoding](https://github.com/react/react/issues/37044) — updated 2026-10-21T12:19:24Z
 
 ## openai/openai-python
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [TensorListScatterIntoExistingList creates wrong-dtype holes for sparse indices](https://github.com/tensorflow/tensorflow/issues/129348) — updated 2026-10-20T09:41:41Z
-- [TensorFlow was not built with CUDA kernel binaries compatible with compute capability 12.0 CUDA_ERROR_INVALID_HANDLE](https://github.com/tensorflow/tensorflow/issues/97387) — updated 2026-10-20T06:34:28Z
-- [tf.math.argmin raises InvalidArgumentError when reduction axis is empty in shape [2, 0]](https://github.com/tensorflow/tensorflow/issues/113185) — updated 2026-10-20T06:07:51Z
+- [Re-enabling Debugger V2 with the same dump_root fails because the graph execution traces writer is not initialized](https://github.com/tensorflow/tensorflow/issues/129409) — updated 2026-10-21T12:37:52Z
+- [`tf.raw_ops.For` aborts on GPU for a valid float32 loop while the CPU execution succeeds](https://github.com/tensorflow/tensorflow/issues/129396) — updated 2026-10-21T09:55:55Z
+- [tf.raw_ops.SparseMatrixAdd with complex128 on GPU causes a segmentation fault](https://github.com/tensorflow/tensorflow/issues/129392) — updated 2026-10-21T09:22:12Z
 
 ## rust-lang/rust
 
-- [`==` and `<=` have different reborrowing behavior](https://github.com/rust-lang/rust/issues/164610) — updated 2026-10-20T13:23:21Z
-- [PGO instrumentation: counter in num_bigint::div_rem_core incremented by a heap address instead of 1](https://github.com/rust-lang/rust/issues/164635) — updated 2026-10-20T13:02:02Z
-- [`RangeInclusive<T>.exhausted` is set inconsistently](https://github.com/rust-lang/rust/issues/164633) — updated 2026-10-20T12:54:56Z
+- [Tracking Issue for fN::BITS](https://github.com/rust-lang/rust/issues/151073) — updated 2026-10-21T13:43:26Z
+- [Tracking Issue for AVX512_FP16 intrinsics](https://github.com/rust-lang/rust/issues/127213) — updated 2026-10-21T13:28:56Z
+- [Tracking Issue for `Iterator::intersperse`](https://github.com/rust-lang/rust/issues/79524) — updated 2026-10-21T13:19:17Z
 
 ## nodejs/node
 
-- [Various AIX tests pass on Node 22, fail on later supported versions](https://github.com/nodejs/node/issues/61657) — updated 2026-10-20T10:29:02Z
-- [fs.access throws permission error while checking W_OK on writable dir](https://github.com/nodejs/node/issues/28656) — updated 2026-10-20T10:27:03Z
-- [Missing import trace from error stack when loading a module throws an error](https://github.com/nodejs/node/issues/46992) — updated 2026-10-20T08:35:16Z
+- [build: Temporal cross builds do not separate host and target Rust archives](https://github.com/nodejs/node/issues/66897) — updated 2026-10-21T13:20:14Z
+- [03923858417d ("src: expose BROTLI_DECODER_ERROR_FORMAT_BLOCK_SWITCH") breaks build with shared, latest stable brotli](https://github.com/nodejs/node/issues/66894) — updated 2026-10-21T11:55:28Z
+- [fs.mkdir(path, { recursive: true }) never returns when an intermediate mkdir fails with ENOENT although its parent exists (e.g. under /proc)](https://github.com/nodejs/node/issues/66890) — updated 2026-10-21T08:56:57Z
 
 ## golang/go
 
-- [cmd/go: vet replays a cached dependency-only (VetxOnly) result for a later root vet of the same package](https://github.com/golang/go/issues/82344) — updated 2026-10-20T13:24:06Z
-- [all: flaky failures on netbsd/arm](https://github.com/golang/go/issues/73820) — updated 2026-10-20T13:20:13Z
-- [runtime: flaky failures on NetBSD since CL 526118](https://github.com/golang/go/issues/62524) — updated 2026-10-20T13:20:12Z
+- [fips140/crypto: Optimize ChaCha20 + Poly1305 using vector instructions and fused logic implementation](https://github.com/golang/go/issues/82396) — updated 2026-10-21T13:37:02Z
+- [all: flaky failures on netbsd/arm](https://github.com/golang/go/issues/73820) — updated 2026-10-21T13:15:11Z
+- [runtime: flaky failures on NetBSD since CL 526118](https://github.com/golang/go/issues/62524) — updated 2026-10-21T13:15:11Z
 
 ## llvm/llvm-project
 
-- [Implement the `WaveMatch` HLSL Function](https://github.com/llvm/llvm-project/issues/99207) — updated 2026-10-20T13:33:04Z
-- [Implement the `NonUniformResourceIndex` HLSL Function](https://github.com/llvm/llvm-project/issues/99206) — updated 2026-10-20T13:29:16Z
-- [[C2y] N3356 should not apply to while loops](https://github.com/llvm/llvm-project/issues/233839) — updated 2026-10-20T13:24:02Z
+- [[libc][math][c++23] Implement BFloat16 higher math functions](https://github.com/llvm/llvm-project/issues/177259) — updated 2026-10-21T13:38:33Z
+- [[libc][math][c++23] Implement acoshbf16 math function](https://github.com/llvm/llvm-project/issues/232875) — updated 2026-10-21T13:36:54Z
+- [[libc][math][c++23] Implement coshbf16 math function](https://github.com/llvm/llvm-project/issues/233065) — updated 2026-10-21T13:36:34Z
 
 ## mozilla/gecko-dev
 
