@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-22
+# Open-source issue digest — 2026-10-23
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [sysupdate: Failed to fill up destination with zeroes: Device or resource busy](https://github.com/systemd/systemd/issues/44317) — updated 2026-10-22T12:03:22Z
-- [nss-resolve: `safe_close()` EBADF assertion aborts the calling process during `getaddrinfo` (gethostbyname4 path)](https://github.com/systemd/systemd/issues/44372) — updated 2026-10-22T10:45:48Z
-- [RFC: add a graphical-session-compositor.target special unit](https://github.com/systemd/systemd/issues/44336) — updated 2026-10-22T09:27:40Z
+- [systemd-journal-upload fails repeatedly with "Buffer space is too small to write entry."](https://github.com/systemd/systemd/issues/39166) — updated 2026-10-23T08:53:01Z
+- [logind should rate limit requests to suspend the system on lid switch, in case these requests are systematically broken](https://github.com/systemd/systemd/issues/24556) — updated 2026-10-23T03:42:01Z
+- [systemd-sysext and systemd-confext don't pick up `.raw.zst`](https://github.com/systemd/systemd/issues/44354) — updated 2026-10-23T03:31:17Z
 
 ## containerd/containerd
 
+- [CRI image pull is sometimes canceled by image_pull_progress_timeout during unpack](https://github.com/containerd/containerd/issues/13909) — updated 2026-10-22T23:59:38Z
 - [Redundant runc kill command `runc kill --all 9` on container exit](https://github.com/containerd/containerd/issues/14444) — updated 2026-10-22T01:07:41Z
 - [Stopping a Pod with spec.shareProcessNamespace: true and 16+ containers takes ~1m](https://github.com/containerd/containerd/issues/14292) — updated 2026-10-21T19:39:48Z
-- [runtime/v2: shim delete can fail before exec when the bundle directory has been removed](https://github.com/containerd/containerd/issues/13977) — updated 2026-10-21T07:29:50Z
 
 ## omacom/omarchy
 
-- [Stay Awake mug renders a ragged base at fractional scaling](https://github.com/omacom/omarchy/issues/16283) — updated 2026-10-22T13:47:38Z
-- [shell.json can be created 0644 and keeps that mode, exposing plugin secrets to other local users](https://github.com/omacom/omarchy/issues/14748) — updated 2026-10-22T13:44:16Z
-- [Bar: every inline command module logs TypeError: Cannot assign to read-only property "moduleName"](https://github.com/omacom/omarchy/issues/7635) — updated 2026-10-22T13:34:51Z
+- [quickshell (Omarchy build, USE_JEMALLOC=ON) SIGSEGVs during QML compilation via OpenSSL provider unload](https://github.com/omacom/omarchy/issues/16209) — updated 2026-10-23T13:25:44Z
+- [flea claims org.freedesktop.FileManager1 over Nautilus, so "Show in folder" opens flea while folders open in Nautilus](https://github.com/omacom/omarchy/issues/16216) — updated 2026-10-23T13:25:36Z
+- [linux-omarchy 7.2.8-9: HDMI 2.1 FRL 4K@144Hz blackouts / Out of range on 24 Gbps HDMI monitors (AMD RX 7600 XT + Gigabyte M32U)](https://github.com/omacom/omarchy/issues/16214) — updated 2026-10-23T13:25:13Z
 
 ## microsoft/vscode
 
-- [Language Models: Copilot CLI configuration tries to recreate an existing settings-only group](https://github.com/microsoft/vscode/issues/343501) — updated 2026-10-22T13:46:41Z
-- [Unable to use skills within their source workspace](https://github.com/microsoft/vscode/issues/343418) — updated 2026-10-22T13:34:44Z
-- [Cmd+C copy shortcut freezes](https://github.com/microsoft/vscode/issues/343489) — updated 2026-10-22T13:24:27Z
+- [Agent mode: Keep/Undo missing and changed-files list does not expand after update to 1.143.1](https://github.com/microsoft/vscode/issues/343785) — updated 2026-10-23T13:22:10Z
+- [Feedback: Copilot/AHP removes essential capabilities from my Local workflow](https://github.com/microsoft/vscode/issues/343772) — updated 2026-10-23T13:19:57Z
+- [Copilot/AHP: Unsandboxed retries can repeat non-idempotent side effects without informing the agent](https://github.com/microsoft/vscode/issues/343776) — updated 2026-10-23T13:19:52Z
 
 ## google/googletest
 
@@ -40,9 +40,9 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [[DevTools Bug] Cannot remove node "1465" because no matching node was found in the Store.](https://github.com/react/react/issues/37954) — updated 2026-10-22T11:18:38Z
-- [Bug: Hover highlight in interactive code example overlaps the preview content](https://github.com/react/react/issues/37933) — updated 2026-10-22T11:17:32Z
-- [Bug: [DEV] "ReferenceError: window is not defined" from Scheduler tasks after test DOM environment teardown — regression in 19.2.0](https://github.com/react/react/issues/37100) — updated 2026-10-22T02:18:06Z
+- [Bug: State update made during render is lost when an earlier same-value setState is still queued at a different priority](https://github.com/react/react/issues/37967) — updated 2026-10-23T13:03:52Z
+- [[Compiler Bug]: False positives “calling setState synchronously within an effect body” with stable primitive values](https://github.com/react/react/issues/34045) — updated 2026-10-23T06:32:03Z
+- [Number input breaks when letter "e" is entered](https://github.com/react/react/issues/13499) — updated 2026-10-23T00:50:24Z
 
 ## openai/openai-python
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [`tf.raw_ops.For` aborts on GPU for a valid float32 loop while the CPU execution succeeds](https://github.com/tensorflow/tensorflow/issues/129396) — updated 2026-10-22T09:56:26Z
-- [[CUDA] illegal memory write on DepthToSpace](https://github.com/tensorflow/tensorflow/issues/128999) — updated 2026-10-22T09:42:10Z
-- [[XLA] betainc returns NaN at endpoints with infinite shape parameters](https://github.com/tensorflow/tensorflow/issues/128991) — updated 2026-10-22T09:35:52Z
+- [tf.raw_ops.SparseMatrixAdd with complex128 on GPU causes a segmentation fault](https://github.com/tensorflow/tensorflow/issues/129392) — updated 2026-10-23T13:17:44Z
+- [`RealDiv` accepts integer dtypes in its OpDef, but eager/graph have no integer kernel and reject, while XLA (`jit_compile=True`) silently does truncating integer division — a dtype-support / semantic-consistency gap](https://github.com/tensorflow/tensorflow/issues/129335) — updated 2026-10-23T12:39:07Z
+- [`tf.image.non_max_suppression_padded` diverges from Eager execution: NaN scores are prioritized first](https://github.com/tensorflow/tensorflow/issues/119358) — updated 2026-10-23T11:08:21Z
 
 ## rust-lang/rust
 
-- [Self parameters & C-variadics should be syntactically legal in parenthesized generic argument lists](https://github.com/rust-lang/rust/issues/160797) — updated 2026-10-22T13:44:40Z
-- [Incorrect line numbers for doctests](https://github.com/rust-lang/rust/issues/164685) — updated 2026-10-22T13:41:19Z
-- [Nested place mention on uninitialized local compiles to invalid pointer dereference](https://github.com/rust-lang/rust/issues/164738) — updated 2026-10-22T13:36:25Z
+- [Tracking Issue for `ParseFloatError::kind` and `FloatErrorKind`](https://github.com/rust-lang/rust/issues/164793) — updated 2026-10-23T12:58:17Z
+- [Tracking issue for generic const items](https://github.com/rust-lang/rust/issues/113521) — updated 2026-10-23T12:45:57Z
+- [Tracking issue for checked type aliases](https://github.com/rust-lang/rust/issues/112792) — updated 2026-10-23T12:44:50Z
 
 ## nodejs/node
 
-- [build: v24.22.1 fails with --shared-openssl on OpenSSL 3.0.x: EVP_PKEY_PRIVATE_KEY not declared (deps/ncrypto)](https://github.com/nodejs/node/issues/66926) — updated 2026-10-22T13:01:08Z
-- [http: 'drain' is never emitted for chunked responses with multi-byte strings (v24.22.0 regression)](https://github.com/nodejs/node/issues/66781) — updated 2026-10-22T11:07:20Z
-- [Node.js server fails to bind on ipv6 if ipv4 is not available](https://github.com/nodejs/node/issues/65400) — updated 2026-10-22T10:58:30Z
+- [ubuntu-slim runners time out after 15 mins while it usually takes <3 mins](https://github.com/nodejs/node/issues/64972) — updated 2026-10-23T12:35:00Z
+- [Under Windows, spawning a `pwsh` child process using `spawn` and `detached: true` does not work](https://github.com/nodejs/node/issues/51018) — updated 2026-10-23T10:58:59Z
+- [build: v24.22.1 fails with --shared-openssl on OpenSSL 3.0.x: EVP_PKEY_PRIVATE_KEY not declared (deps/ncrypto)](https://github.com/nodejs/node/issues/66926) — updated 2026-10-23T10:33:30Z
 
 ## golang/go
 
-- [cmd/go: panic on "go doc nonExisting" in a module with only test files](https://github.com/golang/go/issues/82419) — updated 2026-10-22T13:38:52Z
-- [cmd/compile: CSE of OpLocalAddr across calls lets GC free objects still reachable from a local array](https://github.com/golang/go/issues/82026) — updated 2026-10-22T13:32:30Z
-- [go/doc: comments dropped from interior of interface definition](https://github.com/golang/go/issues/10858) — updated 2026-10-22T13:30:30Z
+- [runtime:cpu2: TestArenaHintChainGeneration failures](https://github.com/golang/go/issues/82433) — updated 2026-10-23T12:33:43Z
+- [runtime:cpu2: TestArenaHintChainGeneration failures](https://github.com/golang/go/issues/82429) — updated 2026-10-23T12:33:42Z
+- [runtime:cpu2: TestArenaHintChainGeneration failures](https://github.com/golang/go/issues/82425) — updated 2026-10-23T12:33:41Z
 
 ## llvm/llvm-project
 
-- [[X86] Convert vector-interleaved-load/store to (de)interleave intrinsics](https://github.com/llvm/llvm-project/issues/234626) — updated 2026-10-22T13:43:47Z
-- [[meta][X86] Enable interleave/deinterleaving intrinsics handling](https://github.com/llvm/llvm-project/issues/234623) — updated 2026-10-22T13:43:32Z
-- [[flang][OpenMP] Error on missing implementation of DECLARE_SIMD](https://github.com/llvm/llvm-project/issues/234108) — updated 2026-10-22T13:40:36Z
+- [[InstCombine] Add folds like UCmp(a ±ⁿᵘʷ n, b ±ⁿᵘʷ n) → UCmp(a, b)](https://github.com/llvm/llvm-project/issues/216127) — updated 2026-10-23T13:23:50Z
+- [[DebugInfo][CorrelatedValuePropagation] Replacing `sitofp` with `uitofp` leaves a wrong debug value](https://github.com/llvm/llvm-project/issues/218627) — updated 2026-10-23T13:22:46Z
+- [[DebugInfo][CorrelatedValuePropagation] Replacing an `ashr` with `lshr` leaves a wrong debug value](https://github.com/llvm/llvm-project/issues/218366) — updated 2026-10-23T13:22:16Z
 
 ## mozilla/gecko-dev
 
