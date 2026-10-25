@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-24
+# Open-source issue digest — 2026-10-25
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,43 +10,43 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [systemd-journal-gatewayd: Namespace support](https://github.com/systemd/systemd/issues/44405) — updated 2026-10-24T01:00:01Z
-- [systemd-sysext and systemd-confext don't pick up `.raw.zst`](https://github.com/systemd/systemd/issues/44354) — updated 2026-10-23T19:01:57Z
-- [Forced termination of processes during shutdown with user input](https://github.com/systemd/systemd/issues/44399) — updated 2026-10-23T15:52:40Z
+- [bootctl and systemd-stub don't work with the TPM 2 chip on the T480](https://github.com/systemd/systemd/issues/44378) — updated 2026-10-25T12:48:56Z
+- [Misleading output from networkctl](https://github.com/systemd/systemd/issues/43961) — updated 2026-10-25T07:17:12Z
+- [Add optional support for GOST 2012 DNSSEC (RFC 9558)](https://github.com/systemd/systemd/issues/44415) — updated 2026-10-24T14:54:42Z
 
 ## containerd/containerd
 
+- [GC scheduler can miss deletion notifications during backend cleanup](https://github.com/containerd/containerd/issues/14461) — updated 2026-10-25T11:18:00Z
+- [Support configuring the shim API version for downgrade compatibility](https://github.com/containerd/containerd/issues/14420) — updated 2026-10-24T16:55:55Z
 - [CRI: containerd restart during StartContainer leaves a running container without IO, and its task delete then fails forever ("failed to drain init process ... io")](https://github.com/containerd/containerd/issues/14426) — updated 2026-10-23T21:23:22Z
-- [CRI image pull is sometimes canceled by image_pull_progress_timeout during unpack](https://github.com/containerd/containerd/issues/13909) — updated 2026-10-22T23:59:38Z
-- [Redundant runc kill command `runc kill --all 9` on container exit](https://github.com/containerd/containerd/issues/14444) — updated 2026-10-22T01:07:41Z
 
 ## omacom/omarchy
 
-- [Hybrid NVIDIA: early module load inflates the UKI to ~335 MB, adding ~20 s to every boot](https://github.com/omacom/omarchy/issues/16482) — updated 2026-10-24T12:21:09Z
-- [Agents panel hides model usage beyond the top four](https://github.com/omacom/omarchy/issues/16481) — updated 2026-10-24T12:07:04Z
-- [quickshell segfaults on monitor hotplug/removal via inherited QT_QPA_PLATFORMTHEME=gtk3](https://github.com/omacom/omarchy/issues/15004) — updated 2026-10-24T12:02:51Z
+- [Battery percent in the top bar shows only BAT0](https://github.com/omacom/omarchy/issues/6885) — updated 2026-10-25T13:07:45Z
+- [shell.qml: panel plugin loader logs `ReferenceError: errorString is not defined` instead of the real QML error](https://github.com/omacom/omarchy/issues/16612) — updated 2026-10-25T13:04:43Z
+- [Gemini CLI: google_web_search hangs indefinitely on network calls](https://github.com/omacom/omarchy/issues/12380) — updated 2026-10-25T12:47:03Z
 
 ## microsoft/vscode
 
-- [Copilot Chat CLI server fails to start on Intel Mac (macOS x64) after VS Code update](https://github.com/microsoft/vscode/issues/344044) — updated 2026-10-24T12:25:27Z
-- [strings.truncate can split a surrogate pair](https://github.com/microsoft/vscode/issues/344040) — updated 2026-10-24T12:25:20Z
-- [why are arrey ](https://github.com/microsoft/vscode/issues/344042) — updated 2026-10-24T12:25:14Z
+- [Agents window: Changes view shows an edit the agent already reverted in the terminal, and misses terminal-only changes](https://github.com/microsoft/vscode/issues/344005) — updated 2026-10-25T13:10:18Z
+- [Copilot chat with llama.cpp fails on every second request](https://github.com/microsoft/vscode/issues/336121) — updated 2026-10-25T13:05:57Z
+- [Modern UI: sidebar sash becomes too wide and off-center with maximized Panel](https://github.com/microsoft/vscode/issues/333303) — updated 2026-10-25T12:58:50Z
 
 ## google/googletest
 
+- [[Bug]: Premature-exit marker I/O failures have missing or misleading diagnostics](https://github.com/google/googletest/issues/5118) — updated 2026-10-25T07:41:01Z
 - [[Bug]: GoogleMock Python tests are never registered with CTest (regression of #4124)](https://github.com/google/googletest/issues/5070) — updated 2026-10-20T18:04:17Z
 - [[Bug]: Printing a char32_t or char16_t leaves the stream in hex mode](https://github.com/google/googletest/issues/5133) — updated 2026-10-20T13:17:34Z
-- [[Bug]: z/OS has encoding errors when running googletest](https://github.com/google/googletest/issues/5131) — updated 2026-10-20T12:41:00Z
 
 ## facebook/react
 
-- [[Compiler Bug]: `react-hooks/refs` false positive when using `PanResponder` from React Native](https://github.com/react/react/issues/37955) — updated 2026-10-24T09:47:07Z
-- [[Compiler Bug]: refs false positive: passing obj.prop to a JSX ref attribute makes every other obj.* read a "ref access during render"](https://github.com/react/react/issues/37507) — updated 2026-10-23T20:40:34Z
-- [[DevTools Bug] Cannot remove node "1465" because no matching node was found in the Store.](https://github.com/react/react/issues/37954) — updated 2026-10-23T20:19:07Z
+- [[Compiler Bug]: React Compiler loses the sign of negative zero](https://github.com/react/react/issues/37994) — updated 2026-10-25T11:34:16Z
+- [[Compiler Bug]: `react-hooks/refs` false positive when using `PanResponder` from React Native](https://github.com/react/react/issues/37955) — updated 2026-10-25T11:01:06Z
+- [[DevTools Bug]: standalone startServer ignores the host argument and listens beyond loopback](https://github.com/react/react/issues/37624) — updated 2026-10-25T03:01:30Z
 
 ## openai/openai-python
 
-- [AsyncStream leaves its SSE event iterators to the garbage collector after [DONE] or close()](https://github.com/openai/openai-python/issues/4174) — updated 2026-10-24T07:07:22Z
+- [AsyncStream leaves its SSE event iterators to the garbage collector after [DONE] or close()](https://github.com/openai/openai-python/issues/4174) — updated 2026-10-24T13:38:15Z
 - [`prompt_cache_options.ttl` is typed `Literal["30m"]` but the API accepts and returns `"12h"`; `cache_write_tokens_details` is untyped](https://github.com/openai/openai-python/issues/4156) — updated 2026-10-23T13:30:18Z
 - [fix(auth): SubjectTokenProviderError drops response and duplicates error message in workload identity providers](https://github.com/openai/openai-python/issues/4017) — updated 2026-10-19T21:46:38Z
 
@@ -68,27 +68,27 @@ _No qualifying open issues._
 
 ## rust-lang/rust
 
-- [Dependency Dashboard](https://github.com/rust-lang/rust/issues/134129) — updated 2026-10-24T12:23:58Z
-- [Tracking Issue for `nonzero_strict_ops`](https://github.com/rust-lang/rust/issues/164850) — updated 2026-10-24T12:20:57Z
-- [`impl Trait` with lifetime requires closure-eta-expansion to compile](https://github.com/rust-lang/rust/issues/164839) — updated 2026-10-24T11:10:51Z
+- [Tracking Issue for `read_le_be`](https://github.com/rust-lang/rust/issues/156984) — updated 2026-10-25T13:10:37Z
+- [`Searcher`'s safety contract does not state the preconditions that `str::split` relies on](https://github.com/rust-lang/rust/issues/164904) — updated 2026-10-25T12:56:13Z
+- [Panics in destructors can cause the tail expression of a block to be leaked](https://github.com/rust-lang/rust/issues/47949) — updated 2026-10-25T12:53:24Z
 
 ## nodejs/node
 
-- [Node should run on Debian/Ubuntu-based images without having to manually install libatomic first](https://github.com/nodejs/node/issues/60790) — updated 2026-10-24T08:53:34Z
-- [esm: resolving each .js module re-parses the whole package.json "exports" map (memory grows with edges x exports size)](https://github.com/nodejs/node/issues/66485) — updated 2026-10-24T08:08:03Z
-- [`test/parallel/test-zlib-zip-interop.js` fails if system's `zipinfo` is built without natspec](https://github.com/nodejs/node/issues/66975) — updated 2026-10-24T07:19:36Z
+- [feat: add an optional Node.js CLI splash banner](https://github.com/nodejs/node/issues/66788) — updated 2026-10-25T12:56:58Z
+- [Chrome devtools console method autocompletion for node is not working](https://github.com/nodejs/node/issues/56637) — updated 2026-10-25T11:41:19Z
+- [--watch prints messages to stdout, but should print to stderr](https://github.com/nodejs/node/issues/56478) — updated 2026-10-25T10:00:17Z
 
 ## golang/go
 
-- [x/tools/internal/gocommand: TestCancel_ProcessGroup failures](https://github.com/golang/go/issues/82088) — updated 2026-10-24T12:35:27Z
-- [proposal: crypto/aead/...: new packages](https://github.com/golang/go/issues/82456) — updated 2026-10-24T12:25:16Z
-- [proposal: crypto/tls: add a ErrTLSHandshakeTimeout sentinel error](https://github.com/golang/go/issues/82449) — updated 2026-10-24T11:38:35Z
+- [crypto/tls: ConnectionState.ServerName is client-controlled and not sanitized](https://github.com/golang/go/issues/82502) — updated 2026-10-25T13:02:13Z
+- [cmd/go: TestScript/build_cc_cache_issue64423 failures](https://github.com/golang/go/issues/82280) — updated 2026-10-25T12:55:44Z
+- [all: unrecognized failures on `plan9/amd64`](https://github.com/golang/go/issues/60256) — updated 2026-10-25T12:55:43Z
 
 ## llvm/llvm-project
 
-- [[CodeGen] Assertion `getLangOpts().OpenMPIsTargetDevice && "OpenMP AMDGPU/NVPTX/SPIRV is only prepared to deal with device code."' failed.](https://github.com/llvm/llvm-project/issues/235290) — updated 2026-10-24T12:29:12Z
-- [[GlobalOpt] Heap-to-global promotion gives two live allocations from repeated calls the same storage](https://github.com/llvm/llvm-project/issues/233447) — updated 2026-10-24T12:27:27Z
-- [After Post-RA pseudo instruction expansion: "*** Bad machine code: Dead def has a live def of the same register on the same instruction ***"](https://github.com/llvm/llvm-project/issues/234931) — updated 2026-10-24T12:21:55Z
+- [Clang rejects calling the function pointer conversion operator of a consteval lambda in a consteval context](https://github.com/llvm/llvm-project/issues/235353) — updated 2026-10-25T13:02:06Z
+- [erroneous nonblocking attribute warning with two layers of template functions](https://github.com/llvm/llvm-project/issues/219076) — updated 2026-10-25T12:56:35Z
+- [Clang ICE on assertion "isa<To>(Val) && "cast<Ty>() argument of incompatible type" with templates using -std=c++20](https://github.com/llvm/llvm-project/issues/138098) — updated 2026-10-25T12:55:00Z
 
 ## mozilla/gecko-dev
 
