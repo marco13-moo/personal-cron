@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-26
+# Open-source issue digest — 2026-10-27
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [RFC: add a graphical-session-compositor.target special unit](https://github.com/systemd/systemd/issues/44336) — updated 2026-10-26T14:32:51Z
-- [Allow lo to be evaluated for nodes routable online state](https://github.com/systemd/systemd/issues/44446) — updated 2026-10-26T13:45:18Z
-- [sysext: TAGS support for extensions](https://github.com/systemd/systemd/issues/44448) — updated 2026-10-26T13:31:58Z
+- [RFE: add NOT operator to journal matching](https://github.com/systemd/systemd/issues/2720) — updated 2026-10-27T05:53:56Z
+- [logind: empty KillExcludeUsers= still excludes root](https://github.com/systemd/systemd/issues/44342) — updated 2026-10-27T02:40:14Z
+- [socket unit stuck forever in `final-sigterm` after `daemon-reload`](https://github.com/systemd/systemd/issues/44457) — updated 2026-10-26T21:52:19Z
 
 ## containerd/containerd
 
+- [[SIG-Node]: KEP-6061 - OCI Artifact-Based Security Profile Distribution](https://github.com/containerd/containerd/issues/13546) — updated 2026-10-26T17:34:53Z
 - [GC scheduler can miss deletion notifications during backend cleanup](https://github.com/containerd/containerd/issues/14461) — updated 2026-10-25T11:18:00Z
 - [Support configuring the shim API version for downgrade compatibility](https://github.com/containerd/containerd/issues/14420) — updated 2026-10-24T16:55:55Z
-- [CRI: containerd restart during StartContainer leaves a running container without IO, and its task delete then fails forever ("failed to drain init process ... io")](https://github.com/containerd/containerd/issues/14426) — updated 2026-10-23T21:23:22Z
 
 ## omacom/omarchy
 
-- [Omasnap scroll capture is black: screenshot-selection.lua still sets no_screen_share on the omasnap layer](https://github.com/omacom/omarchy/issues/16710) — updated 2026-10-26T14:29:17Z
-- [Hibernate resume fails (nv_pmops_freeze → -EIO) on single-NVIDIA-GPU desktops — initramfs nvidia load blocks the resume hook](https://github.com/omacom/omarchy/issues/10039) — updated 2026-10-26T12:57:48Z
-- [Hibernation resume fails on hybrid Intel+NVIDIA laptops — nvidia.sh's early-KMS module bundling races the resume hook](https://github.com/omacom/omarchy/issues/8352) — updated 2026-10-26T12:54:59Z
+- [omarchy-system-sleep-lock does not reset keyboard layout to default (index 0), locking users out with non-ASCII passwords](https://github.com/omacom/omarchy/issues/16802) — updated 2026-10-27T14:31:05Z
+- [Plugin hot-reload never picks up changed plugin code (stale QML component cache)](https://github.com/omacom/omarchy/issues/6981) — updated 2026-10-27T14:08:09Z
+- [Document x86-64 ISA baseline (AVX2 or not?) for users + packagers](https://github.com/omacom/omarchy/issues/16798) — updated 2026-10-27T13:49:17Z
 
 ## microsoft/vscode
 
-- [Remote Environments: Add missing actions](https://github.com/microsoft/vscode/issues/344263) — updated 2026-10-26T15:08:58Z
-- [Chat slash-command autocomplete hides long hyphenated plugin skill names when searching by plugin prefix](https://github.com/microsoft/vscode/issues/344267) — updated 2026-10-26T15:08:02Z
-- [GH Copilot show notification msg in place of user steering msg.](https://github.com/microsoft/vscode/issues/344268) — updated 2026-10-26T15:07:58Z
+- [Task terminal disappears from the Agents window after switching sessions; processes keep running](https://github.com/microsoft/vscode/issues/344573) — updated 2026-10-27T14:31:12Z
+- [Sensitive Data Masking](https://github.com/microsoft/vscode/issues/304930) — updated 2026-10-27T14:28:32Z
+- [Context loss in interactive chat harness after failed MCP tool call](https://github.com/microsoft/vscode/issues/342865) — updated 2026-10-27T14:22:46Z
 
 ## google/googletest
 
@@ -40,9 +40,9 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Bug: Fizz leaves a Suspense boundary unresolved when a nested boundary's fallback suspends after the shell](https://github.com/react/react/issues/38000) — updated 2026-10-26T10:09:54Z
-- [[Compiler Bug]: “The inferred dependencies did not match...” references Compiler’s internal variables](https://github.com/react/react/issues/34262) — updated 2026-10-26T09:58:43Z
-- [Bug: ](https://github.com/react/react/issues/38002) — updated 2026-10-26T09:47:55Z
+- [Bug:](https://github.com/react/react/issues/38016) — updated 2026-10-27T12:01:19Z
+- [Bug: [Flight] A Node.js Buffer is sent as binary at the root but through toJSON when nested](https://github.com/react/react/issues/38014) — updated 2026-10-27T10:37:04Z
+- [Transition never commits: a ping from a synchronously resolving Flight chunk is dropped during render (RootSuspendedWithDelay)](https://github.com/react/react/issues/37805) — updated 2026-10-27T10:16:32Z
 
 ## openai/openai-python
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [Crash in `tf.raw_ops.TensorListScatterIntoExistingList` when indices contains negative values](https://github.com/tensorflow/tensorflow/issues/112749) — updated 2026-10-26T14:23:57Z
-- [tf.nn.max_pool behaves inconsistently between eager and tf.function for NCHW input](https://github.com/tensorflow/tensorflow/issues/113324) — updated 2026-10-26T14:22:11Z
-- [Aborted (core dumped) in tf.io.TFRecordWriter](https://github.com/tensorflow/tensorflow/issues/63337) — updated 2026-10-26T13:40:32Z
+- [float32 tf.matmul on rank-3 tensors returns wrong, nondeterministic results on CPU (oneDNN) for batch 2-16 and contraction >= 20000](https://github.com/tensorflow/tensorflow/issues/129498) — updated 2026-10-27T14:16:40Z
+- [[XLA] betainc returns NaN for valid large finite parameters on CPU and GPU](https://github.com/tensorflow/tensorflow/issues/128984) — updated 2026-10-27T13:30:08Z
+- [tf.tensor_scatter_nd_add accepts rank-0 scalar `updates` under jit_compile=True while eager rejects them](https://github.com/tensorflow/tensorflow/issues/128613) — updated 2026-10-27T13:17:18Z
 
 ## rust-lang/rust
 
-- [UEFI: locate_handles uses stale size for set_len, potentially exposing uninitialized handles](https://github.com/rust-lang/rust/issues/164945) — updated 2026-10-26T14:58:30Z
-- [Slice fold is sometimes slower than slice for loop](https://github.com/rust-lang/rust/issues/164983) — updated 2026-10-26T14:45:20Z
-- [UB with `use std::intrinsics::abort_immediate as main;`](https://github.com/rust-lang/rust/issues/164984) — updated 2026-10-26T14:40:47Z
+- [msan makes `noundef` an ABI attribute, breaking Rust ABI promises](https://github.com/rust-lang/rust/issues/165040) — updated 2026-10-27T14:20:22Z
+- [Incorrect / dubious LLVM-level ABI for two-variant `#[repr(u8)]` enums: lowered to `i1`](https://github.com/rust-lang/rust/issues/165026) — updated 2026-10-27T14:20:11Z
+- [small_sort_network never terminates for zero-sized types at len >= 18 (latent, unreachable via public sort APIs)](https://github.com/rust-lang/rust/issues/165041) — updated 2026-10-27T14:18:35Z
 
 ## nodejs/node
 
-- [parallel/test-cluster-dgram-1 times out on macOS 15.7](https://github.com/nodejs/node/issues/60050) — updated 2026-10-26T12:42:18Z
-- [wasm: JSPI stacks are decommitted but never unmapped, VmSize/VmPTE grow without bound](https://github.com/nodejs/node/issues/67016) — updated 2026-10-26T12:37:41Z
-- [[`util.styleText`] Allow `text` param to be any scalar value (ex. `number`, `bool` etc additionaly to `string`) which will be casted internally to `string`](https://github.com/nodejs/node/issues/63841) — updated 2026-10-26T10:40:25Z
+- [timezone info unavailable in builds with small ICU](https://github.com/nodejs/node/issues/66184) — updated 2026-10-27T10:38:58Z
+- [dns: Resolver#setLocalAddress() applies the first address even when it throws](https://github.com/nodejs/node/issues/67049) — updated 2026-10-27T10:12:00Z
+- [worker_threads: resourceLimits memory settings overridden by process flags](https://github.com/nodejs/node/issues/67014) — updated 2026-10-27T09:15:32Z
 
 ## golang/go
 
-- [x/pkgsite: package removal request for github.com/thedivinez/payitgo-sdk](https://github.com/golang/go/issues/82540) — updated 2026-10-26T15:06:06Z
-- [crypto/tls: add PSK support](https://github.com/golang/go/issues/6379) — updated 2026-10-26T15:00:37Z
-- [cmd/cgo/internal/testplugin: TestTextSectionSplit failures [consistent failure]](https://github.com/golang/go/issues/82517) — updated 2026-10-26T15:00:24Z
+- [all: update standard-library dependencies at the start and end of each development cycle](https://github.com/golang/go/issues/36905) — updated 2026-10-27T14:15:32Z
+- [proposal: go test should run analyzers specified by the workspace](https://github.com/golang/go/issues/82464) — updated 2026-10-27T14:09:54Z
+- [proposal: crypto/tls: export NewGCMForTLS13 and NewGCMForQUIC for FIPS140](https://github.com/golang/go/issues/79219) — updated 2026-10-27T14:01:50Z
 
 ## llvm/llvm-project
 
-- [[MLIR][SCF] `scf-for-loop-specialization` crashes when an `scf.for` result is used](https://github.com/llvm/llvm-project/issues/235552) — updated 2026-10-26T15:10:15Z
-- [[MLIR][Affine] `affine-super-vectorize` crashes on a nested loop with `iter_args` init an induction variable](https://github.com/llvm/llvm-project/issues/235550) — updated 2026-10-26T15:10:12Z
-- [[RISCV][Zfbfmin] Scalar sitofp/uitofp i32/i64 -> bfloat also double-rounds through f32 (fcvt.s.w/l + fcvt.bf16.s)](https://github.com/llvm/llvm-project/issues/235732) — updated 2026-10-26T15:04:20Z
+- [[mlir][vector] Improve masking + remove in_bounds from Xfer Ops](https://github.com/llvm/llvm-project/issues/227821) — updated 2026-10-27T14:31:08Z
+- [[X86] Inefficient encoding of ctlz.128](https://github.com/llvm/llvm-project/issues/236057) — updated 2026-10-27T14:28:19Z
+- [[IPSCCP] Readonly `byval` argument is propagated as the caller's pointer](https://github.com/llvm/llvm-project/issues/236130) — updated 2026-10-27T14:26:24Z
 
 ## mozilla/gecko-dev
 
