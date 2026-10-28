@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-27
+# Open-source issue digest — 2026-10-28
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [RFE: add NOT operator to journal matching](https://github.com/systemd/systemd/issues/2720) — updated 2026-10-27T05:53:56Z
-- [logind: empty KillExcludeUsers= still excludes root](https://github.com/systemd/systemd/issues/44342) — updated 2026-10-27T02:40:14Z
-- [socket unit stuck forever in `final-sigterm` after `daemon-reload`](https://github.com/systemd/systemd/issues/44457) — updated 2026-10-26T21:52:19Z
+- [pluggable backends for systemd-sysupdate](https://github.com/systemd/systemd/issues/33351) — updated 2026-10-28T13:50:43Z
+- [RFE: allow discerning a job that completes successfully because job is conditioned out from one that completes actually successfully](https://github.com/systemd/systemd/issues/21520) — updated 2026-10-28T11:41:20Z
+- [sd_journal_next returns one entry per journal file after sd_journal_seek_tail](https://github.com/systemd/systemd/issues/9934) — updated 2026-10-28T11:29:38Z
 
 ## containerd/containerd
 
-- [[SIG-Node]: KEP-6061 - OCI Artifact-Based Security Profile Distribution](https://github.com/containerd/containerd/issues/13546) — updated 2026-10-26T17:34:53Z
-- [GC scheduler can miss deletion notifications during backend cleanup](https://github.com/containerd/containerd/issues/14461) — updated 2026-10-25T11:18:00Z
-- [Support configuring the shim API version for downgrade compatibility](https://github.com/containerd/containerd/issues/14420) — updated 2026-10-24T16:55:55Z
+- [seccomp: allow fanotify_init without CAP_SYS_ADMIN in the default profile](https://github.com/containerd/containerd/issues/14479) — updated 2026-10-28T12:11:27Z
+- [overlayfs image cache](https://github.com/containerd/containerd/issues/14262) — updated 2026-10-28T07:26:09Z
+- [GC scheduler can miss deletion notifications during backend cleanup](https://github.com/containerd/containerd/issues/14461) — updated 2026-10-28T04:55:13Z
 
 ## omacom/omarchy
 
-- [omarchy-system-sleep-lock does not reset keyboard layout to default (index 0), locking users out with non-ASCII passwords](https://github.com/omacom/omarchy/issues/16802) — updated 2026-10-27T14:31:05Z
-- [Plugin hot-reload never picks up changed plugin code (stale QML component cache)](https://github.com/omacom/omarchy/issues/6981) — updated 2026-10-27T14:08:09Z
-- [Document x86-64 ISA baseline (AVX2 or not?) for users + packagers](https://github.com/omacom/omarchy/issues/16798) — updated 2026-10-27T13:49:17Z
+- [Power panel shows UPower's hwdb charge limit (75-80%) instead of the real asusctl-set limit, and a bogus 0 cycle count](https://github.com/omacom/omarchy/issues/7374) — updated 2026-10-28T15:05:12Z
+- [Helium: BrowserThemeColor policy causes partial theming (frame vs toolbar)](https://github.com/omacom/omarchy/issues/16916) — updated 2026-10-28T15:04:57Z
+- [Omarchy's uninstalled lazy mise tools shadow the user's own installs of the same commands](https://github.com/omacom/omarchy/issues/16881) — updated 2026-10-28T15:01:59Z
 
 ## microsoft/vscode
 
-- [Task terminal disappears from the Agents window after switching sessions; processes keep running](https://github.com/microsoft/vscode/issues/344573) — updated 2026-10-27T14:31:12Z
-- [Sensitive Data Masking](https://github.com/microsoft/vscode/issues/304930) — updated 2026-10-27T14:28:32Z
-- [Context loss in interactive chat harness after failed MCP tool call](https://github.com/microsoft/vscode/issues/342865) — updated 2026-10-27T14:22:46Z
+- [Workbench loads ~2x slower in dev builds since Electron 43 (vscode-file:// handler moved to protocol.handle + net.fetch)](https://github.com/microsoft/vscode/issues/341401) — updated 2026-10-28T15:06:10Z
+- [Flat File Explorer](https://github.com/microsoft/vscode/issues/344742) — updated 2026-10-28T15:05:36Z
+- [Agent Host BYOK custom endpoint (DeepSeek v4-pro): multi-turn tool-call history loses reasoning_content → 400 "reasoning_text in the thinking mode must be passed back"](https://github.com/microsoft/vscode/issues/344748) — updated 2026-10-28T15:04:43Z
 
 ## google/googletest
 
@@ -40,13 +40,13 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Bug:](https://github.com/react/react/issues/38016) — updated 2026-10-27T12:01:19Z
-- [Bug: [Flight] A Node.js Buffer is sent as binary at the root but through toJSON when nested](https://github.com/react/react/issues/38014) — updated 2026-10-27T10:37:04Z
-- [Transition never commits: a ping from a synchronously resolving Flight chunk is dropped during render (RootSuspendedWithDelay)](https://github.com/react/react/issues/37805) — updated 2026-10-27T10:16:32Z
+- [Bug: Suspense fallback remounts on hydration after use(browser()) + client use(promise)](https://github.com/react/react/issues/37620) — updated 2026-10-28T12:33:51Z
+- [Perf: react-hooks ESLint plugin (eslint-plugin-react-hooks) rules are extremely slow, dominating lint time](https://github.com/react/react/issues/35395) — updated 2026-10-28T12:02:29Z
+- [[Compiler Bug]: Rust port panics on non-ASCII identifiers ending with `Ref` (`is_ref_like_name`)](https://github.com/react/react/issues/38023) — updated 2026-10-28T11:36:49Z
 
 ## openai/openai-python
 
-- [AsyncStream leaves its SSE event iterators to the garbage collector after [DONE] or close()](https://github.com/openai/openai-python/issues/4174) — updated 2026-10-24T13:38:15Z
+- [AsyncStream leaves its SSE event iterators to the garbage collector after [DONE] or close()](https://github.com/openai/openai-python/issues/4174) — updated 2026-10-27T16:39:57Z
 - [`prompt_cache_options.ttl` is typed `Literal["30m"]` but the API accepts and returns `"12h"`; `cache_write_tokens_details` is untyped](https://github.com/openai/openai-python/issues/4156) — updated 2026-10-23T13:30:18Z
 - [fix(auth): SubjectTokenProviderError drops response and duplicates error message in workload identity providers](https://github.com/openai/openai-python/issues/4017) — updated 2026-10-19T21:46:38Z
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [float32 tf.matmul on rank-3 tensors returns wrong, nondeterministic results on CPU (oneDNN) for batch 2-16 and contraction >= 20000](https://github.com/tensorflow/tensorflow/issues/129498) — updated 2026-10-27T14:16:40Z
-- [[XLA] betainc returns NaN for valid large finite parameters on CPU and GPU](https://github.com/tensorflow/tensorflow/issues/128984) — updated 2026-10-27T13:30:08Z
-- [tf.tensor_scatter_nd_add accepts rank-0 scalar `updates` under jit_compile=True while eager rejects them](https://github.com/tensorflow/tensorflow/issues/128613) — updated 2026-10-27T13:17:18Z
+- [tf.nn.avg_pool1d fails under tf.function for data_format='NCW'](https://github.com/tensorflow/tensorflow/issues/113322) — updated 2026-10-28T14:49:32Z
+- [[CUDA] illegal memory read on MaxPoolWithArgmax](https://github.com/tensorflow/tensorflow/issues/129576) — updated 2026-10-28T14:10:29Z
+- [[CUDA] illegal memory read on ResourceScatterAdd with float16](https://github.com/tensorflow/tensorflow/issues/129577) — updated 2026-10-28T14:09:23Z
 
 ## rust-lang/rust
 
-- [msan makes `noundef` an ABI attribute, breaking Rust ABI promises](https://github.com/rust-lang/rust/issues/165040) — updated 2026-10-27T14:20:22Z
-- [Incorrect / dubious LLVM-level ABI for two-variant `#[repr(u8)]` enums: lowered to `i1`](https://github.com/rust-lang/rust/issues/165026) — updated 2026-10-27T14:20:11Z
-- [small_sort_network never terminates for zero-sized types at len >= 18 (latent, unreachable via public sort APIs)](https://github.com/rust-lang/rust/issues/165041) — updated 2026-10-27T14:18:35Z
+- [Bad wording in "std::mem::take()"  docs](https://github.com/rust-lang/rust/issues/165065) — updated 2026-10-28T14:46:41Z
+- [Tracking Issue for type_info](https://github.com/rust-lang/rust/issues/146922) — updated 2026-10-28T14:25:55Z
+- [What to do with pre-expansion linting?](https://github.com/rust-lang/rust/issues/165073) — updated 2026-10-28T14:06:08Z
 
 ## nodejs/node
 
-- [timezone info unavailable in builds with small ICU](https://github.com/nodejs/node/issues/66184) — updated 2026-10-27T10:38:58Z
-- [dns: Resolver#setLocalAddress() applies the first address even when it throws](https://github.com/nodejs/node/issues/67049) — updated 2026-10-27T10:12:00Z
-- [worker_threads: resourceLimits memory settings overridden by process flags](https://github.com/nodejs/node/issues/67014) — updated 2026-10-27T09:15:32Z
+- [Unix Domain Socket doesn't support on Windows](https://github.com/nodejs/node/issues/55979) — updated 2026-10-28T14:17:51Z
+- [Unreachable code reached, Cannot toggle network tracking](https://github.com/nodejs/node/issues/64308) — updated 2026-10-28T13:48:34Z
+- [crypto: createDiffieHellman(prime, generator) blocks for seconds with standard MODP primes (regression since 24.20.0 and 26.6.0)](https://github.com/nodejs/node/issues/67067) — updated 2026-10-28T12:44:02Z
 
 ## golang/go
 
-- [all: update standard-library dependencies at the start and end of each development cycle](https://github.com/golang/go/issues/36905) — updated 2026-10-27T14:15:32Z
-- [proposal: go test should run analyzers specified by the workspace](https://github.com/golang/go/issues/82464) — updated 2026-10-27T14:09:54Z
-- [proposal: crypto/tls: export NewGCMForTLS13 and NewGCMForQUIC for FIPS140](https://github.com/golang/go/issues/79219) — updated 2026-10-27T14:01:50Z
+- [all: various watchflakes failures on *-linux-mips64le builders](https://github.com/golang/go/issues/82681) — updated 2026-10-28T15:05:28Z
+- [cmd/compile: staticcheck still crashes with generic methods on Go 1.27.2 [1.27 backport]](https://github.com/golang/go/issues/82106) — updated 2026-10-28T15:03:58Z
+- [cmd/compile: staticcheck still crashes with generic methods on Go 1.27.2](https://github.com/golang/go/issues/82105) — updated 2026-10-28T15:03:52Z
 
 ## llvm/llvm-project
 
-- [[mlir][vector] Improve masking + remove in_bounds from Xfer Ops](https://github.com/llvm/llvm-project/issues/227821) — updated 2026-10-27T14:31:08Z
-- [[X86] Inefficient encoding of ctlz.128](https://github.com/llvm/llvm-project/issues/236057) — updated 2026-10-27T14:28:19Z
-- [[IPSCCP] Readonly `byval` argument is propagated as the caller's pointer](https://github.com/llvm/llvm-project/issues/236130) — updated 2026-10-27T14:26:24Z
+- [[AMDGPU][GlobalISel] 64-bit shl whose result fits in 32 bits is not narrowed](https://github.com/llvm/llvm-project/issues/236427) — updated 2026-10-28T15:03:15Z
+- [[AMDGPU][GlobalISel] Uniform branch on (xor cond, 1) is not folded into the scc compare](https://github.com/llvm/llvm-project/issues/236436) — updated 2026-10-28T15:00:49Z
+- [[AMDGPU][GlobalISel] Constants used only by divergent phis are materialized in SGPRs](https://github.com/llvm/llvm-project/issues/236433) — updated 2026-10-28T14:57:04Z
 
 ## mozilla/gecko-dev
 
