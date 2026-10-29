@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-28
+# Open-source issue digest — 2026-10-29
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [pluggable backends for systemd-sysupdate](https://github.com/systemd/systemd/issues/33351) — updated 2026-10-28T13:50:43Z
-- [RFE: allow discerning a job that completes successfully because job is conditioned out from one that completes actually successfully](https://github.com/systemd/systemd/issues/21520) — updated 2026-10-28T11:41:20Z
-- [sd_journal_next returns one entry per journal file after sd_journal_seek_tail](https://github.com/systemd/systemd/issues/9934) — updated 2026-10-28T11:29:38Z
+- [multi-device mouse causing VT freezing X11](https://github.com/systemd/systemd/issues/40516) — updated 2026-10-29T13:28:48Z
+- [run0: Raise timeout when starting the transient unit?](https://github.com/systemd/systemd/issues/44507) — updated 2026-10-29T11:52:30Z
+- [systemd-executor: opendir("/proc/self/fd") fails with ESRCH in fdset_new_fill() during concurrent /proc remount](https://github.com/systemd/systemd/issues/44488) — updated 2026-10-29T09:23:35Z
 
 ## containerd/containerd
 
+- [Default AppArmor profile denies signals inside a container when the label is stacked (`//&unconfined`, Ubuntu apparmor_restrict_unprivileged_unconfined=1)](https://github.com/containerd/containerd/issues/14485) — updated 2026-10-29T13:03:57Z
+- [CRI: pinned label never applied when pinned_images config value has no tag](https://github.com/containerd/containerd/issues/13314) — updated 2026-10-28T20:14:44Z
 - [seccomp: allow fanotify_init without CAP_SYS_ADMIN in the default profile](https://github.com/containerd/containerd/issues/14479) — updated 2026-10-28T12:11:27Z
-- [overlayfs image cache](https://github.com/containerd/containerd/issues/14262) — updated 2026-10-28T07:26:09Z
-- [GC scheduler can miss deletion notifications during backend cleanup](https://github.com/containerd/containerd/issues/14461) — updated 2026-10-28T04:55:13Z
 
 ## omacom/omarchy
 
-- [Power panel shows UPower's hwdb charge limit (75-80%) instead of the real asusctl-set limit, and a bogus 0 cycle count](https://github.com/omacom/omarchy/issues/7374) — updated 2026-10-28T15:05:12Z
-- [Helium: BrowserThemeColor policy causes partial theming (frame vs toolbar)](https://github.com/omacom/omarchy/issues/16916) — updated 2026-10-28T15:04:57Z
-- [Omarchy's uninstalled lazy mise tools shadow the user's own installs of the same commands](https://github.com/omacom/omarchy/issues/16881) — updated 2026-10-28T15:01:59Z
+- [Dell XPS 14 DA14260 periodic hard reset after unplugging; power-button diagnostic blink code](https://github.com/omacom/omarchy/issues/5953) — updated 2026-10-29T14:56:47Z
+- [Shell: the full-screen bar window and per-switch re-renders make every change a full-screen repaint](https://github.com/omacom/omarchy/issues/16997) — updated 2026-10-29T14:42:52Z
+- [Numeric keypad types nothing in the polkit dialog, lock screen and launcher (Qt ignores NumLock at startup)](https://github.com/omacom/omarchy/issues/8552) — updated 2026-10-29T14:33:45Z
 
 ## microsoft/vscode
 
-- [Workbench loads ~2x slower in dev builds since Electron 43 (vscode-file:// handler moved to protocol.handle + net.fetch)](https://github.com/microsoft/vscode/issues/341401) — updated 2026-10-28T15:06:10Z
-- [Flat File Explorer](https://github.com/microsoft/vscode/issues/344742) — updated 2026-10-28T15:05:36Z
-- [Agent Host BYOK custom endpoint (DeepSeek v4-pro): multi-turn tool-call history loses reasoning_content → 400 "reasoning_text in the thinking mode must be passed back"](https://github.com/microsoft/vscode/issues/344748) — updated 2026-10-28T15:04:43Z
+- [Model picker is clipped to one row and cannot be scrolled](https://github.com/microsoft/vscode/issues/344008) — updated 2026-10-29T15:00:12Z
+- [[Meta] Feedback on granular control over Copilot changes](https://github.com/microsoft/vscode/issues/339363) — updated 2026-10-29T14:49:50Z
+- [✨ Make Tab Focus Visually Distinguishable for Easier Identification in VS Code ](https://github.com/microsoft/vscode/issues/341220) — updated 2026-10-29T14:40:18Z
 
 ## google/googletest
 
@@ -40,9 +40,9 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Bug: Suspense fallback remounts on hydration after use(browser()) + client use(promise)](https://github.com/react/react/issues/37620) — updated 2026-10-28T12:33:51Z
-- [Perf: react-hooks ESLint plugin (eslint-plugin-react-hooks) rules are extremely slow, dominating lint time](https://github.com/react/react/issues/35395) — updated 2026-10-28T12:02:29Z
-- [[Compiler Bug]: Rust port panics on non-ASCII identifiers ending with `Ref` (`is_ref_like_name`)](https://github.com/react/react/issues/38023) — updated 2026-10-28T11:36:49Z
+- [Bug: onResize does not use SyntheticUIEvent (event.view and event.detail are undefined)](https://github.com/react/react/issues/38041) — updated 2026-10-29T15:13:40Z
+- [Bug: Cross-root context defaults become null when an external-store update cancels a stylesheet-suspended commit](https://github.com/react/react/issues/38040) — updated 2026-10-29T15:10:40Z
+- [Bug:  [Flight] File system stack trace filenames on Windows are not prefixed with file:// URI scheme](https://github.com/react/react/issues/38039) — updated 2026-10-29T15:05:29Z
 
 ## openai/openai-python
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [tf.nn.avg_pool1d fails under tf.function for data_format='NCW'](https://github.com/tensorflow/tensorflow/issues/113322) — updated 2026-10-28T14:49:32Z
-- [[CUDA] illegal memory read on MaxPoolWithArgmax](https://github.com/tensorflow/tensorflow/issues/129576) — updated 2026-10-28T14:10:29Z
-- [[CUDA] illegal memory read on ResourceScatterAdd with float16](https://github.com/tensorflow/tensorflow/issues/129577) — updated 2026-10-28T14:09:23Z
+- [XLA InternalError when compiling repeated tf.while_loop: Cannot find body function for While node](https://github.com/tensorflow/tensorflow/issues/122886) — updated 2026-10-29T14:16:52Z
+- [XLA tf.random.stateless_uniform produces different values from eager and graph for the same seed](https://github.com/tensorflow/tensorflow/issues/121243) — updated 2026-10-29T13:25:34Z
+- [overlap_and_add returns non-empty tensor for 0-frame inputs when frame_length > frame_step](https://github.com/tensorflow/tensorflow/issues/129484) — updated 2026-10-29T12:24:55Z
 
 ## rust-lang/rust
 
-- [Bad wording in "std::mem::take()"  docs](https://github.com/rust-lang/rust/issues/165065) — updated 2026-10-28T14:46:41Z
-- [Tracking Issue for type_info](https://github.com/rust-lang/rust/issues/146922) — updated 2026-10-28T14:25:55Z
-- [What to do with pre-expansion linting?](https://github.com/rust-lang/rust/issues/165073) — updated 2026-10-28T14:06:08Z
+- [Tracking issue for RFC 3681: Default field values](https://github.com/rust-lang/rust/issues/132162) — updated 2026-10-29T15:11:33Z
+- [Macos TLS not giving the struct requested alignment?](https://github.com/rust-lang/rust/issues/90959) — updated 2026-10-29T15:10:33Z
+- [Function with lifetime bounds using `const { try_as_dyn }` causes ICE](https://github.com/rust-lang/rust/issues/165118) — updated 2026-10-29T14:14:48Z
 
 ## nodejs/node
 
-- [Unix Domain Socket doesn't support on Windows](https://github.com/nodejs/node/issues/55979) — updated 2026-10-28T14:17:51Z
-- [Unreachable code reached, Cannot toggle network tracking](https://github.com/nodejs/node/issues/64308) — updated 2026-10-28T13:48:34Z
-- [crypto: createDiffieHellman(prime, generator) blocks for seconds with standard MODP primes (regression since 24.20.0 and 26.6.0)](https://github.com/nodejs/node/issues/67067) — updated 2026-10-28T12:44:02Z
+- [Segmentation fault on riscv64 starting with v24.22.0 due to missing v8 commit](https://github.com/nodejs/node/issues/67066) — updated 2026-10-29T14:32:04Z
+- [Proposal: build official Node.js binaries for glibc-based Linux using PIE, enables ASLR, helps prevent RCE](https://github.com/nodejs/node/issues/66951) — updated 2026-10-29T14:00:03Z
+- [CVE-2026-111497: process.versions.brotli still reports 1.2.0 on v24.22.1 – is this expected?](https://github.com/nodejs/node/issues/67075) — updated 2026-10-29T13:38:07Z
 
 ## golang/go
 
-- [all: various watchflakes failures on *-linux-mips64le builders](https://github.com/golang/go/issues/82681) — updated 2026-10-28T15:05:28Z
-- [cmd/compile: staticcheck still crashes with generic methods on Go 1.27.2 [1.27 backport]](https://github.com/golang/go/issues/82106) — updated 2026-10-28T15:03:58Z
-- [cmd/compile: staticcheck still crashes with generic methods on Go 1.27.2](https://github.com/golang/go/issues/82105) — updated 2026-10-28T15:03:52Z
+- [internal/fuzz,cmd/go: fuzz coordinator quickly runs out of address space on linux/386 [1.27 backport]](https://github.com/golang/go/issues/82703) — updated 2026-10-29T15:07:31Z
+- [internal/fuzz,cmd/go: fuzz coordinator quickly runs out of address space on linux/386 [1.26 backport]](https://github.com/golang/go/issues/82702) — updated 2026-10-29T15:07:30Z
+- [LGTM](https://github.com/golang/go/issues/82707) — updated 2026-10-29T15:03:53Z
 
 ## llvm/llvm-project
 
-- [[AMDGPU][GlobalISel] 64-bit shl whose result fits in 32 bits is not narrowed](https://github.com/llvm/llvm-project/issues/236427) — updated 2026-10-28T15:03:15Z
-- [[AMDGPU][GlobalISel] Uniform branch on (xor cond, 1) is not folded into the scc compare](https://github.com/llvm/llvm-project/issues/236436) — updated 2026-10-28T15:00:49Z
-- [[AMDGPU][GlobalISel] Constants used only by divergent phis are materialized in SGPRs](https://github.com/llvm/llvm-project/issues/236433) — updated 2026-10-28T14:57:04Z
+- [[Hexagon] Missed optimization: 31 - ctlz(x) with a known-nonzero x is lowered as xor with the constant in a register instead of sub(#31,Rs)](https://github.com/llvm/llvm-project/issues/236764) — updated 2026-10-29T15:13:27Z
+- [[Hexagon] Missed optimization: `1 << cttz(~x)` is lowered as `(x + 1) & ~x` (3 instructions) instead of `ct1` + `lsl` (2)](https://github.com/llvm/llvm-project/issues/236765) — updated 2026-10-29T15:12:41Z
+- [[X86][WinEH] X86ReturnThunks and X86LoadValueInjectionRetHardening miss CATCHRET and CLEANUPRET funclet returns](https://github.com/llvm/llvm-project/issues/236793) — updated 2026-10-29T15:10:25Z
 
 ## mozilla/gecko-dev
 
