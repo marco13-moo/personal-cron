@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-29
+# Open-source issue digest — 2026-10-30
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [multi-device mouse causing VT freezing X11](https://github.com/systemd/systemd/issues/40516) — updated 2026-10-29T13:28:48Z
-- [run0: Raise timeout when starting the transient unit?](https://github.com/systemd/systemd/issues/44507) — updated 2026-10-29T11:52:30Z
-- [systemd-executor: opendir("/proc/self/fd") fails with ESRCH in fdset_new_fill() during concurrent /proc remount](https://github.com/systemd/systemd/issues/44488) — updated 2026-10-29T09:23:35Z
+- [Allow lo to be evaluated for nodes routable online state](https://github.com/systemd/systemd/issues/44446) — updated 2026-10-30T14:58:38Z
+- [Add boot to the since syntax](https://github.com/systemd/systemd/issues/44481) — updated 2026-10-30T13:19:07Z
+- [run0: Raise timeout when starting the transient unit?](https://github.com/systemd/systemd/issues/44507) — updated 2026-10-30T01:06:08Z
 
 ## containerd/containerd
 
-- [Default AppArmor profile denies signals inside a container when the label is stacked (`//&unconfined`, Ubuntu apparmor_restrict_unprivileged_unconfined=1)](https://github.com/containerd/containerd/issues/14485) — updated 2026-10-29T13:03:57Z
-- [CRI: pinned label never applied when pinned_images config value has no tag](https://github.com/containerd/containerd/issues/13314) — updated 2026-10-28T20:14:44Z
-- [seccomp: allow fanotify_init without CAP_SYS_ADMIN in the default profile](https://github.com/containerd/containerd/issues/14479) — updated 2026-10-28T12:11:27Z
+- [CRI/NRI: nil pointer dereference in criContainer.GetRlimits when container spec cannot be loaded](https://github.com/containerd/containerd/issues/14494) — updated 2026-10-30T13:26:19Z
+- [CRI: containerd restart during StartContainer leaves a running container without IO, and its task delete then fails forever ("failed to drain init process ... io")](https://github.com/containerd/containerd/issues/14426) — updated 2026-10-30T12:10:45Z
+- [Implement missing metrics in ListMetricDescriptors and ListPodSandboxMetrics](https://github.com/containerd/containerd/issues/13532) — updated 2026-10-29T15:43:20Z
 
 ## omacom/omarchy
 
-- [Dell XPS 14 DA14260 periodic hard reset after unplugging; power-button diagnostic blink code](https://github.com/omacom/omarchy/issues/5953) — updated 2026-10-29T14:56:47Z
-- [Shell: the full-screen bar window and per-switch re-renders make every change a full-screen repaint](https://github.com/omacom/omarchy/issues/16997) — updated 2026-10-29T14:42:52Z
-- [Numeric keypad types nothing in the polkit dialog, lock screen and launcher (Qt ignores NumLock at startup)](https://github.com/omacom/omarchy/issues/8552) — updated 2026-10-29T14:33:45Z
+- [Editing /etc/kernel/cmdline has no effect — /etc/default/limine overrides it silently](https://github.com/omacom/omarchy/issues/17087) — updated 2026-10-30T14:36:35Z
+- [Add automatic T2 speaker DSP setup for MacBookPro15,1 installations](https://github.com/omacom/omarchy/issues/13589) — updated 2026-10-30T13:29:15Z
+- [Update sunshine package to v2026.906.222525 (security fixes + Linux/NVENC/Wayland improvements)](https://github.com/omacom/omarchy/issues/10836) — updated 2026-10-30T13:05:04Z
 
 ## microsoft/vscode
 
-- [Model picker is clipped to one row and cannot be scrolled](https://github.com/microsoft/vscode/issues/344008) — updated 2026-10-29T15:00:12Z
-- [[Meta] Feedback on granular control over Copilot changes](https://github.com/microsoft/vscode/issues/339363) — updated 2026-10-29T14:49:50Z
-- [✨ Make Tab Focus Visually Distinguishable for Easier Identification in VS Code ](https://github.com/microsoft/vscode/issues/341220) — updated 2026-10-29T14:40:18Z
+- [Agents window: sessions from worktrees of a bare repository are grouped under the bare git directory](https://github.com/microsoft/vscode/issues/345194) — updated 2026-10-30T14:59:59Z
+- [Renaming agent chats are not saved](https://github.com/microsoft/vscode/issues/344809) — updated 2026-10-30T14:52:31Z
+- [automations: text missing spaces](https://github.com/microsoft/vscode/issues/345192) — updated 2026-10-30T14:51:10Z
 
 ## google/googletest
 
@@ -40,15 +40,15 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Bug: onResize does not use SyntheticUIEvent (event.view and event.detail are undefined)](https://github.com/react/react/issues/38041) — updated 2026-10-29T15:13:40Z
-- [Bug: Cross-root context defaults become null when an external-store update cancels a stylesheet-suspended commit](https://github.com/react/react/issues/38040) — updated 2026-10-29T15:10:40Z
-- [Bug:  [Flight] File system stack trace filenames on Windows are not prefixed with file:// URI scheme](https://github.com/react/react/issues/38039) — updated 2026-10-29T15:05:29Z
+- [Bug: React 19.2 component performance track causes side-effects in mobx -> add way to disable?](https://github.com/react/react/issues/35475) — updated 2026-10-30T14:40:27Z
+- [[React 19] react-reconciler README is missing scheduler and form hooks](https://github.com/react/react/issues/28956) — updated 2026-10-30T14:10:06Z
+- [Bug: React Dev Tools injects its own js code (installHook.js) and then tries to download the source map if its own code](https://github.com/react/react/issues/32339) — updated 2026-10-30T13:09:18Z
 
 ## openai/openai-python
 
+- [Aborting a streaming Responses API request drops the function_call item, breaking the next turn with 400 "No tool call found for function call output"](https://github.com/openai/openai-python/issues/3561) — updated 2026-10-30T00:01:20Z
 - [AsyncStream leaves its SSE event iterators to the garbage collector after [DONE] or close()](https://github.com/openai/openai-python/issues/4174) — updated 2026-10-27T16:39:57Z
 - [`prompt_cache_options.ttl` is typed `Literal["30m"]` but the API accepts and returns `"12h"`; `cache_write_tokens_details` is untyped](https://github.com/openai/openai-python/issues/4156) — updated 2026-10-23T13:30:18Z
-- [fix(auth): SubjectTokenProviderError drops response and duplicates error message in workload identity providers](https://github.com/openai/openai-python/issues/4017) — updated 2026-10-19T21:46:38Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [XLA InternalError when compiling repeated tf.while_loop: Cannot find body function for While node](https://github.com/tensorflow/tensorflow/issues/122886) — updated 2026-10-29T14:16:52Z
-- [XLA tf.random.stateless_uniform produces different values from eager and graph for the same seed](https://github.com/tensorflow/tensorflow/issues/121243) — updated 2026-10-29T13:25:34Z
-- [overlap_and_add returns non-empty tensor for 0-frame inputs when frame_length > frame_step](https://github.com/tensorflow/tensorflow/issues/129484) — updated 2026-10-29T12:24:55Z
+- [XLA silently accepts out-of-bounds TensorArray.read after TensorArray.unstack, while eager execution raises OutOfRangeError](https://github.com/tensorflow/tensorflow/issues/112189) — updated 2026-10-30T11:27:31Z
+- [[Google Play Services - TFLite] GPU delegate unavailable on Android 17: tflite_gpu_dynamite no longer enabled (worked on Android 16, same Play services build)](https://github.com/tensorflow/tensorflow/issues/129748) — updated 2026-10-30T08:38:02Z
+- [tf.signal.hann_window/hamming_window ignore periodic=True for odd window lengths](https://github.com/tensorflow/tensorflow/issues/129743) — updated 2026-10-30T08:16:04Z
 
 ## rust-lang/rust
 
-- [Tracking issue for RFC 3681: Default field values](https://github.com/rust-lang/rust/issues/132162) — updated 2026-10-29T15:11:33Z
-- [Macos TLS not giving the struct requested alignment?](https://github.com/rust-lang/rust/issues/90959) — updated 2026-10-29T15:10:33Z
-- [Function with lifetime bounds using `const { try_as_dyn }` causes ICE](https://github.com/rust-lang/rust/issues/165118) — updated 2026-10-29T14:14:48Z
+- [Binary size regression on MSP430](https://github.com/rust-lang/rust/issues/165189) — updated 2026-10-30T15:01:58Z
+- [The PartialEq implementation for tuples isn't general enough](https://github.com/rust-lang/rust/issues/105092) — updated 2026-10-30T14:05:05Z
+- [MSVC cdylib: COM entry points such as `DllGetClassObject` are exported without `PRIVATE`, causing LNK4104](https://github.com/rust-lang/rust/issues/164755) — updated 2026-10-30T14:02:42Z
 
 ## nodejs/node
 
-- [Segmentation fault on riscv64 starting with v24.22.0 due to missing v8 commit](https://github.com/nodejs/node/issues/67066) — updated 2026-10-29T14:32:04Z
-- [Proposal: build official Node.js binaries for glibc-based Linux using PIE, enables ASLR, helps prevent RCE](https://github.com/nodejs/node/issues/66951) — updated 2026-10-29T14:00:03Z
-- [CVE-2026-111497: process.versions.brotli still reports 1.2.0 on v24.22.1 – is this expected?](https://github.com/nodejs/node/issues/67075) — updated 2026-10-29T13:38:07Z
+- [Support seamless cross-package development for monorepos](https://github.com/nodejs/node/issues/58626) — updated 2026-10-30T15:02:30Z
+- [darwin tarball binaries are signed but not notarized](https://github.com/nodejs/node/issues/67140) — updated 2026-10-30T14:35:06Z
+- [fs.cpSync() aborts the process when the destination is a dangling symlink](https://github.com/nodejs/node/issues/67141) — updated 2026-10-30T13:58:59Z
 
 ## golang/go
 
-- [internal/fuzz,cmd/go: fuzz coordinator quickly runs out of address space on linux/386 [1.27 backport]](https://github.com/golang/go/issues/82703) — updated 2026-10-29T15:07:31Z
-- [internal/fuzz,cmd/go: fuzz coordinator quickly runs out of address space on linux/386 [1.26 backport]](https://github.com/golang/go/issues/82702) — updated 2026-10-29T15:07:30Z
-- [LGTM](https://github.com/golang/go/issues/82707) — updated 2026-10-29T15:03:53Z
+- [proposal: go test should run analyzers specified by the workspace](https://github.com/golang/go/issues/82464) — updated 2026-10-30T14:58:52Z
+- [proposal: net: add BufferedPipe (buffered Pipe)](https://github.com/golang/go/issues/34502) — updated 2026-10-30T14:42:41Z
+- [x/crypto/ssh/agent: TestLockOpenSSHAgent failures [consistent failure]](https://github.com/golang/go/issues/82714) — updated 2026-10-30T14:11:38Z
 
 ## llvm/llvm-project
 
-- [[Hexagon] Missed optimization: 31 - ctlz(x) with a known-nonzero x is lowered as xor with the constant in a register instead of sub(#31,Rs)](https://github.com/llvm/llvm-project/issues/236764) — updated 2026-10-29T15:13:27Z
-- [[Hexagon] Missed optimization: `1 << cttz(~x)` is lowered as `(x + 1) & ~x` (3 instructions) instead of `ct1` + `lsl` (2)](https://github.com/llvm/llvm-project/issues/236765) — updated 2026-10-29T15:12:41Z
-- [[X86][WinEH] X86ReturnThunks and X86LoadValueInjectionRetHardening miss CATCHRET and CLEANUPRET funclet returns](https://github.com/llvm/llvm-project/issues/236793) — updated 2026-10-29T15:10:25Z
+- [[mlir][bug][OpenACC][fuzzer-found] symbol-privatize followed by remove-dead-values crashes in Operation::fold (constant_op_binder) on acc.data](https://github.com/llvm/llvm-project/issues/237126) — updated 2026-10-30T15:01:20Z
+- [[OpenMP][libomp] Dependent task created after its predecessor has completed can read stale data on AArch64](https://github.com/llvm/llvm-project/issues/237247) — updated 2026-10-30T15:00:04Z
+- [Incorrect formatting in presence of preprocessor directives surrounding a comment](https://github.com/llvm/llvm-project/issues/34624) — updated 2026-10-30T14:59:50Z
 
 ## mozilla/gecko-dev
 
