@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-10-31
+# Open-source issue digest — 2026-11-01
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,39 +10,39 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [TEST-19-CGROUP failures](https://github.com/systemd/systemd/issues/44545) — updated 2026-10-31T03:08:21Z
-- [[systemd-imds] curl-util: sd-event timer accuracy of 0 delays every transfer start by up to 250 ms](https://github.com/systemd/systemd/issues/44478) — updated 2026-10-30T23:34:15Z
-- [systemd-ukify and systemd-stub should support Type-1 hypervisor UKIs](https://github.com/systemd/systemd/issues/44535) — updated 2026-10-30T20:05:09Z
+- [Remote control identified as tablet pad](https://github.com/systemd/systemd/issues/40188) — updated 2026-11-01T06:53:56Z
+- [Provide `systemd-analyze blame` equivalent for system shutdown](https://github.com/systemd/systemd/issues/3371) — updated 2026-11-01T05:15:58Z
+- [Improve error message "Failed to start LLDP client: Address family not supported by protocol" on AF_PACKET missing](https://github.com/systemd/systemd/issues/44563) — updated 2026-10-31T23:00:34Z
 
 ## containerd/containerd
 
+- [unpack: no fsync in archive.Apply + exists-skip without content validation — storage write-back loss is committed into snapshots as 0-byte files](https://github.com/containerd/containerd/issues/14503) — updated 2026-10-31T20:16:34Z
 - [AppArmor: signal rule does not match stacked profile peer on kernel 6.17](https://github.com/containerd/containerd/issues/12886) — updated 2026-10-31T10:00:42Z
 - [CRI: containerd restart during StartContainer leaves a running container without IO, and its task delete then fails forever ("failed to drain init process ... io")](https://github.com/containerd/containerd/issues/14426) — updated 2026-10-31T02:43:52Z
-- [CRI/NRI: nil pointer dereference in criContainer.GetRlimits when container spec cannot be loaded](https://github.com/containerd/containerd/issues/14494) — updated 2026-10-30T13:26:19Z
 
 ## omacom/omarchy
 
-- [Bluetooth headset loses playback and microphone with repeated transport NotAuthorized errors; reconnect restores audio](https://github.com/omacom/omarchy/issues/17151) — updated 2026-10-31T13:55:32Z
-- [Make fcitx5 and CJK input engines opt-in instead of running by default](https://github.com/omacom/omarchy/issues/17148) — updated 2026-10-31T13:44:05Z
-- [Qt 6.12 Color fix (#14553) does not reach cloned or third-party plugins: cloned menu opens blank](https://github.com/omacom/omarchy/issues/14672) — updated 2026-10-31T12:26:14Z
+- [Commands and migrations that rewrite a config with `mv "$tmp" "$file"` replace a symlinked config with a plain copy](https://github.com/omacom/omarchy/issues/17054) — updated 2026-11-01T14:59:28Z
+- [ThinkPad T480s: stale/frozen lock screen for ~30 s after S3 resume](https://github.com/omacom/omarchy/issues/8447) — updated 2026-11-01T14:33:55Z
+- [omarchy.agents provider overrides in shell.json never take effect (settings always empty)](https://github.com/omacom/omarchy/issues/16729) — updated 2026-11-01T14:33:14Z
 
 ## microsoft/vscode
 
-- [Codex session works in Chat view but is missing from Agents window; “Chat: Open in Agents” does not open it](https://github.com/microsoft/vscode/issues/345359) — updated 2026-10-31T14:31:33Z
-- [Color picker dimisses on its own when mouse is outside while still dragging](https://github.com/microsoft/vscode/issues/327430) — updated 2026-10-31T14:22:56Z
-- [[security] GitHib Copilot cannot be stopped or canceled](https://github.com/microsoft/vscode/issues/325432) — updated 2026-10-31T14:22:04Z
+- [Agent chat switches to Opus 5 on its own](https://github.com/microsoft/vscode/issues/345430) — updated 2026-11-01T14:44:01Z
+- [MCP: optional content pinning for package-based servers in `mcp.json`](https://github.com/microsoft/vscode/issues/345409) — updated 2026-11-01T14:04:50Z
+- [Sync ~/.copilot/skills via Settings Sync](https://github.com/microsoft/vscode/issues/296414) — updated 2026-11-01T13:54:07Z
 
 ## google/googletest
 
+- [[Bug]: 2 SCOPED_TRACE calls on the same line results in a `-Wshadow` warning](https://github.com/google/googletest/issues/5143) — updated 2026-10-31T19:48:28Z
 - [[Bug]: Printing a char32_t or char16_t leaves the stream in hex mode](https://github.com/google/googletest/issues/5133) — updated 2026-10-31T11:10:29Z
 - [[Bug]: Premature-exit marker I/O failures have missing or misleading diagnostics](https://github.com/google/googletest/issues/5118) — updated 2026-10-25T07:41:01Z
-- [[Bug]: GoogleMock Python tests are never registered with CTest (regression of #4124)](https://github.com/google/googletest/issues/5070) — updated 2026-10-20T18:04:17Z
 
 ## facebook/react
 
-- [[Compiler Bug]: Incorrect closure hoisting causes runtime error](https://github.com/react/react/issues/34901) — updated 2026-10-31T08:40:59Z
-- [Bug: Reordering keyed inputs inside a ShadowRoot loses focus](https://github.com/react/react/issues/38081) — updated 2026-10-31T05:01:07Z
-- [[Compiler Bug]: react-hooks/immutability false positive on ref assignment](https://github.com/react/react/issues/34955) — updated 2026-10-31T00:18:39Z
+- [[Compiler Bug]: react-hooks/refs false positive on ref forwarding](https://github.com/react/react/issues/34954) — updated 2026-11-01T14:54:27Z
+- ["NotFoundError: Failed to execute 'removeChild' on 'Node'" when using React.Fragment <></> with Chrome extension which does not modify the DOM tree below the root div of the React app](https://github.com/react/react/issues/17256) — updated 2026-11-01T09:46:27Z
+- [[Compiler Bug]:](https://github.com/react/react/issues/38086) — updated 2026-10-31T21:17:27Z
 
 ## openai/openai-python
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [Inconsistent Behavior of tf.image.resize When Using antialias=True with Integer Scaling Factors](https://github.com/tensorflow/tensorflow/issues/101265) — updated 2026-10-31T13:11:20Z
-- [tf.image.resize_with_pad pads a row/column of zeros due to float32 rounding (e.g. 512x512 -> 224x224)](https://github.com/tensorflow/tensorflow/issues/129783) — updated 2026-10-31T09:23:53Z
-- [tf.signal.fftshift and ifftshift fail with TypeError for unknown rank inputs](https://github.com/tensorflow/tensorflow/issues/129781) — updated 2026-10-31T08:00:59Z
+- [[XLA][CPU] Integer `tf.pow` silently accepts negative exponents and returns zeros instead of raising](https://github.com/tensorflow/tensorflow/issues/129802) — updated 2026-11-01T14:14:55Z
+- [tf.image.draw_bounding_boxes raises TypeError when colors argument is omitted in TF 2](https://github.com/tensorflow/tensorflow/issues/129799) — updated 2026-11-01T07:48:54Z
+- [tf.io.gfile.listdir is inconsistent between GCS dir and local dir - adds trailing slashes](https://github.com/tensorflow/tensorflow/issues/39167) — updated 2026-11-01T05:21:17Z
 
 ## rust-lang/rust
 
-- [Tracking Issue for maybe_uninit_from_ref](https://github.com/rust-lang/rust/issues/165213) — updated 2026-10-31T13:19:30Z
-- [Tracking issue for release notes of #160186: Implement `Fn` traits for safe functions of any ABI](https://github.com/rust-lang/rust/issues/165232) — updated 2026-10-31T13:18:43Z
-- [Feature request: Function to join thread with timeout ](https://github.com/rust-lang/rust/issues/126972) — updated 2026-10-31T13:05:13Z
+- [error: rustc interrupted by SIGSEGV, printing backtrace](https://github.com/rust-lang/rust/issues/165278) — updated 2026-11-01T15:06:06Z
+- [Tracking issue for documenting individual built-in inert attributes in the standard library using `#[doc(attribute = "…")]`](https://github.com/rust-lang/rust/issues/157604) — updated 2026-11-01T14:59:57Z
+- [#[used(linker)] does not prevent section removal on x86_64-pc-windows-gnu](https://github.com/rust-lang/rust/issues/145362) — updated 2026-11-01T13:55:38Z
 
 ## nodejs/node
 
-- [Documentation for 27.0.0-alpha.0.0.0 hidden](https://github.com/nodejs/node/issues/67161) — updated 2026-10-31T14:31:44Z
-- [test_runner: source-mapped coverage marks an unexecuted return as covered](https://github.com/nodejs/node/issues/67099) — updated 2026-10-31T14:02:08Z
-- [Node process hangs during `import('process')` if a sibling process reads from `stdin` and `stdin` is piped to a parent process](https://github.com/nodejs/node/issues/56537) — updated 2026-10-31T13:10:23Z
+- [Engine produces a misleading error when encountering certain class shapes](https://github.com/nodejs/node/issues/67180) — updated 2026-11-01T12:58:06Z
+- [http2: content-encoding is incorrectly listed in kSingleValueHeaders](https://github.com/nodejs/node/issues/67151) — updated 2026-11-01T12:24:11Z
+- [fs.opendir() and fs.promises.opendir() crash the process on an invalid bufferSize](https://github.com/nodejs/node/issues/67182) — updated 2026-11-01T11:59:35Z
 
 ## golang/go
 
-- [net/http: server sends 1xx responses to HTTP/1.0 clients](https://github.com/golang/go/issues/82743) — updated 2026-10-31T14:07:51Z
-- [all: test failures on `linux/s390x`](https://github.com/golang/go/issues/58901) — updated 2026-10-31T13:34:07Z
-- [proposal: cmd/vet, x/tools/go/analysis/passes/errorsastype: detect misuse of `AsType` in `else if`](https://github.com/golang/go/issues/78889) — updated 2026-10-31T13:31:52Z
+- [x/tools/internal/gocommand: TestCancel_ProcessGroup failures](https://github.com/golang/go/issues/82088) — updated 2026-11-01T13:13:35Z
+- [x/tools/gopls: `go clean` fails with ENOTEMPTY (openbsd) causing gopls test flakes](https://github.com/golang/go/issues/68087) — updated 2026-11-01T13:13:34Z
+- [all: unrecognized failures on `plan9/amd64`](https://github.com/golang/go/issues/60256) — updated 2026-11-01T13:13:33Z
 
 ## llvm/llvm-project
 
-- [[X86][LV] failed to eliminate integer division by a loop invariant](https://github.com/llvm/llvm-project/issues/237569) — updated 2026-10-31T14:29:19Z
-- [Crash when evaluating folds involving lambdas and variadic templates](https://github.com/llvm/llvm-project/issues/99877) — updated 2026-10-31T14:23:43Z
-- [`clang-format` does not format RawString text protos correctly when there is TextProto specific config.](https://github.com/llvm/llvm-project/issues/62871) — updated 2026-10-31T14:18:44Z
+- [[mlir][bug][fuzzer-found] --normalize-memrefs crashes when erasing a memref.cast user during its walk](https://github.com/llvm/llvm-project/issues/237736) — updated 2026-11-01T14:52:52Z
+- [Do you still need commit access?](https://github.com/llvm/llvm-project/issues/237695) — updated 2026-11-01T14:39:29Z
+- [[AArch64] Truncating store through an addrspace(271) (`__ptr32`) pointer is emitted at the full width of the untruncated value](https://github.com/llvm/llvm-project/issues/237687) — updated 2026-11-01T14:23:45Z
 
 ## mozilla/gecko-dev
 
