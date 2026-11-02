@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-01
+# Open-source issue digest — 2026-11-02
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [Remote control identified as tablet pad](https://github.com/systemd/systemd/issues/40188) — updated 2026-11-01T06:53:56Z
-- [Provide `systemd-analyze blame` equivalent for system shutdown](https://github.com/systemd/systemd/issues/3371) — updated 2026-11-01T05:15:58Z
-- [Improve error message "Failed to start LLDP client: Address family not supported by protocol" on AF_PACKET missing](https://github.com/systemd/systemd/issues/44563) — updated 2026-10-31T23:00:34Z
+- [networkd: IP masquerading with unclear error log message](https://github.com/systemd/systemd/issues/44594) — updated 2026-11-02T18:17:42Z
+- [systemd.imds.network=locked breaks IMDS access when rp_filter is on (systemd's default)](https://github.com/systemd/systemd/issues/44602) — updated 2026-11-02T15:43:44Z
+- [networkd: reconfiguring a link keeps NDisc state that the new .network disables (SLAAC addresses, Redirect routes, RA MTU)](https://github.com/systemd/systemd/issues/44604) — updated 2026-11-02T15:31:23Z
 
 ## containerd/containerd
 
-- [unpack: no fsync in archive.Apply + exists-skip without content validation — storage write-back loss is committed into snapshots as 0-byte files](https://github.com/containerd/containerd/issues/14503) — updated 2026-10-31T20:16:34Z
-- [AppArmor: signal rule does not match stacked profile peer on kernel 6.17](https://github.com/containerd/containerd/issues/12886) — updated 2026-10-31T10:00:42Z
-- [CRI: containerd restart during StartContainer leaves a running container without IO, and its task delete then fails forever ("failed to drain init process ... io")](https://github.com/containerd/containerd/issues/14426) — updated 2026-10-31T02:43:52Z
+- [unpack: no fsync in archive.Apply + exists-skip without content validation — storage write-back loss is committed into snapshots as 0-byte files](https://github.com/containerd/containerd/issues/14503) — updated 2026-11-02T14:11:06Z
+- [Image snapshotter needs image pull credentials](https://github.com/containerd/containerd/issues/14298) — updated 2026-11-02T11:48:02Z
+- [CRI: ListPodSandboxStats fails for a sandbox whose cgroup_parent is a systemd slice name, and takes every other sandbox with it](https://github.com/containerd/containerd/issues/14508) — updated 2026-11-02T11:45:50Z
 
 ## omacom/omarchy
 
-- [Commands and migrations that rewrite a config with `mv "$tmp" "$file"` replace a symlinked config with a plain copy](https://github.com/omacom/omarchy/issues/17054) — updated 2026-11-01T14:59:28Z
-- [ThinkPad T480s: stale/frozen lock screen for ~30 s after S3 resume](https://github.com/omacom/omarchy/issues/8447) — updated 2026-11-01T14:33:55Z
-- [omarchy.agents provider overrides in shell.json never take effect (settings always empty)](https://github.com/omacom/omarchy/issues/16729) — updated 2026-11-01T14:33:14Z
+- [edge: omarchy/hyprland 0.57.0-2 blocks update after Arch moved to aquamarine 0.16.0 / hyprgraphics 0.6.0](https://github.com/omacom/omarchy/issues/17368) — updated 2026-11-02T18:00:30Z
+- [omarchy-restart-opencode misses mise-installed opencode.exe, and would signal the server if it matched](https://github.com/omacom/omarchy/issues/17374) — updated 2026-11-02T17:54:55Z
+- [Boot splash and disk-unlock prompt show sideways on a rotated monitor](https://github.com/omacom/omarchy/issues/17372) — updated 2026-11-02T17:38:56Z
 
 ## microsoft/vscode
 
-- [Agent chat switches to Opus 5 on its own](https://github.com/microsoft/vscode/issues/345430) — updated 2026-11-01T14:44:01Z
-- [MCP: optional content pinning for package-based servers in `mcp.json`](https://github.com/microsoft/vscode/issues/345409) — updated 2026-11-01T14:04:50Z
-- [Sync ~/.copilot/skills via Settings Sync](https://github.com/microsoft/vscode/issues/296414) — updated 2026-11-01T13:54:07Z
+- [Agent host: "Allow Fetching <host>" drops the port, so approving a URL with a port does not cover it](https://github.com/microsoft/vscode/issues/345610) — updated 2026-11-02T18:19:01Z
+- [Copilot cannot recover when a failing PermissionRequest hook blocks all tools](https://github.com/microsoft/vscode/issues/345589) — updated 2026-11-02T18:17:39Z
+- [Hidden subagent sessions appear in Sessions after a VS Code restart](https://github.com/microsoft/vscode/issues/344329) — updated 2026-11-02T18:17:37Z
 
 ## google/googletest
 
@@ -40,9 +40,9 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [[Compiler Bug]: react-hooks/refs false positive on ref forwarding](https://github.com/react/react/issues/34954) — updated 2026-11-01T14:54:27Z
-- ["NotFoundError: Failed to execute 'removeChild' on 'Node'" when using React.Fragment <></> with Chrome extension which does not modify the DOM tree below the root div of the React app](https://github.com/react/react/issues/17256) — updated 2026-11-01T09:46:27Z
-- [[Compiler Bug]:](https://github.com/react/react/issues/38086) — updated 2026-10-31T21:17:27Z
+- [Doc: Update stale README docs](https://github.com/react/react/issues/36549) — updated 2026-11-02T15:08:04Z
+- [[Compiler Bug]: Array spreads lose required catch handlers](https://github.com/react/react/issues/38093) — updated 2026-11-02T11:16:10Z
+- [[React 19] Using spread with binary conditional in JSX causes error in dev env for case of using legacy JSX transform](https://github.com/react/react/issues/29902) — updated 2026-11-02T08:12:27Z
 
 ## openai/openai-python
 
@@ -52,9 +52,9 @@ _No qualifying open issues._
 
 ## nasa/openmct
 
+- [Add a "Copy Selected (Tab)" and "Copy Selected (CSV)" right click option for selected rows.](https://github.com/nasa/openmct/issues/8458) — updated 2026-11-01T22:50:18Z
 - [Re-implement plan execution monitoring via CouchDB using a provider via Plan API](https://github.com/nasa/openmct/issues/8440) — updated 2026-10-31T13:29:22Z
 - [raf utility remains locked after callback throws](https://github.com/nasa/openmct/issues/8456) — updated 2026-10-22T10:58:52Z
-- [[Documentation] API.md documents setClock(clock, clockOffsets), but setClock ignores the offsets](https://github.com/nasa/openmct/issues/8455) — updated 2026-10-16T21:35:07Z
 
 ## apache/kafka
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [[XLA][CPU] Integer `tf.pow` silently accepts negative exponents and returns zeros instead of raising](https://github.com/tensorflow/tensorflow/issues/129802) — updated 2026-11-01T14:14:55Z
-- [tf.image.draw_bounding_boxes raises TypeError when colors argument is omitted in TF 2](https://github.com/tensorflow/tensorflow/issues/129799) — updated 2026-11-01T07:48:54Z
-- [tf.io.gfile.listdir is inconsistent between GCS dir and local dir - adds trailing slashes](https://github.com/tensorflow/tensorflow/issues/39167) — updated 2026-11-01T05:21:17Z
+- [tf.reduce_sum over tf.broadcast_to returns a wrong, non-deterministic result under XLA CPU (regression from 2.21.0)](https://github.com/tensorflow/tensorflow/issues/126812) — updated 2026-11-02T16:46:12Z
+- [ScatterNd: int32 overflow in accumulated output index (CPU + GPU) — heap/device OOB write](https://github.com/tensorflow/tensorflow/issues/127164) — updated 2026-11-02T16:26:29Z
+- [`tf.linalg.eigvalsh` / `eigh` returns wrong results for complex input under XLA](https://github.com/tensorflow/tensorflow/issues/117864) — updated 2026-11-02T15:40:29Z
 
 ## rust-lang/rust
 
-- [error: rustc interrupted by SIGSEGV, printing backtrace](https://github.com/rust-lang/rust/issues/165278) — updated 2026-11-01T15:06:06Z
-- [Tracking issue for documenting individual built-in inert attributes in the standard library using `#[doc(attribute = "…")]`](https://github.com/rust-lang/rust/issues/157604) — updated 2026-11-01T14:59:57Z
-- [#[used(linker)] does not prevent section removal on x86_64-pc-windows-gnu](https://github.com/rust-lang/rust/issues/145362) — updated 2026-11-01T13:55:38Z
+- [Tracking issue for release notes of #161253: Implement `AsMut<T>` and `AsRef<T>` for `!`.](https://github.com/rust-lang/rust/issues/164661) — updated 2026-11-02T17:56:27Z
+- [Dependency Dashboard](https://github.com/rust-lang/rust/issues/134129) — updated 2026-11-02T17:33:21Z
+- [Tracking issue for release notes of #158368: std: make `Instant` a signed `Duration` on all platforms](https://github.com/rust-lang/rust/issues/165367) — updated 2026-11-02T17:28:20Z
 
 ## nodejs/node
 
-- [Engine produces a misleading error when encountering certain class shapes](https://github.com/nodejs/node/issues/67180) — updated 2026-11-01T12:58:06Z
-- [http2: content-encoding is incorrectly listed in kSingleValueHeaders](https://github.com/nodejs/node/issues/67151) — updated 2026-11-01T12:24:11Z
-- [fs.opendir() and fs.promises.opendir() crash the process on an invalid bufferSize](https://github.com/nodejs/node/issues/67182) — updated 2026-11-01T11:59:35Z
+- [fs: rmSync() deletes a symlinked directory's contents then throws ENOTDIR when the path has a trailing slash](https://github.com/nodejs/node/issues/67186) — updated 2026-11-02T18:11:14Z
+- [webcrypto: valid AES-GCM decrypt aborts (errors->Empty()) after tls.connect() with an undeserializable session (v24.x)](https://github.com/nodejs/node/issues/67203) — updated 2026-11-02T17:20:47Z
+- [http2: session.destroy() drops final GOAWAY when a write is in flight](https://github.com/nodejs/node/issues/66832) — updated 2026-11-02T16:13:29Z
 
 ## golang/go
 
-- [x/tools/internal/gocommand: TestCancel_ProcessGroup failures](https://github.com/golang/go/issues/82088) — updated 2026-11-01T13:13:35Z
-- [x/tools/gopls: `go clean` fails with ENOTEMPTY (openbsd) causing gopls test flakes](https://github.com/golang/go/issues/68087) — updated 2026-11-01T13:13:34Z
-- [all: unrecognized failures on `plan9/amd64`](https://github.com/golang/go/issues/60256) — updated 2026-11-01T13:13:33Z
+- [x/tools/go/analysis: gob-encoding of Facts is inherently non-deterministic](https://github.com/golang/go/issues/82778) — updated 2026-11-02T18:15:48Z
+- [cmd/go: panic when requesting go doc for an installed program name](https://github.com/golang/go/issues/82510) — updated 2026-11-02T18:15:42Z
+- [cmd/compile: arm64 constant-flag CSINV folds to boolean Not (^y becomes y ^ 1)](https://github.com/golang/go/issues/82777) — updated 2026-11-02T18:12:58Z
 
 ## llvm/llvm-project
 
-- [[mlir][bug][fuzzer-found] --normalize-memrefs crashes when erasing a memref.cast user during its walk](https://github.com/llvm/llvm-project/issues/237736) — updated 2026-11-01T14:52:52Z
-- [Do you still need commit access?](https://github.com/llvm/llvm-project/issues/237695) — updated 2026-11-01T14:39:29Z
-- [[AArch64] Truncating store through an addrspace(271) (`__ptr32`) pointer is emitted at the full width of the untruncated value](https://github.com/llvm/llvm-project/issues/237687) — updated 2026-11-01T14:23:45Z
+- [[HLSL][DirectX][SPIRV] Implement `GetSamplePosition` on `Texture2DMS` and `Texture2DMSArray`](https://github.com/llvm/llvm-project/issues/231780) — updated 2026-11-02T18:19:09Z
+- [[X86] Code-layout-dependent persistent branch mispredictions on Intel (Skylake through Redwood Cove): proposal to pad colliding branches](https://github.com/llvm/llvm-project/issues/238011) — updated 2026-11-02T18:17:15Z
+- [[clang] Assertion `Tok.isNot(tok::kw_decltype) && Tok.isNot(tok::kw___super)' failed with -fms-compatibility](https://github.com/llvm/llvm-project/issues/237951) — updated 2026-11-02T18:05:25Z
 
 ## mozilla/gecko-dev
 
