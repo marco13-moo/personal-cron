@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-03
+# Open-source issue digest — 2026-11-04
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [Easily Reduce maintenance burden. Un-vendor data in hwdb?](https://github.com/systemd/systemd/issues/44626) — updated 2026-11-03T16:06:13Z
-- [systemd.imds.network=locked breaks IMDS access when rp_filter is on (systemd's default)](https://github.com/systemd/systemd/issues/44602) — updated 2026-11-03T14:25:45Z
-- [systemd-detect-virt doesn't detect Apple Silicon VirtualBox VMs](https://github.com/systemd/systemd/issues/37204) — updated 2026-11-03T12:59:25Z
+- [Honor DelegateSubgroup for PIDs in StartTransientUnit](https://github.com/systemd/systemd/issues/44639) — updated 2026-11-04T16:05:53Z
+- [logind: BootLoaderEntries and Manager GetAll fail on ostree systems where /boot/loader is a symlink](https://github.com/systemd/systemd/issues/44636) — updated 2026-11-04T15:23:32Z
+- [pcrlock is propagated into host via creds logic. creds are measured into PCR12, hence pcrlock cannot be used to lock PCR12](https://github.com/systemd/systemd/issues/33546) — updated 2026-11-04T15:00:52Z
 
 ## containerd/containerd
 
-- [Image snapshotter needs image pull credentials](https://github.com/containerd/containerd/issues/14298) — updated 2026-11-03T07:56:05Z
-- [unpack: no fsync in archive.Apply + exists-skip without content validation — storage write-back loss is committed into snapshots as 0-byte files](https://github.com/containerd/containerd/issues/14503) — updated 2026-11-02T14:11:06Z
-- [CRI: ListPodSandboxStats fails for a sandbox whose cgroup_parent is a systemd slice name, and takes every other sandbox with it](https://github.com/containerd/containerd/issues/14508) — updated 2026-11-02T11:45:50Z
+- [Default AppArmor profile denies signals inside a container when the label is stacked (`//&unconfined`, Ubuntu apparmor_restrict_unprivileged_unconfined=1)](https://github.com/containerd/containerd/issues/14485) — updated 2026-11-04T10:54:10Z
+- [GC scheduler can miss deletion notifications during backend cleanup](https://github.com/containerd/containerd/issues/14461) — updated 2026-11-04T03:43:59Z
+- [[SIG-Node]: KEP-5714: cgroup namespaces](https://github.com/containerd/containerd/issues/14267) — updated 2026-11-04T02:18:09Z
 
 ## omacom/omarchy
 
-- [Hyprland 0.57.0: compositor dies 5s after idle lock (DPMS off), restarts in --safe-mode without config](https://github.com/omacom/omarchy/issues/17045) — updated 2026-11-03T16:10:51Z
-- [Lock plugin's `locked` flag stays stuck true after unlocking, blocking every later lock](https://github.com/omacom/omarchy/issues/17461) — updated 2026-11-03T15:38:52Z
-- [Acer Aspire 16 AI (Snapdragon X Plus / A16-11M): LIVE works with forced DT, installed system still emergency / unusable (progress report)](https://github.com/omacom/omarchy/issues/17287) — updated 2026-11-03T15:33:22Z
+- [Some ways a clone leaves skip its cleanup: its built-in stays switched off, or comes back beside another clone](https://github.com/omacom/omarchy/issues/17577) — updated 2026-11-04T16:18:43Z
+- [Home dictation stops after an update replaces Hex](https://github.com/omacom/omarchy/issues/17570) — updated 2026-11-04T15:57:07Z
+- [File manager ‘Set as Background’ does not change wallpaper](https://github.com/omacom/omarchy/issues/17568) — updated 2026-11-04T15:49:27Z
 
 ## microsoft/vscode
 
-- [Hide minimap when holding hotkey for go-to-definition by mouse](https://github.com/microsoft/vscode/issues/316623) — updated 2026-11-03T16:12:48Z
-- [Subagents only receive file-editing tools when their model family matches the parent session's model](https://github.com/microsoft/vscode/issues/345844) — updated 2026-11-03T16:11:36Z
-- [Agents window: hidden Agent/Ask selector doesn't switch modes, and cross-session context appears incomplete](https://github.com/microsoft/vscode/issues/345842) — updated 2026-11-03T16:07:55Z
+- [Agent Host subagent stalls on a path permission request with no visible approval prompt](https://github.com/microsoft/vscode/issues/346035) — updated 2026-11-04T16:14:47Z
+- [Compare Models: Support grouping comparison sessions into collections](https://github.com/microsoft/vscode/issues/346059) — updated 2026-11-04T16:06:48Z
+- [Compare Models: Make results, trajectories, and judge evaluations accessible to agents](https://github.com/microsoft/vscode/issues/346058) — updated 2026-11-04T16:06:47Z
 
 ## google/googletest
 
@@ -40,15 +40,15 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Bug:](https://github.com/react/react/issues/38103) — updated 2026-11-03T15:03:02Z
-- [[Compiler Bug]: Coverage report shows missing branch coverage](https://github.com/react/react/issues/32950) — updated 2026-11-03T13:24:28Z
-- [[Compiler Bug]: Rust compiler ignores the isDev option it receives, so dev builds get no Fast Refresh cache reset](https://github.com/react/react/issues/38076) — updated 2026-11-03T12:09:28Z
+- [Bug: state changes inside forwardRef change the props object reference](https://github.com/react/react/issues/35028) — updated 2026-11-04T14:08:46Z
+- [[Flight] Dev-build async debug tracking (pendingOperations) grows without bound in a long-lived Node server](https://github.com/react/react/issues/38106) — updated 2026-11-03T22:01:22Z
+- [[Flight] Hooks throw in components yielded from an async iterable: no dispatcher is set](https://github.com/react/react/issues/38105) — updated 2026-11-03T20:16:59Z
 
 ## openai/openai-python
 
+- [Moderation Endpoint Schema Mismatch for illicit and illicit_violent fields](https://github.com/openai/openai-python/issues/1786) — updated 2026-11-04T10:59:59Z
 - [parse_chat_completion drops custom tool calls](https://github.com/openai/openai-python/issues/4235) — updated 2026-11-03T08:09:27Z
 - [test(auth): cover HTTP 500 status and RFC 7231 Retry-After seconds headers in _retry_delay](https://github.com/openai/openai-python/issues/4234) — updated 2026-11-03T05:26:33Z
-- [Aborting a streaming Responses API request drops the function_call item, breaking the next turn with 400 "No tool call found for function call output"](https://github.com/openai/openai-python/issues/3561) — updated 2026-10-30T00:01:20Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [tf.sparse.transpose fails on SparseTensorValue and non-SparseTensor inputs](https://github.com/tensorflow/tensorflow/issues/129897) — updated 2026-11-03T15:46:44Z
-- [tf.math.lgamma returns inaccurate result for smallest positive float32 subnormal](https://github.com/tensorflow/tensorflow/issues/121499) — updated 2026-11-03T15:40:00Z
-- [Fatal crash in `tf.raw_ops.TensorScatterMax` with malformed indices](https://github.com/tensorflow/tensorflow/issues/94134) — updated 2026-11-03T15:38:01Z
+- [XLA InternalError when compiling repeated tf.while_loop: Cannot find body function for While node](https://github.com/tensorflow/tensorflow/issues/122886) — updated 2026-11-04T15:43:50Z
+- [XLA Compilation Fails Due to Incorrect tf.math.softsign Function Call with Extra Argument](https://github.com/tensorflow/tensorflow/issues/111670) — updated 2026-11-04T11:53:36Z
+- [`tf.boolean_mask` under `jit_compile=True` crashes XLA with an internal `RET_CHECK failure (dynamic_padder.cc:2026)` instead of a clean error; eager works](https://github.com/tensorflow/tensorflow/issues/128007) — updated 2026-11-04T11:42:48Z
 
 ## rust-lang/rust
 
-- [rustdoc: Docs of trait impl on trait's page cannot be collapsed](https://github.com/rust-lang/rust/issues/165383) — updated 2026-11-03T16:11:22Z
-- [Tracking Issue for titlecase handling in `core::char`](https://github.com/rust-lang/rust/issues/153892) — updated 2026-11-03T15:25:35Z
-- [Calls in compiler_builtins can be silently replaced by `abort()`](https://github.com/rust-lang/rust/issues/165399) — updated 2026-11-03T15:23:18Z
+- [A `!`-typed constant in a zero-length array `[C; 0]` is never evaluated, but type checking treats it as diverging, so safe code executes `unreachable`](https://github.com/rust-lang/rust/issues/165323) — updated 2026-11-04T16:14:27Z
+- [Dependency Dashboard](https://github.com/rust-lang/rust/issues/134129) — updated 2026-11-04T16:07:33Z
+- [Calls in compiler_builtins can be silently replaced by `abort()`](https://github.com/rust-lang/rust/issues/165399) — updated 2026-11-04T16:01:24Z
 
 ## nodejs/node
 
-- [Proposal: automate the one-PR-at-a-time guideline for first-time contributors](https://github.com/nodejs/node/issues/67199) — updated 2026-11-03T16:13:50Z
-- [Building fails on FreeBSD/OpenBSD when w^x is enabled](https://github.com/nodejs/node/issues/40467) — updated 2026-11-03T16:12:54Z
-- [Outdated definition for `latest` alias under https://nodejs.org/download/release](https://github.com/nodejs/node/issues/67224) — updated 2026-11-03T15:31:12Z
+- [RegExp modifier groups `(?i:…)` / `(?-i:…)` can get the wrong case sensitivity (fixed in V8 15.4, please cherry-pick 4cc98031)](https://github.com/nodejs/node/issues/66277) — updated 2026-11-04T13:38:54Z
+- [Outdated definition for `latest` alias under https://nodejs.org/download/release](https://github.com/nodejs/node/issues/67224) — updated 2026-11-04T13:35:07Z
+- [VFS breaking node:worker_modules](https://github.com/nodejs/node/issues/67223) — updated 2026-11-04T12:33:18Z
 
 ## golang/go
 
-- [cmd/compile: amd64/386 miscompile (comparison sharing flags with an SBB carry mask reads them clobbered)](https://github.com/golang/go/issues/82825) — updated 2026-11-03T16:02:07Z
-- [go/website: update outdated Go version in Linux installation command](https://github.com/golang/go/issues/82822) — updated 2026-11-03T15:53:42Z
-- [x/crypto/ssh/agent: TestSetupForwardAgent failures [consistent failure]](https://github.com/golang/go/issues/82713) — updated 2026-11-03T15:48:35Z
+- [x/tools/gopls: feature: "move declaration" refactoring](https://github.com/golang/go/issues/70583) — updated 2026-11-04T16:06:57Z
+- [all: various watchflakes failures on *-linux-mips64le builders](https://github.com/golang/go/issues/82681) — updated 2026-11-04T15:48:35Z
+- [x/net/ipv4: TestPacketConnReadWriteUnicastUDP failures [consistent failure]](https://github.com/golang/go/issues/82639) — updated 2026-11-04T15:48:34Z
 
 ## llvm/llvm-project
 
-- [[AMDGPU] Better global addressing with large immediate offset](https://github.com/llvm/llvm-project/issues/238424) — updated 2026-11-03T16:14:13Z
-- [[llvm-objcopy][MachO] arm64_32: plain copy crashes with SIGSEGV](https://github.com/llvm/llvm-project/issues/238273) — updated 2026-11-03T16:05:14Z
-- [Lambda in a default argument shouldn't be able to use the function parameters](https://github.com/llvm/llvm-project/issues/233811) — updated 2026-11-03T16:04:16Z
+- [Unprofitable ctpop vectorization](https://github.com/llvm/llvm-project/issues/57476) — updated 2026-11-04T16:18:58Z
+- [Failure to vectorize simple loop to AVX vpaddb](https://github.com/llvm/llvm-project/issues/35707) — updated 2026-11-04T16:18:17Z
+- [Loop Vectorizer does not handle masked gather](https://github.com/llvm/llvm-project/issues/35227) — updated 2026-11-04T16:18:07Z
 
 ## mozilla/gecko-dev
 
