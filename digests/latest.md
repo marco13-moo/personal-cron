@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-04
+# Open-source issue digest — 2026-11-05
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [Honor DelegateSubgroup for PIDs in StartTransientUnit](https://github.com/systemd/systemd/issues/44639) — updated 2026-11-04T16:05:53Z
-- [logind: BootLoaderEntries and Manager GetAll fail on ostree systems where /boot/loader is a symlink](https://github.com/systemd/systemd/issues/44636) — updated 2026-11-04T15:23:32Z
-- [pcrlock is propagated into host via creds logic. creds are measured into PCR12, hence pcrlock cannot be used to lock PCR12](https://github.com/systemd/systemd/issues/33546) — updated 2026-11-04T15:00:52Z
+- [Add io.systemd.SysUpdate.Install Varlink method](https://github.com/systemd/systemd/issues/44672) — updated 2026-11-05T15:48:11Z
+- [Timer stuck in "active (elapsed)" state and doesn't trigger anymore](https://github.com/systemd/systemd/issues/44667) — updated 2026-11-05T14:47:05Z
+- [logind: BootLoaderEntries and Manager GetAll fail on ostree systems where /boot/loader is a symlink](https://github.com/systemd/systemd/issues/44636) — updated 2026-11-05T14:38:46Z
 
 ## containerd/containerd
 
-- [Default AppArmor profile denies signals inside a container when the label is stacked (`//&unconfined`, Ubuntu apparmor_restrict_unprivileged_unconfined=1)](https://github.com/containerd/containerd/issues/14485) — updated 2026-11-04T10:54:10Z
-- [GC scheduler can miss deletion notifications during backend cleanup](https://github.com/containerd/containerd/issues/14461) — updated 2026-11-04T03:43:59Z
-- [[SIG-Node]: KEP-5714: cgroup namespaces](https://github.com/containerd/containerd/issues/14267) — updated 2026-11-04T02:18:09Z
+- [fsview: ctr run fails on overlay data-only lower layers instead of falling back to a mount](https://github.com/containerd/containerd/issues/14520) — updated 2026-11-05T11:53:57Z
+- [[diff/applier plugin] support sync-fs for data persistence](https://github.com/containerd/containerd/issues/9497) — updated 2026-11-05T08:55:44Z
+- [diff service `sync_fs` is not applied to transfer-service unpacks (CRI's default pull path)](https://github.com/containerd/containerd/issues/14336) — updated 2026-11-05T08:52:21Z
 
 ## omacom/omarchy
 
-- [Some ways a clone leaves skip its cleanup: its built-in stays switched off, or comes back beside another clone](https://github.com/omacom/omarchy/issues/17577) — updated 2026-11-04T16:18:43Z
-- [Home dictation stops after an update replaces Hex](https://github.com/omacom/omarchy/issues/17570) — updated 2026-11-04T15:57:07Z
-- [File manager ‘Set as Background’ does not change wallpaper](https://github.com/omacom/omarchy/issues/17568) — updated 2026-11-04T15:49:27Z
+- [Bluetooth panel: support PIN / passkey entry when pairing](https://github.com/omacom/omarchy/issues/17769) — updated 2026-11-05T16:25:34Z
+- [Limine checksum-mismatch panic after `omarchy update`: migration `1791898365` rewrites `/boot/limine.conf` without re-enrolling it](https://github.com/omacom/omarchy/issues/15524) — updated 2026-11-05T16:22:27Z
+- [linux-omarchy 7.2.8-9: webcam broken on XPS 13 9340 (IPU6), HIMX1092 ipu-bridge entry blocks ISYS notifier without an hm1092 driver](https://github.com/omacom/omarchy/issues/15831) — updated 2026-11-05T16:21:59Z
 
 ## microsoft/vscode
 
-- [Agent Host subagent stalls on a path permission request with no visible approval prompt](https://github.com/microsoft/vscode/issues/346035) — updated 2026-11-04T16:14:47Z
-- [Compare Models: Support grouping comparison sessions into collections](https://github.com/microsoft/vscode/issues/346059) — updated 2026-11-04T16:06:48Z
-- [Compare Models: Make results, trajectories, and judge evaluations accessible to agents](https://github.com/microsoft/vscode/issues/346058) — updated 2026-11-04T16:06:47Z
+- [1.145.1 Endgame](https://github.com/microsoft/vscode/issues/346279) — updated 2026-11-05T16:25:16Z
+- [Extension Signature Verification Failed](https://github.com/microsoft/vscode/issues/346065) — updated 2026-11-05T16:19:16Z
+- [Agent host chats drop the `instructions` of user-configured MCP servers (only github-mcp-server's reach the model)](https://github.com/microsoft/vscode/issues/346257) — updated 2026-11-05T16:18:07Z
 
 ## google/googletest
 
@@ -40,21 +40,21 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Bug: state changes inside forwardRef change the props object reference](https://github.com/react/react/issues/35028) — updated 2026-11-04T14:08:46Z
-- [[Flight] Dev-build async debug tracking (pendingOperations) grows without bound in a long-lived Node server](https://github.com/react/react/issues/38106) — updated 2026-11-03T22:01:22Z
-- [[Flight] Hooks throw in components yielded from an async iterable: no dispatcher is set](https://github.com/react/react/issues/38105) — updated 2026-11-03T20:16:59Z
+- [Bug: 19.2 batched Suspense reveal can consume the wrong completion segment when a resumed (PPR) stream reuses a queued segment id — DOM corruption + hydration failure](https://github.com/react/react/issues/37078) — updated 2026-11-05T15:07:50Z
+- [[Compiler Bug]: react-compiler-healthcheck 1.0.0 always reports 100% — isActionableDiagnostic switches on removed ErrorSeverity members](https://github.com/react/react/issues/37138) — updated 2026-11-05T15:07:45Z
+- [Bug: outer Suspense boundary never completes when an inner boundary's suspending fallback is abandoned after the shell flushed (Fizz streaming, no error surfaced)](https://github.com/react/react/issues/37178) — updated 2026-11-05T15:07:42Z
 
 ## openai/openai-python
 
+- [Responses create spends CPU proportional to the body size transforming a body it returns unchanged](https://github.com/openai/openai-python/issues/4021) — updated 2026-11-05T12:15:19Z
 - [Moderation Endpoint Schema Mismatch for illicit and illicit_violent fields](https://github.com/openai/openai-python/issues/1786) — updated 2026-11-04T10:59:59Z
 - [parse_chat_completion drops custom tool calls](https://github.com/openai/openai-python/issues/4235) — updated 2026-11-03T08:09:27Z
-- [test(auth): cover HTTP 500 status and RFC 7231 Retry-After seconds headers in _retry_delay](https://github.com/openai/openai-python/issues/4234) — updated 2026-11-03T05:26:33Z
 
 ## nasa/openmct
 
+- [CSV export leaves Condition Set string outputs unescaped](https://github.com/nasa/openmct/issues/8459) — updated 2026-11-05T14:46:42Z
 - [Add a "Copy Selected (Tab)" and "Copy Selected (CSV)" right click option for selected rows.](https://github.com/nasa/openmct/issues/8458) — updated 2026-11-01T22:50:18Z
 - [Re-implement plan execution monitoring via CouchDB using a provider via Plan API](https://github.com/nasa/openmct/issues/8440) — updated 2026-10-31T13:29:22Z
-- [raf utility remains locked after callback throws](https://github.com/nasa/openmct/issues/8456) — updated 2026-10-22T10:58:52Z
 
 ## apache/kafka
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [XLA InternalError when compiling repeated tf.while_loop: Cannot find body function for While node](https://github.com/tensorflow/tensorflow/issues/122886) — updated 2026-11-04T15:43:50Z
-- [XLA Compilation Fails Due to Incorrect tf.math.softsign Function Call with Extra Argument](https://github.com/tensorflow/tensorflow/issues/111670) — updated 2026-11-04T11:53:36Z
-- [`tf.boolean_mask` under `jit_compile=True` crashes XLA with an internal `RET_CHECK failure (dynamic_padder.cc:2026)` instead of a clean error; eager works](https://github.com/tensorflow/tensorflow/issues/128007) — updated 2026-11-04T11:42:48Z
+- [Compilation fails on Ubuntu 20.04 when using TensorRT 8. ](https://github.com/tensorflow/tensorflow/issues/49150) — updated 2026-11-05T12:53:54Z
+- [tf.Tensor.__dlpack__ rejects a matching dl_device instead of using the zero-copy path](https://github.com/tensorflow/tensorflow/issues/129993) — updated 2026-11-05T11:27:45Z
+- [tensorflow/workspace: re2 dependency does not use release/master branch](https://github.com/tensorflow/tensorflow/issues/34726) — updated 2026-11-05T10:56:51Z
 
 ## rust-lang/rust
 
-- [A `!`-typed constant in a zero-length array `[C; 0]` is never evaluated, but type checking treats it as diverging, so safe code executes `unreachable`](https://github.com/rust-lang/rust/issues/165323) — updated 2026-11-04T16:14:27Z
-- [Dependency Dashboard](https://github.com/rust-lang/rust/issues/134129) — updated 2026-11-04T16:07:33Z
-- [Calls in compiler_builtins can be silently replaced by `abort()`](https://github.com/rust-lang/rust/issues/165399) — updated 2026-11-04T16:01:24Z
+- [[ICE]: `assertion failed: !deep_decl.is_glob_import()` with glob imports and macro-expanded `use` (regression in 1.98.0)](https://github.com/rust-lang/rust/issues/165473) — updated 2026-11-05T16:16:56Z
+- [Regression: Removing the sealing supertrait of `SliceIndex` was a breaking change](https://github.com/rust-lang/rust/issues/165474) — updated 2026-11-05T16:15:55Z
+- [While we reject `#[non_exhaustive]` on structs with DFVs we don't do so for `#[non_exhaustive]` on enum variants with DFVs](https://github.com/rust-lang/rust/issues/165143) — updated 2026-11-05T15:49:49Z
 
 ## nodejs/node
 
-- [RegExp modifier groups `(?i:…)` / `(?-i:…)` can get the wrong case sensitivity (fixed in V8 15.4, please cherry-pick 4cc98031)](https://github.com/nodejs/node/issues/66277) — updated 2026-11-04T13:38:54Z
-- [Outdated definition for `latest` alias under https://nodejs.org/download/release](https://github.com/nodejs/node/issues/67224) — updated 2026-11-04T13:35:07Z
-- [VFS breaking node:worker_modules](https://github.com/nodejs/node/issues/67223) — updated 2026-11-04T12:33:18Z
+- [quic: session.close()/destroy() send RESET_STREAM for every open stream before CONNECTION_CLOSE](https://github.com/nodejs/node/issues/67278) — updated 2026-11-05T16:21:11Z
+- [node-v26.13.0 issue on AIX 7.2 TL5](https://github.com/nodejs/node/issues/67234) — updated 2026-11-05T15:22:58Z
+- [Add FreeBSD aarch64 to the list of supported platforms](https://github.com/nodejs/node/issues/67217) — updated 2026-11-05T14:07:36Z
 
 ## golang/go
 
-- [x/tools/gopls: feature: "move declaration" refactoring](https://github.com/golang/go/issues/70583) — updated 2026-11-04T16:06:57Z
-- [all: various watchflakes failures on *-linux-mips64le builders](https://github.com/golang/go/issues/82681) — updated 2026-11-04T15:48:35Z
-- [x/net/ipv4: TestPacketConnReadWriteUnicastUDP failures [consistent failure]](https://github.com/golang/go/issues/82639) — updated 2026-11-04T15:48:34Z
+- [x/tools/go/analysis/passes/modernize: waitgroupgo: trailing Done with an early return changes behavior](https://github.com/golang/go/issues/82876) — updated 2026-11-05T16:25:35Z
+- [x/tools/go/analysis/passes/modernize: waitgroupgo: shadowed receiver treated as the same WaitGroup](https://github.com/golang/go/issues/82875) — updated 2026-11-05T16:25:33Z
+- [x/tools/go/analysis/passes/modernize: fmtappendf panics on []byte(fmt.Sprint(1))](https://github.com/golang/go/issues/82874) — updated 2026-11-05T16:25:32Z
 
 ## llvm/llvm-project
 
-- [Unprofitable ctpop vectorization](https://github.com/llvm/llvm-project/issues/57476) — updated 2026-11-04T16:18:58Z
-- [Failure to vectorize simple loop to AVX vpaddb](https://github.com/llvm/llvm-project/issues/35707) — updated 2026-11-04T16:18:17Z
-- [Loop Vectorizer does not handle masked gather](https://github.com/llvm/llvm-project/issues/35227) — updated 2026-11-04T16:18:07Z
+- [Is ClangIR enabled by default in Ubuntu nightly packages?](https://github.com/llvm/llvm-project/issues/238815) — updated 2026-11-05T16:26:35Z
+- [[AggressiveInstCombine] Load merging reads past an object before a non-returning call](https://github.com/llvm/llvm-project/issues/236933) — updated 2026-11-05T16:22:15Z
+- [[llvm] config.guess always guesses GNU](https://github.com/llvm/llvm-project/issues/238890) — updated 2026-11-05T16:21:48Z
 
 ## mozilla/gecko-dev
 
