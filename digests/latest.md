@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-06
+# Open-source issue digest — 2026-11-07
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [enablement symlinks or drop-ins added by confext are not picked up](https://github.com/systemd/systemd/issues/44699) — updated 2026-11-06T15:02:39Z
-- [Add io.systemd.SysUpdate.Install Varlink method](https://github.com/systemd/systemd/issues/44672) — updated 2026-11-06T12:26:46Z
-- [sysupdate should vacuum after updating succeeds, not before](https://github.com/systemd/systemd/issues/44686) — updated 2026-11-06T06:57:16Z
+- [systemd aborts in service_sigchld_event ("Code should not be reached", service.c:4064) when lightdm dies mid-shutdown after D-Bus stops](https://github.com/systemd/systemd/issues/44705) — updated 2026-11-07T14:41:00Z
+- [cryptsetup: after entering a wrong password, correct password is not cached too](https://github.com/systemd/systemd/issues/33645) — updated 2026-11-07T01:24:14Z
+- [diskcrypt: Unlocking 2 LUKS volumes with the same password only works on the first attempt](https://github.com/systemd/systemd/issues/20455) — updated 2026-11-07T01:22:18Z
 
 ## containerd/containerd
 
+- [overlay snapshotter: a user-namespaced container from a zero-layer image cannot create /proc](https://github.com/containerd/containerd/issues/14532) — updated 2026-11-06T23:49:46Z
+- [CRI: pauseless pods](https://github.com/containerd/containerd/issues/14106) — updated 2026-11-06T19:38:33Z
 - [Default AppArmor profile denies signals inside a container when the label is stacked (`//&unconfined`, Ubuntu apparmor_restrict_unprivileged_unconfined=1)](https://github.com/containerd/containerd/issues/14485) — updated 2026-11-06T13:36:07Z
-- [Image snapshotter needs image pull credentials](https://github.com/containerd/containerd/issues/14298) — updated 2026-11-06T06:55:39Z
-- [CRI: containerd restart during StartContainer leaves a running container without IO, and its task delete then fails forever ("failed to drain init process ... io")](https://github.com/containerd/containerd/issues/14426) — updated 2026-11-05T21:22:33Z
 
 ## omacom/omarchy
 
-- [Menu: "Workspace Layout" looks like it changes the current workspace, but only sets the default](https://github.com/omacom/omarchy/issues/17913) — updated 2026-11-06T15:43:08Z
-- [omarchy-agent-usage-agy misidentifies Claude/GPT quota as Gemini Session/Weekly and omits Argon bucket](https://github.com/omacom/omarchy/issues/16906) — updated 2026-11-06T15:39:07Z
-- [Startup cursor stays hidden for the session when the restore's hyprctl call times out](https://github.com/omacom/omarchy/issues/17767) — updated 2026-11-06T15:30:34Z
+- [Shell lock client dies on resume from suspend, showing Hyprland 'screensaver died' failsafe](https://github.com/omacom/omarchy/issues/9156) — updated 2026-11-07T14:44:47Z
+- [4.5 per-monitor workspace change breaks existing global shortcuts and cloned workspace indicators](https://github.com/omacom/omarchy/issues/17759) — updated 2026-11-07T14:40:00Z
+- [Double-clicking a window behind the open Quake console opens the background picker](https://github.com/omacom/omarchy/issues/18041) — updated 2026-11-07T14:39:38Z
 
 ## microsoft/vscode
 
-- [Git extension API branch `upstream` is undefined when repo was cloned shallow](https://github.com/microsoft/vscode/issues/248328) — updated 2026-11-06T15:52:38Z
-- [Test: This Computer section in Remote Environments](https://github.com/microsoft/vscode/issues/346562) — updated 2026-11-06T15:51:33Z
-- [Clarify how "This Computer" relates to remote tunnels and sharing controls](https://github.com/microsoft/vscode/issues/344387) — updated 2026-11-06T15:51:32Z
+- [URI.toString() moves an encoded `@` in the user name into the host](https://github.com/microsoft/vscode/issues/346764) — updated 2026-11-07T14:23:19Z
+- [Agents app picker menus are inconsistent with vscode](https://github.com/microsoft/vscode/issues/311427) — updated 2026-11-07T14:20:39Z
+- [Copilot Harness: BYOK custom-endpoint model not selectable for Remote Scenarios (WSL, Dev Containers, SSH etc)](https://github.com/microsoft/vscode/issues/332085) — updated 2026-11-07T14:07:42Z
 
 ## google/googletest
 
@@ -40,9 +40,9 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Add example of focusing an input using callback refs](https://github.com/react/react/issues/38054) — updated 2026-11-06T15:16:24Z
-- [Bug:](https://github.com/react/react/issues/38126) — updated 2026-11-06T06:15:12Z
-- [Bug:](https://github.com/react/react/issues/38125) — updated 2026-11-06T06:14:56Z
+- [[Compiler Bug]: `obj.x++` on a member is compiled to `obj.x = obj.x + 1`, so numeric strings are concatenated](https://github.com/react/react/issues/38147) — updated 2026-11-07T14:48:03Z
+- [[Compiler Bug]: Local copy of a module-level variable is replaced by the variable itself inside closures](https://github.com/react/react/issues/37888) — updated 2026-11-07T11:14:01Z
+- [[Compiler Bug]: Arrow function returned from a nested helper is outlined, so every call returns the same function object](https://github.com/react/react/issues/38148) — updated 2026-11-07T09:18:02Z
 
 ## openai/openai-python
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [tf.math.digamma returns NaN for signed zero and smallest positive float32 subnormal](https://github.com/tensorflow/tensorflow/issues/121498) — updated 2026-11-06T15:14:49Z
-- [TensorArray(dynamic_size=True, size=0) inside while_loop silently discards writes](https://github.com/tensorflow/tensorflow/issues/119375) — updated 2026-11-06T14:34:28Z
-- [tf.unique_with_counts fails under jit_compile=True with no registered XLA_CPU_JIT kernel, while eager execution and autoclustering both succeed [Original/StarCoder]](https://github.com/tensorflow/tensorflow/issues/126415) — updated 2026-11-06T13:31:30Z
+- [Remove dependency on six](https://github.com/tensorflow/tensorflow/issues/59575) — updated 2026-11-07T11:25:23Z
+- [`tf.math.maximum` and `minimum` return tensor-width-dependent signed zeros on CPU](https://github.com/tensorflow/tensorflow/issues/128477) — updated 2026-11-07T05:47:35Z
+- [overlap_and_add returns non-empty tensor for 0-frame inputs when frame_length > frame_step](https://github.com/tensorflow/tensorflow/issues/129484) — updated 2026-11-07T01:35:19Z
 
 ## rust-lang/rust
 
-- [Tracking issue for trait aliases](https://github.com/rust-lang/rust/issues/41517) — updated 2026-11-06T15:03:31Z
-- [Use `rust-lld` by default on `aarch64-unknown-gnu-linux`](https://github.com/rust-lang/rust/issues/165555) — updated 2026-11-06T15:03:04Z
-- [Use `rust-lld` by default on `x86_64-pc-windows-gnu`](https://github.com/rust-lang/rust/issues/165557) — updated 2026-11-06T15:02:42Z
+- [[ICE]: `Tracking borrow behind shared reference.`](https://github.com/rust-lang/rust/issues/165604) — updated 2026-11-07T14:53:13Z
+- [Impl ConstParamTy_ for NonZero<T>](https://github.com/rust-lang/rust/issues/165603) — updated 2026-11-07T14:49:02Z
+- [No loop unrolling or vectorization under opt-level=s + `#[optimize(size)]`](https://github.com/rust-lang/rust/issues/165601) — updated 2026-11-07T14:33:17Z
 
 ## nodejs/node
 
-- [node-v26.13.0 REPL on Mac freezes when pasting large multi-line object](https://github.com/nodejs/node/issues/67301) — updated 2026-11-06T12:35:59Z
-- [crypto: X509Certificate returns "Bad time value" instead of throwing for an unreadable validity time](https://github.com/nodejs/node/issues/67285) — updated 2026-11-06T10:38:01Z
-- [Outdated definition for `latest` alias under https://nodejs.org/download/release](https://github.com/nodejs/node/issues/67224) — updated 2026-11-06T07:42:43Z
+- [`URLSearchParams`, `querystring.parse` and `Response.formData()` truncate non-Latin-1 code units to their low byte when a component contains a malformed `%XX` escape](https://github.com/nodejs/node/issues/67307) — updated 2026-11-07T13:46:00Z
+- [module.registerHooks() tracking issue](https://github.com/nodejs/node/issues/56241) — updated 2026-11-07T12:35:55Z
+- [test_runner: mock.timers.tick() moves Date.now() to the end of the tick before running the timers](https://github.com/nodejs/node/issues/67314) — updated 2026-11-07T12:25:46Z
 
 ## golang/go
 
-- [cmd/go: build cache management](https://github.com/golang/go/issues/81830) — updated 2026-11-06T15:46:48Z
-- [proposal: golang.org/x/exp/collection/heap: generic heap](https://github.com/golang/go/issues/77397) — updated 2026-11-06T15:33:28Z
-- [proposal: golang.org/x/exp/collection/sorted: add Map/Set based on key order](https://github.com/golang/go/issues/60630) — updated 2026-11-06T15:17:35Z
+- [x/vuln: govulncheck SARIF startLine should point to correct location in go.mod](https://github.com/golang/go/issues/80255) — updated 2026-11-07T14:35:09Z
+- [crypto/x509: parsers accept trailing DER inside several X.509 structures](https://github.com/golang/go/issues/79860) — updated 2026-11-07T14:21:23Z
+- [proposal: spec: support initializer statements in switch cases](https://github.com/golang/go/issues/82915) — updated 2026-11-07T13:36:18Z
 
 ## llvm/llvm-project
 
-- [Request Triage Access For frida-albrecht](https://github.com/llvm/llvm-project/issues/239608) — updated 2026-11-06T15:54:50Z
-- [[MLIR]Crash in SPIR-V GlobalISel Legalizer when lowering vector.extract operations](https://github.com/llvm/llvm-project/issues/239613) — updated 2026-11-06T15:54:06Z
-- [C++ parameter defaults are ignored in CFG](https://github.com/llvm/llvm-project/issues/13757) — updated 2026-11-06T15:53:44Z
+- [[X86][CET] -fcf-protection=branch does not put endbr64 at WinEH catch/cleanup funclet entries](https://github.com/llvm/llvm-project/issues/238191) — updated 2026-11-07T14:48:10Z
+- [[X86] f16/bf16 sqrt should be vectorized with f16c/avx512bf16](https://github.com/llvm/llvm-project/issues/239976) — updated 2026-11-07T14:40:57Z
+- [[X86] Shuffle-tree add reduction of zext abs byte difference becomes PSADBW but drops the high 64-bit lane](https://github.com/llvm/llvm-project/issues/239204) — updated 2026-11-07T14:35:39Z
 
 ## mozilla/gecko-dev
 
