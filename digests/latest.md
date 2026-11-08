@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-07
+# Open-source issue digest — 2026-11-08
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,9 +10,9 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [systemd aborts in service_sigchld_event ("Code should not be reached", service.c:4064) when lightdm dies mid-shutdown after D-Bus stops](https://github.com/systemd/systemd/issues/44705) — updated 2026-11-07T14:41:00Z
-- [cryptsetup: after entering a wrong password, correct password is not cached too](https://github.com/systemd/systemd/issues/33645) — updated 2026-11-07T01:24:14Z
-- [diskcrypt: Unlocking 2 LUKS volumes with the same password only works on the first attempt](https://github.com/systemd/systemd/issues/20455) — updated 2026-11-07T01:22:18Z
+- [run0: show specific details about the command in the authentication prompt](https://github.com/systemd/systemd/issues/33902) — updated 2026-11-08T12:35:34Z
+- [`systemd.socket` manpage does not make it obvious `ListenFIFO=` sockets cannot be restarted without `RemoveOnStop=yes`](https://github.com/systemd/systemd/issues/44711) — updated 2026-11-08T08:05:35Z
+- [enablement symlinks or drop-ins added by confext are not picked up](https://github.com/systemd/systemd/issues/44699) — updated 2026-11-08T07:08:06Z
 
 ## containerd/containerd
 
@@ -22,15 +22,15 @@ _No qualifying open issues._
 
 ## omacom/omarchy
 
-- [Shell lock client dies on resume from suspend, showing Hyprland 'screensaver died' failsafe](https://github.com/omacom/omarchy/issues/9156) — updated 2026-11-07T14:44:47Z
-- [4.5 per-monitor workspace change breaks existing global shortcuts and cloned workspace indicators](https://github.com/omacom/omarchy/issues/17759) — updated 2026-11-07T14:40:00Z
-- [Double-clicking a window behind the open Quake console opens the background picker](https://github.com/omacom/omarchy/issues/18041) — updated 2026-11-07T14:39:38Z
+- [Menu: 'No matches for …' text overflows the card on long searches](https://github.com/omacom/omarchy/issues/18172) — updated 2026-11-08T15:07:21Z
+- [quickshell wedges alive (spinning, IPC-dead) after S3 resume on single-GPU NVIDIA desktop; omarchy-restart-shell cannot recover it](https://github.com/omacom/omarchy/issues/10108) — updated 2026-11-08T14:46:47Z
+- [Quickshell SIGSEGV in a QML binding write during PipeWire node teardown when a Bluetooth headset's audio connection fails](https://github.com/omacom/omarchy/issues/18124) — updated 2026-11-08T14:31:11Z
 
 ## microsoft/vscode
 
-- [URI.toString() moves an encoded `@` in the user name into the host](https://github.com/microsoft/vscode/issues/346764) — updated 2026-11-07T14:23:19Z
-- [Agents app picker menus are inconsistent with vscode](https://github.com/microsoft/vscode/issues/311427) — updated 2026-11-07T14:20:39Z
-- [Copilot Harness: BYOK custom-endpoint model not selectable for Remote Scenarios (WSL, Dev Containers, SSH etc)](https://github.com/microsoft/vscode/issues/332085) — updated 2026-11-07T14:07:42Z
+- [Double clicking symbol after column line of table in Copilot chat window, selection expanding to symble before line](https://github.com/microsoft/vscode/issues/345422) — updated 2026-11-08T15:11:43Z
+- [Can not launch app when update from external storage](https://github.com/microsoft/vscode/issues/346832) — updated 2026-11-08T15:11:41Z
+- [Can extensions detect that they are running in the agents window](https://github.com/microsoft/vscode/issues/315776) — updated 2026-11-08T15:10:49Z
 
 ## google/googletest
 
@@ -40,9 +40,9 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [[Compiler Bug]: `obj.x++` on a member is compiled to `obj.x = obj.x + 1`, so numeric strings are concatenated](https://github.com/react/react/issues/38147) — updated 2026-11-07T14:48:03Z
-- [[Compiler Bug]: Local copy of a module-level variable is replaced by the variable itself inside closures](https://github.com/react/react/issues/37888) — updated 2026-11-07T11:14:01Z
-- [[Compiler Bug]: Arrow function returned from a nested helper is outlined, so every call returns the same function object](https://github.com/react/react/issues/38148) — updated 2026-11-07T09:18:02Z
+- [Bug: `react-is@19` does not recognise elements from React 18](https://github.com/react/react/issues/36409) — updated 2026-11-08T15:06:27Z
+- [[Compiler Bug]: Arrow function returned from a nested helper is outlined, so every call returns the same function object](https://github.com/react/react/issues/38148) — updated 2026-11-08T10:20:37Z
+- [Bug: erro na criação da conta](https://github.com/react/react/issues/37257) — updated 2026-11-08T09:07:18Z
 
 ## openai/openai-python
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
+- [[RFC] Add codespell spelling presubmit for changed Python/Markdown files](https://github.com/tensorflow/tensorflow/issues/130085) — updated 2026-11-08T05:44:00Z
 - [Remove dependency on six](https://github.com/tensorflow/tensorflow/issues/59575) — updated 2026-11-07T11:25:23Z
 - [`tf.math.maximum` and `minimum` return tensor-width-dependent signed zeros on CPU](https://github.com/tensorflow/tensorflow/issues/128477) — updated 2026-11-07T05:47:35Z
-- [overlap_and_add returns non-empty tensor for 0-frame inputs when frame_length > frame_step](https://github.com/tensorflow/tensorflow/issues/129484) — updated 2026-11-07T01:35:19Z
 
 ## rust-lang/rust
 
-- [[ICE]: `Tracking borrow behind shared reference.`](https://github.com/rust-lang/rust/issues/165604) — updated 2026-11-07T14:53:13Z
-- [Impl ConstParamTy_ for NonZero<T>](https://github.com/rust-lang/rust/issues/165603) — updated 2026-11-07T14:49:02Z
-- [No loop unrolling or vectorization under opt-level=s + `#[optimize(size)]`](https://github.com/rust-lang/rust/issues/165601) — updated 2026-11-07T14:33:17Z
+- [Tracking issue for MCP 1047: Add bootstrap tool to analyze compiler tests code coverage](https://github.com/rust-lang/rust/issues/165648) — updated 2026-11-08T15:07:57Z
+- [Const blocks in fns with trivially unsatisifiable clauses can render addition of trait impls a post-monomorphization breaking change](https://github.com/rust-lang/rust/issues/165647) — updated 2026-11-08T15:05:53Z
+- [Feature DFV makes addition of trait impls breaking (apart from 1IR) since we don't reject trivially unsatisfiable clauses on ADTs with DFVs](https://github.com/rust-lang/rust/issues/165152) — updated 2026-11-08T15:04:03Z
 
 ## nodejs/node
 
-- [`URLSearchParams`, `querystring.parse` and `Response.formData()` truncate non-Latin-1 code units to their low byte when a component contains a malformed `%XX` escape](https://github.com/nodejs/node/issues/67307) — updated 2026-11-07T13:46:00Z
-- [module.registerHooks() tracking issue](https://github.com/nodejs/node/issues/56241) — updated 2026-11-07T12:35:55Z
-- [test_runner: mock.timers.tick() moves Date.now() to the end of the tick before running the timers](https://github.com/nodejs/node/issues/67314) — updated 2026-11-07T12:25:46Z
+- [Proposal: built-in YAML support, public API and placement](https://github.com/nodejs/node/issues/67347) — updated 2026-11-08T14:55:57Z
+- [url: setters overwrite URL changes made during value coercion](https://github.com/nodejs/node/issues/67345) — updated 2026-11-08T13:20:19Z
+- [url: href setter converts its value before validating the receiver](https://github.com/nodejs/node/issues/67344) — updated 2026-11-08T13:20:17Z
 
 ## golang/go
 
-- [x/vuln: govulncheck SARIF startLine should point to correct location in go.mod](https://github.com/golang/go/issues/80255) — updated 2026-11-07T14:35:09Z
-- [crypto/x509: parsers accept trailing DER inside several X.509 structures](https://github.com/golang/go/issues/79860) — updated 2026-11-07T14:21:23Z
-- [proposal: spec: support initializer statements in switch cases](https://github.com/golang/go/issues/82915) — updated 2026-11-07T13:36:18Z
+- [proposal: math/rand/v2: PCG Jump](https://github.com/golang/go/issues/63361) — updated 2026-11-08T15:02:35Z
+- [proposal: spec: typed struct tags](https://github.com/golang/go/issues/74472) — updated 2026-11-08T14:48:56Z
+- [proposal: spec: add decimal float types (IEEE 754-2008)](https://github.com/golang/go/issues/19787) — updated 2026-11-08T13:03:17Z
 
 ## llvm/llvm-project
 
-- [[X86][CET] -fcf-protection=branch does not put endbr64 at WinEH catch/cleanup funclet entries](https://github.com/llvm/llvm-project/issues/238191) — updated 2026-11-07T14:48:10Z
-- [[X86] f16/bf16 sqrt should be vectorized with f16c/avx512bf16](https://github.com/llvm/llvm-project/issues/239976) — updated 2026-11-07T14:40:57Z
-- [[X86] Shuffle-tree add reduction of zext abs byte difference becomes PSADBW but drops the high 64-bit lane](https://github.com/llvm/llvm-project/issues/239204) — updated 2026-11-07T14:35:39Z
+- [[SLPVectorizer] Incorrect zext in horizontal reduction](https://github.com/llvm/llvm-project/issues/240151) — updated 2026-11-08T15:10:04Z
+- [Missed loop simplification due to missing reasoning on (%indvars.iv & 1) != 0](https://github.com/llvm/llvm-project/issues/188700) — updated 2026-11-08T15:09:20Z
+- [[LoopVectorize] Wrong result at -Os for loop assigning (unsigned long)i << 63](https://github.com/llvm/llvm-project/issues/240150) — updated 2026-11-08T14:51:32Z
 
 ## mozilla/gecko-dev
 
