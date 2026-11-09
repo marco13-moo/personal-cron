@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-08
+# Open-source issue digest — 2026-11-09
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,43 +10,43 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [run0: show specific details about the command in the authentication prompt](https://github.com/systemd/systemd/issues/33902) — updated 2026-11-08T12:35:34Z
-- [`systemd.socket` manpage does not make it obvious `ListenFIFO=` sockets cannot be restarted without `RemoveOnStop=yes`](https://github.com/systemd/systemd/issues/44711) — updated 2026-11-08T08:05:35Z
-- [enablement symlinks or drop-ins added by confext are not picked up](https://github.com/systemd/systemd/issues/44699) — updated 2026-11-08T07:08:06Z
+- [enablement symlinks or drop-ins added by confext are not picked up](https://github.com/systemd/systemd/issues/44699) — updated 2026-11-09T16:10:17Z
+- [systemd-report-sign-tpm2 fails if `TPM2_NV_Certify` is not supported](https://github.com/systemd/systemd/issues/44714) — updated 2026-11-09T15:44:00Z
+- [gpt-auto-generator: efi.automount fails when /efi is missing and the root is read-only](https://github.com/systemd/systemd/issues/44735) — updated 2026-11-09T12:30:09Z
 
 ## containerd/containerd
 
-- [overlay snapshotter: a user-namespaced container from a zero-layer image cannot create /proc](https://github.com/containerd/containerd/issues/14532) — updated 2026-11-06T23:49:46Z
-- [CRI: pauseless pods](https://github.com/containerd/containerd/issues/14106) — updated 2026-11-06T19:38:33Z
-- [Default AppArmor profile denies signals inside a container when the label is stacked (`//&unconfined`, Ubuntu apparmor_restrict_unprivileged_unconfined=1)](https://github.com/containerd/containerd/issues/14485) — updated 2026-11-06T13:36:07Z
+- [Image snapshotter needs image pull credentials](https://github.com/containerd/containerd/issues/14298) — updated 2026-11-09T08:12:23Z
+- [overlay snapshotter: a user-namespaced container from a zero-layer image cannot create /proc](https://github.com/containerd/containerd/issues/14532) — updated 2026-11-09T05:08:39Z
+- [Default AppArmor profile denies signals inside a container when the label is stacked (`//&unconfined`, Ubuntu apparmor_restrict_unprivileged_unconfined=1)](https://github.com/containerd/containerd/issues/14485) — updated 2026-11-08T22:08:40Z
 
 ## omacom/omarchy
 
-- [Menu: 'No matches for …' text overflows the card on long searches](https://github.com/omacom/omarchy/issues/18172) — updated 2026-11-08T15:07:21Z
-- [quickshell wedges alive (spinning, IPC-dead) after S3 resume on single-GPU NVIDIA desktop; omarchy-restart-shell cannot recover it](https://github.com/omacom/omarchy/issues/10108) — updated 2026-11-08T14:46:47Z
-- [Quickshell SIGSEGV in a QML binding write during PipeWire node teardown when a Bluetooth headset's audio connection fails](https://github.com/omacom/omarchy/issues/18124) — updated 2026-11-08T14:31:11Z
+- [linux-omarchy 7.2.8-9 (native rust binder) collides with installed binder_linux-dkms: EBUSY every boot → kernel corruption → random freezes; needs migration path](https://github.com/omacom/omarchy/issues/16625) — updated 2026-11-09T18:43:37Z
+- [Built-in microphone returns silence at ALSA level on MacBook Pro 13" M1 (J293)](https://github.com/omacom/omarchy/issues/18285) — updated 2026-11-09T18:32:18Z
+- [Brave crashes (SIGTRAP) when clicking "Make Brave my default" on first run](https://github.com/omacom/omarchy/issues/16542) — updated 2026-11-09T18:10:10Z
 
 ## microsoft/vscode
 
-- [Double clicking symbol after column line of table in Copilot chat window, selection expanding to symble before line](https://github.com/microsoft/vscode/issues/345422) — updated 2026-11-08T15:11:43Z
-- [Can not launch app when update from external storage](https://github.com/microsoft/vscode/issues/346832) — updated 2026-11-08T15:11:41Z
-- [Can extensions detect that they are running in the agents window](https://github.com/microsoft/vscode/issues/315776) — updated 2026-11-08T15:10:49Z
+- [Test: Masked environment variables in sandbox settings](https://github.com/microsoft/vscode/issues/346888) — updated 2026-11-09T18:48:28Z
+- [dragging a tab from the main window to a chat window scrolls the chat, and does not move the chat being dragged](https://github.com/microsoft/vscode/issues/347108) — updated 2026-11-09T18:47:32Z
+- [Test: Skills over MCP](https://github.com/microsoft/vscode/issues/346700) — updated 2026-11-09T18:43:37Z
 
 ## google/googletest
 
+- [Readme notice about Abseil never/already happened](https://github.com/google/googletest/issues/5156) — updated 2026-11-09T12:25:03Z
 - [gtest_list_tests XML/JSON output ignores --gtest_filter in the test count and emits empty test suites](https://github.com/google/googletest/issues/5147) — updated 2026-11-03T08:07:13Z
 - [[Bug]: 2 SCOPED_TRACE calls on the same line results in a `-Wshadow` warning](https://github.com/google/googletest/issues/5143) — updated 2026-10-31T19:48:28Z
-- [[Bug]: Printing a char32_t or char16_t leaves the stream in hex mode](https://github.com/google/googletest/issues/5133) — updated 2026-10-31T11:10:29Z
 
 ## facebook/react
 
-- [Bug: `react-is@19` does not recognise elements from React 18](https://github.com/react/react/issues/36409) — updated 2026-11-08T15:06:27Z
-- [[Compiler Bug]: Arrow function returned from a nested helper is outlined, so every call returns the same function object](https://github.com/react/react/issues/38148) — updated 2026-11-08T10:20:37Z
-- [Bug: erro na criação da conta](https://github.com/react/react/issues/37257) — updated 2026-11-08T09:07:18Z
+- [Bug: se me cierra la pantalla](https://github.com/react/react/issues/37269) — updated 2026-11-09T15:07:44Z
+- [[DevTools Bug]: Selecting a hoisted <title> or <meta> in the Elements panel does not select the component that rendered it](https://github.com/react/react/issues/38170) — updated 2026-11-09T14:35:53Z
+- [Bug: react-refresh retains roots that unmount before their first render (StrictMode), same leak as #36379](https://github.com/react/react/issues/37804) — updated 2026-11-09T14:06:30Z
 
 ## openai/openai-python
 
-- [parse_chat_completion drops custom tool calls](https://github.com/openai/openai-python/issues/4235) — updated 2026-11-05T18:04:07Z
+- [parse_chat_completion drops custom tool calls](https://github.com/openai/openai-python/issues/4235) — updated 2026-11-09T12:10:21Z
 - [Responses create spends CPU proportional to the body size transforming a body it returns unchanged](https://github.com/openai/openai-python/issues/4021) — updated 2026-11-05T12:15:19Z
 - [Moderation Endpoint Schema Mismatch for illicit and illicit_violent fields](https://github.com/openai/openai-python/issues/1786) — updated 2026-11-04T10:59:59Z
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [[RFC] Add codespell spelling presubmit for changed Python/Markdown files](https://github.com/tensorflow/tensorflow/issues/130085) — updated 2026-11-08T05:44:00Z
-- [Remove dependency on six](https://github.com/tensorflow/tensorflow/issues/59575) — updated 2026-11-07T11:25:23Z
-- [`tf.math.maximum` and `minimum` return tensor-width-dependent signed zeros on CPU](https://github.com/tensorflow/tensorflow/issues/128477) — updated 2026-11-07T05:47:35Z
+- [Return Bug find in func `tf.raw_ops.SelfAdjointEigV2()`: Tensors or just one Tensor](https://github.com/tensorflow/tensorflow/issues/102352) — updated 2026-11-09T13:45:56Z
+- [XLA compilation fails when using tf.sequence_mask with SymbolicTensor loop length](https://github.com/tensorflow/tensorflow/issues/105648) — updated 2026-11-09T12:46:42Z
+- [Update curl dependency to 8.16.0+ to address CVE-2025-0725 and CVE-2025-9086](https://github.com/tensorflow/tensorflow/issues/104946) — updated 2026-11-09T09:16:52Z
 
 ## rust-lang/rust
 
-- [Tracking issue for MCP 1047: Add bootstrap tool to analyze compiler tests code coverage](https://github.com/rust-lang/rust/issues/165648) — updated 2026-11-08T15:07:57Z
-- [Const blocks in fns with trivially unsatisifiable clauses can render addition of trait impls a post-monomorphization breaking change](https://github.com/rust-lang/rust/issues/165647) — updated 2026-11-08T15:05:53Z
-- [Feature DFV makes addition of trait impls breaking (apart from 1IR) since we don't reject trivially unsatisfiable clauses on ADTs with DFVs](https://github.com/rust-lang/rust/issues/165152) — updated 2026-11-08T15:04:03Z
+- [`*-trusty` targets build failed](https://github.com/rust-lang/rust/issues/165596) — updated 2026-11-09T18:31:29Z
+- [Windows `File::set_permissions` silently does nothing when clearing `readonly` leaves `FileAttributes == 0`](https://github.com/rust-lang/rust/issues/165696) — updated 2026-11-09T18:14:46Z
+- [`thread::Builder::stack_size(usize::MAX).spawn()` panics with "attempt to add with overflow" on Apple targets](https://github.com/rust-lang/rust/issues/165683) — updated 2026-11-09T17:00:43Z
 
 ## nodejs/node
 
-- [Proposal: built-in YAML support, public API and placement](https://github.com/nodejs/node/issues/67347) — updated 2026-11-08T14:55:57Z
-- [url: setters overwrite URL changes made during value coercion](https://github.com/nodejs/node/issues/67345) — updated 2026-11-08T13:20:19Z
-- [url: href setter converts its value before validating the receiver](https://github.com/nodejs/node/issues/67344) — updated 2026-11-08T13:20:17Z
+- [test_runner: merging coverage across test processes drops never-run blocks, so coverage gates pass](https://github.com/nodejs/node/issues/66860) — updated 2026-11-09T18:32:15Z
+- [Invalidate cache when using import](https://github.com/nodejs/node/issues/49442) — updated 2026-11-09T16:32:15Z
+- [http: Agent with keepAlive and no timeout ignores the server's Keep-Alive timeout hint](https://github.com/nodejs/node/issues/66734) — updated 2026-11-09T15:38:12Z
 
 ## golang/go
 
-- [proposal: math/rand/v2: PCG Jump](https://github.com/golang/go/issues/63361) — updated 2026-11-08T15:02:35Z
-- [proposal: spec: typed struct tags](https://github.com/golang/go/issues/74472) — updated 2026-11-08T14:48:56Z
-- [proposal: spec: add decimal float types (IEEE 754-2008)](https://github.com/golang/go/issues/19787) — updated 2026-11-08T13:03:17Z
+- [x/crypto/ssh/agent: TestAgentExtensions, TestSetupForwardAgent, TestLockOpenSSHAgent failures with "too long for Unix domain socket" [consistent failure]](https://github.com/golang/go/issues/82712) — updated 2026-11-09T18:48:47Z
+- [proposal: go test should run analyzers specified by the workspace](https://github.com/golang/go/issues/82464) — updated 2026-11-09T18:42:39Z
+- [crypto/x509: empty URI SANs take about 76x their size in memory](https://github.com/golang/go/issues/82858) — updated 2026-11-09T18:09:39Z
 
 ## llvm/llvm-project
 
-- [[SLPVectorizer] Incorrect zext in horizontal reduction](https://github.com/llvm/llvm-project/issues/240151) — updated 2026-11-08T15:10:04Z
-- [Missed loop simplification due to missing reasoning on (%indvars.iv & 1) != 0](https://github.com/llvm/llvm-project/issues/188700) — updated 2026-11-08T15:09:20Z
-- [[LoopVectorize] Wrong result at -Os for loop assigning (unsigned long)i << 63](https://github.com/llvm/llvm-project/issues/240150) — updated 2026-11-08T14:51:32Z
+- [[HLSL][SPIRV] Lower `GatherRaw` to SPIR-V](https://github.com/llvm/llvm-project/issues/237397) — updated 2026-11-09T18:41:16Z
+- [[HLSL][202x][0010] Update 'auto' keyword to be a 202x extension and not a 202y extension](https://github.com/llvm/llvm-project/issues/240492) — updated 2026-11-09T18:29:53Z
+- [[HLSL][202x][0010] variadic templates emit warning for pre 202x version](https://github.com/llvm/llvm-project/issues/240490) — updated 2026-11-09T18:27:02Z
 
 ## mozilla/gecko-dev
 
