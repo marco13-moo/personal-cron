@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-11
+# Open-source issue digest — 2026-11-12
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [journalctl --cursor-file --since chicken-and-egg problem after v256](https://github.com/systemd/systemd/issues/44771) — updated 2026-11-11T15:37:37Z
-- [Service action commands surface a password requets](https://github.com/systemd/systemd/issues/40334) — updated 2026-11-11T02:07:25Z
-- [systemd-boot: Text is tiny on HiDPI laptops](https://github.com/systemd/systemd/issues/37605) — updated 2026-11-10T22:51:56Z
+- [Network Time Security (NTS) support](https://github.com/systemd/systemd/issues/9481) — updated 2026-11-12T14:11:28Z
+- [recent udev rule change breaks loop subpartition handling on boot](https://github.com/systemd/systemd/issues/42667) — updated 2026-11-12T13:46:01Z
+- [sd-measure PCR policy deduplication assumes signatures are deterministic](https://github.com/systemd/systemd/issues/44788) — updated 2026-11-12T13:37:10Z
 
 ## containerd/containerd
 
-- [Reimport snapshot error: file already exits with Windows Containers](https://github.com/containerd/containerd/issues/14540) — updated 2026-11-10T21:33:39Z
-- [GC scheduler can miss deletion notifications during backend cleanup](https://github.com/containerd/containerd/issues/14461) — updated 2026-11-10T17:08:22Z
-- [overlayfs image cache](https://github.com/containerd/containerd/issues/14262) — updated 2026-11-10T03:41:06Z
+- [cri pull image failed unexpected commit digest xxxx, expected xxx failed precondition"](https://github.com/containerd/containerd/issues/14561) — updated 2026-11-12T13:24:00Z
+- [overlayfs image cache](https://github.com/containerd/containerd/issues/14262) — updated 2026-11-12T03:03:04Z
+- [GC scheduler can miss deletion notifications during backend cleanup](https://github.com/containerd/containerd/issues/14461) — updated 2026-11-12T02:25:17Z
 
 ## omacom/omarchy
 
-- [lock: SIGSEGV in GDK/Wayland on DPMS/idle (FALLBACK dangling screen) - quickshell 0.3.2.r7](https://github.com/omacom/omarchy/issues/18494) — updated 2026-11-11T15:44:05Z
-- [Hyprland aborts in CInputManager::refocusLastWindow when a mirrored external monitor is unplugged](https://github.com/omacom/omarchy/issues/18492) — updated 2026-11-11T15:42:03Z
-- [Superwhisper settings don't open in a VM without 3D acceleration (Try Omarchy)](https://github.com/omacom/omarchy/issues/18324) — updated 2026-11-11T15:21:18Z
+- [Trying to click the stop recording icon is hard because of incorrect mouse detection](https://github.com/omacom/omarchy/issues/18672) — updated 2026-11-12T16:47:51Z
+- [omarchy windows vm launch: RDP connects before Windows has booted, then auto-stops the VM](https://github.com/omacom/omarchy/issues/18671) — updated 2026-11-12T16:47:12Z
+- [Quake console binding (SUPER + grave) can't fire on AZERTY and other layouts without an unshifted grave; bind code:49 like the workspace keys](https://github.com/omacom/omarchy/issues/17682) — updated 2026-11-12T16:37:20Z
 
 ## microsoft/vscode
 
-- [Agents window freezes on every send when there are thousands of external Copilot CLI sessions](https://github.com/microsoft/vscode/issues/347654) — updated 2026-11-11T16:06:17Z
-- [Agent host crash-loops with V8 OOM when large Copilot sessions are restored (forked chats multiply it)](https://github.com/microsoft/vscode/issues/347653) — updated 2026-11-11T16:01:33Z
-- [Copilot Computer Use fails inside MCP Sandbox](https://github.com/microsoft/vscode/issues/344885) — updated 2026-11-11T16:01:07Z
+- [Copilot Chat CLI server fails to start on Intel Mac (macOS x64) after VS Code update](https://github.com/microsoft/vscode/issues/344044) — updated 2026-11-12T16:30:28Z
+- [Codex chat intermittently fails with “The requested model is not supported” for GPT-6.1-Sol (ChatGPT)](https://github.com/microsoft/vscode/issues/344514) — updated 2026-11-12T16:30:03Z
+- [GitHub Copilot migrations no longer show up anywhere in v1.146](https://github.com/microsoft/vscode/issues/347890) — updated 2026-11-12T16:19:03Z
 
 ## google/googletest
 
@@ -40,15 +40,15 @@ _No qualifying open issues._
 
 ## facebook/react
 
+- [Bug: Fast Refresh remounts inline memo()/forwardRef() components that call an imported custom Hook](https://github.com/react/react/issues/38229) — updated 2026-11-12T13:23:00Z
+- [Perf: Inserting many siblings in one commit is quadratic in getHostSibling](https://github.com/react/react/issues/38232) — updated 2026-11-12T12:01:31Z
 - [Bug: [React 19.1/19.2] useEffect does not run after changed dependencies due to startTransition](https://github.com/react/react/issues/34556) — updated 2026-11-11T14:08:21Z
-- [[Compiler Bug]: "Expected temporaries to be promoted to named identifiers" on an arrow function with a rest parameter that calls an imported function](https://github.com/react/react/issues/38084) — updated 2026-11-11T10:51:25Z
-- [[Compiler Bug]: setter not correctly recognized as setter, required in `useCallback` dependency array](https://github.com/react/react/issues/35118) — updated 2026-11-10T23:25:42Z
 
 ## openai/openai-python
 
-- [ChatCompletionStream.get_final_completion() can return an incomplete result after an early EOF](https://github.com/openai/openai-python/issues/4063) — updated 2026-11-11T07:59:36Z
+- [ChatCompletionStream.get_final_completion() can return an incomplete result after an early EOF](https://github.com/openai/openai-python/issues/4063) — updated 2026-11-12T13:07:30Z
+- [AsyncStream does not close its SSE decoder and byte iterators before releasing the response](https://github.com/openai/openai-python/issues/4262) — updated 2026-11-11T19:57:56Z
 - [parse_chat_completion drops custom tool calls](https://github.com/openai/openai-python/issues/4235) — updated 2026-11-10T13:16:58Z
-- [AsyncStream does not close its SSE decoder and byte iterators before releasing the response](https://github.com/openai/openai-python/issues/4262) — updated 2026-11-10T01:41:13Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [`tf.function(..., jit_compile=True)` inside `tf.GradientTape` fails with `UNIMPLEMENTED: TensorList crossing XLA/TF boundary`, followed by BFCAllocator fatal abort](https://github.com/tensorflow/tensorflow/issues/108080) — updated 2026-11-11T15:58:52Z
-- [tf.image.adjust_hue and tf.image.adjust_saturation have no gradient: LookupError under tf.function, silent None in eager](https://github.com/tensorflow/tensorflow/issues/130207) — updated 2026-11-11T15:42:41Z
-- [tf.image.hsv_to_rgb has no gradient: registered NotDifferentiable, tf.GradientTape returns None](https://github.com/tensorflow/tensorflow/issues/130205) — updated 2026-11-11T14:43:59Z
+- [Segmentation fault when using tf.raw_ops.AsString with large widthvalue](https://github.com/tensorflow/tensorflow/issues/105292) — updated 2026-11-12T16:19:47Z
+- [how to assign value to a EagerTensor slice? ----'tensorflow.python.framework.ops.EagerTensor' object does not support item assignment](https://github.com/tensorflow/tensorflow/issues/33131) — updated 2026-11-12T15:39:38Z
+- [Multiple segmentation faults and aborted in some modules](https://github.com/tensorflow/tensorflow/issues/96209) — updated 2026-11-12T15:38:06Z
 
 ## rust-lang/rust
 
-- [Tracking Issue for powerpc_target_feature](https://github.com/rust-lang/rust/issues/150255) — updated 2026-11-11T16:05:31Z
-- [`bool` and `MaybeUninit<bool>` are not actually ABI compatible](https://github.com/rust-lang/rust/issues/165800) — updated 2026-11-11T15:35:11Z
-- [RFI: Rebalancing unicode escaping in str::escape_debug for internationalization](https://github.com/rust-lang/rust/issues/159694) — updated 2026-11-11T15:23:29Z
+- [unused_parens should probably not trigger for `&(v @ ...)` for clarity](https://github.com/rust-lang/rust/issues/165636) — updated 2026-11-12T16:33:01Z
+- [Next solver: exponential compile time and memory in PostAnalysisNormalize with nested higher-ranked async-closure opaques](https://github.com/rust-lang/rust/issues/165867) — updated 2026-11-12T16:22:30Z
+- [Remove -Z stack-protector a few releases after -C stack-protector is stabilized](https://github.com/rust-lang/rust/issues/165864) — updated 2026-11-12T16:14:24Z
 
 ## nodejs/node
 
-- [Wasm SIMD: i16x8.q15mulr_sat_s returns q15mulr(a, a) on x64 without AVX (Liftoff) — please cherry-pick V8 9d8bb1bf9a](https://github.com/nodejs/node/issues/67413) — updated 2026-11-11T14:50:18Z
-- [crypto: X509Certificate returns "Bad time value" instead of throwing for an unreadable validity time](https://github.com/nodejs/node/issues/67285) — updated 2026-11-11T13:52:22Z
-- [quic|blob: Potentially improve createBlobReaderStream performance](https://github.com/nodejs/node/issues/60117) — updated 2026-11-11T06:36:45Z
+- [Claude subscription sign-in fails on Windows: "Sign-in ended before the account was connected."](https://github.com/nodejs/node/issues/67439) — updated 2026-11-12T16:28:43Z
+- [Remove or date-limit emSign Root CA - G1 before Mozilla's 2026-11-16 cutoff](https://github.com/nodejs/node/issues/67391) — updated 2026-11-12T16:03:33Z
+- [Segmentation fault on riscv64 starting with v24.22.0 due to missing v8 commit](https://github.com/nodejs/node/issues/67066) — updated 2026-11-12T04:08:27Z
 
 ## golang/go
 
-- [cmd/go/internal/modfetch: TestLatest/github.com_rsc_vgotest1 failures](https://github.com/golang/go/issues/82355) — updated 2026-11-11T16:08:06Z
-- [cmd/go: TestScript/build_tag_goexperiment failures](https://github.com/golang/go/issues/81331) — updated 2026-11-11T16:06:56Z
-- [cmd/go: TestScript/build_shorten_pkg failures](https://github.com/golang/go/issues/81329) — updated 2026-11-11T16:05:30Z
+- [x/build/cmd/relui: define a govulncheck-action tagging workflow](https://github.com/golang/go/issues/77863) — updated 2026-11-12T16:46:43Z
+- [cmd/compile: put stack offsets into loads and stores on GOARCH=wasm](https://github.com/golang/go/issues/83028) — updated 2026-11-12T16:18:20Z
+- [cmd/compile: performance of go wasm is very poor](https://github.com/golang/go/issues/65440) — updated 2026-11-12T16:18:19Z
 
 ## llvm/llvm-project
 
-- [[mlir][linalg] Verifier crashes on rank-0 linalg.transpose with empty permutation](https://github.com/llvm/llvm-project/issues/241070) — updated 2026-11-11T16:10:00Z
-- [[LoopVectorize] Loop over std::complex<float> is not vectorized: <2 x float> loads and stores block it](https://github.com/llvm/llvm-project/issues/241330) — updated 2026-11-11T16:07:52Z
-- [[X86] Redundant zero-extension of a byte-swapped 16-bit load (rolw + movzwl, movbew + movzwl)](https://github.com/llvm/llvm-project/issues/241363) — updated 2026-11-11T16:07:23Z
+- [[X86] zmm byte rotate by 24 lowered to vprold instead of vpshufb](https://github.com/llvm/llvm-project/issues/241962) — updated 2026-11-12T16:47:59Z
+- [[X86] Failure to properly use imul/mul for smulh/umulh scalar patterns](https://github.com/llvm/llvm-project/issues/238789) — updated 2026-11-12T16:47:36Z
+- [[AMDGPU][gfx125x] Is waiting for global_inv required when it's the only outstanding LOADcnt op?](https://github.com/llvm/llvm-project/issues/241948) — updated 2026-11-12T16:45:13Z
 
 ## mozilla/gecko-dev
 
