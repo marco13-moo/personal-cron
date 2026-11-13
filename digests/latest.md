@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-12
+# Open-source issue digest — 2026-11-13
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,45 +10,45 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [Network Time Security (NTS) support](https://github.com/systemd/systemd/issues/9481) — updated 2026-11-12T14:11:28Z
-- [recent udev rule change breaks loop subpartition handling on boot](https://github.com/systemd/systemd/issues/42667) — updated 2026-11-12T13:46:01Z
-- [sd-measure PCR policy deduplication assumes signatures are deterministic](https://github.com/systemd/systemd/issues/44788) — updated 2026-11-12T13:37:10Z
+- [MacBook Pro built-in trackpad (05ac:027c) on Apple T2 USB controller misclassified as external — disable-while-typing and palm rejection unavailable](https://github.com/systemd/systemd/issues/43934) — updated 2026-11-13T16:22:50Z
+- ['f' type omits sentence that 'd' has, implying create-only semantics](https://github.com/systemd/systemd/issues/43937) — updated 2026-11-13T16:19:46Z
+- [Journalctl --since`/`--until` silently miss entries logged during a realtime-clock backward jump, even on 259 (post-#33955)](https://github.com/systemd/systemd/issues/43805) — updated 2026-11-13T16:19:23Z
 
 ## containerd/containerd
 
+- [Potential handle leak in file compression.go](https://github.com/containerd/containerd/issues/14565) — updated 2026-11-13T10:26:26Z
+- [Integrate with systemd watchdog for daemon health](https://github.com/containerd/containerd/issues/10329) — updated 2026-11-13T07:44:06Z
 - [cri pull image failed unexpected commit digest xxxx, expected xxx failed precondition"](https://github.com/containerd/containerd/issues/14561) — updated 2026-11-12T13:24:00Z
-- [overlayfs image cache](https://github.com/containerd/containerd/issues/14262) — updated 2026-11-12T03:03:04Z
-- [GC scheduler can miss deletion notifications during backend cleanup](https://github.com/containerd/containerd/issues/14461) — updated 2026-11-12T02:25:17Z
 
 ## omacom/omarchy
 
-- [Trying to click the stop recording icon is hard because of incorrect mouse detection](https://github.com/omacom/omarchy/issues/18672) — updated 2026-11-12T16:47:51Z
-- [omarchy windows vm launch: RDP connects before Windows has booted, then auto-stops the VM](https://github.com/omacom/omarchy/issues/18671) — updated 2026-11-12T16:47:12Z
-- [Quake console binding (SUPER + grave) can't fire on AZERTY and other layouts without an unshifted grave; bind code:49 like the workspace keys](https://github.com/omacom/omarchy/issues/17682) — updated 2026-11-12T16:37:20Z
+- [Keybindings menu does not run the selected bind on Hyprland 0.57](https://github.com/omacom/omarchy/issues/18762) — updated 2026-11-13T16:14:56Z
+- [v4.5.0 stable ships without the rtkit fix (#16824), so omarchy-shell is still SIGKILLed via RLIMIT_RTTIME=0 (#16348)](https://github.com/omacom/omarchy/issues/18741) — updated 2026-11-13T16:09:46Z
+- [Factory reset leaves the previous owner's package cache (@pkg) and any extra top-level subvolumes in place](https://github.com/omacom/omarchy/issues/18761) — updated 2026-11-13T16:03:53Z
 
 ## microsoft/vscode
 
-- [Copilot Chat CLI server fails to start on Intel Mac (macOS x64) after VS Code update](https://github.com/microsoft/vscode/issues/344044) — updated 2026-11-12T16:30:28Z
-- [Codex chat intermittently fails with “The requested model is not supported” for GPT-6.1-Sol (ChatGPT)](https://github.com/microsoft/vscode/issues/344514) — updated 2026-11-12T16:30:03Z
-- [GitHub Copilot migrations no longer show up anywhere in v1.146](https://github.com/microsoft/vscode/issues/347890) — updated 2026-11-12T16:19:03Z
+- [Test viewing extension info page in agents window](https://github.com/microsoft/vscode/issues/348191) — updated 2026-11-13T16:22:55Z
+- [Agents Window: allow commenting on PRs](https://github.com/microsoft/vscode/issues/347314) — updated 2026-11-13T16:21:48Z
+- [Terminal of Agent is not avaialble anymore](https://github.com/microsoft/vscode/issues/348170) — updated 2026-11-13T16:17:10Z
 
 ## google/googletest
 
-- [Enable user-defined templated PrintTo to not be ambiguous](https://github.com/google/googletest/issues/3674) — updated 2026-11-11T11:07:00Z
-- [Readme notice about Abseil never/already happened](https://github.com/google/googletest/issues/5156) — updated 2026-11-10T02:24:02Z
-- [gtest_list_tests XML/JSON output ignores --gtest_filter in the test count and emits empty test suites](https://github.com/google/googletest/issues/5147) — updated 2026-11-03T08:07:13Z
+- [gtest_main does not discover any tests on Windows (Visual Studio)](https://github.com/google/googletest/issues/2157) — updated 2026-11-13T11:06:06Z
+- [Flag to also run skipped tests](https://github.com/google/googletest/issues/3831) — updated 2026-11-13T02:06:51Z
+- [[FR]: Add variant of `testing::TempDir()` that returns `std::filesystem::path`](https://github.com/google/googletest/issues/4806) — updated 2026-11-12T23:29:18Z
 
 ## facebook/react
 
-- [Bug: Fast Refresh remounts inline memo()/forwardRef() components that call an imported custom Hook](https://github.com/react/react/issues/38229) — updated 2026-11-12T13:23:00Z
-- [Perf: Inserting many siblings in one commit is quadratic in getHostSibling](https://github.com/react/react/issues/38232) — updated 2026-11-12T12:01:31Z
-- [Bug: [React 19.1/19.2] useEffect does not run after changed dependencies due to startTransition](https://github.com/react/react/issues/34556) — updated 2026-11-11T14:08:21Z
+- [Bug: Hydration mismatch on `<script defer>` rendered inside `<head>`](https://github.com/react/react/issues/36169) — updated 2026-11-13T09:09:12Z
+- [Add example of focusing an input using callback refs](https://github.com/react/react/issues/38054) — updated 2026-11-13T04:22:22Z
+- [Bug: hydrated <dialog> never fires onToggle / onBeforeToggle](https://github.com/react/react/issues/37261) — updated 2026-11-13T03:09:17Z
 
 ## openai/openai-python
 
+- [test(auth): cover HTTP 500 status and RFC 7231 Retry-After seconds headers in _retry_delay](https://github.com/openai/openai-python/issues/4234) — updated 2026-11-13T13:18:40Z
 - [ChatCompletionStream.get_final_completion() can return an incomplete result after an early EOF](https://github.com/openai/openai-python/issues/4063) — updated 2026-11-12T13:07:30Z
 - [AsyncStream does not close its SSE decoder and byte iterators before releasing the response](https://github.com/openai/openai-python/issues/4262) — updated 2026-11-11T19:57:56Z
-- [parse_chat_completion drops custom tool calls](https://github.com/openai/openai-python/issues/4235) — updated 2026-11-10T13:16:58Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [Segmentation fault when using tf.raw_ops.AsString with large widthvalue](https://github.com/tensorflow/tensorflow/issues/105292) — updated 2026-11-12T16:19:47Z
-- [how to assign value to a EagerTensor slice? ----'tensorflow.python.framework.ops.EagerTensor' object does not support item assignment](https://github.com/tensorflow/tensorflow/issues/33131) — updated 2026-11-12T15:39:38Z
-- [Multiple segmentation faults and aborted in some modules](https://github.com/tensorflow/tensorflow/issues/96209) — updated 2026-11-12T15:38:06Z
+- [TF 2.21.0 source build fails: LLVM checksum mismatch "Checksum was 00b1077e… but wanted 3f986184…"](https://github.com/tensorflow/tensorflow/issues/129543) — updated 2026-11-13T16:19:57Z
+- [Grappler MemoryOptimizer `TemporaryVariable` survives dataset EOF, causing `AlreadyExistsError`](https://github.com/tensorflow/tensorflow/issues/130303) — updated 2026-11-13T15:38:26Z
+- [Complex gradients of multiply_no_nan, xlogy, xlog1py, xdivy, cumprod, segment_prod and unsorted_segment_prod are conjugated wrongly](https://github.com/tensorflow/tensorflow/issues/130245) — updated 2026-11-13T08:40:09Z
 
 ## rust-lang/rust
 
-- [unused_parens should probably not trigger for `&(v @ ...)` for clarity](https://github.com/rust-lang/rust/issues/165636) — updated 2026-11-12T16:33:01Z
-- [Next solver: exponential compile time and memory in PostAnalysisNormalize with nested higher-ranked async-closure opaques](https://github.com/rust-lang/rust/issues/165867) — updated 2026-11-12T16:22:30Z
-- [Remove -Z stack-protector a few releases after -C stack-protector is stabilized](https://github.com/rust-lang/rust/issues/165864) — updated 2026-11-12T16:14:24Z
+- [[ICE]: define_opaque() and related things](https://github.com/rust-lang/rust/issues/165916) — updated 2026-11-13T16:23:29Z
+- [Improve "Walkthrough: adding a new test" with test and stderr file workflow](https://github.com/rust-lang/rust/issues/165909) — updated 2026-11-13T16:19:43Z
+- [Next solver: exponential compile time and memory in PostAnalysisNormalize with nested higher-ranked async-closure opaques](https://github.com/rust-lang/rust/issues/165867) — updated 2026-11-13T16:00:44Z
 
 ## nodejs/node
 
-- [Claude subscription sign-in fails on Windows: "Sign-in ended before the account was connected."](https://github.com/nodejs/node/issues/67439) — updated 2026-11-12T16:28:43Z
-- [Remove or date-limit emSign Root CA - G1 before Mozilla's 2026-11-16 cutoff](https://github.com/nodejs/node/issues/67391) — updated 2026-11-12T16:03:33Z
-- [Segmentation fault on riscv64 starting with v24.22.0 due to missing v8 commit](https://github.com/nodejs/node/issues/67066) — updated 2026-11-12T04:08:27Z
+- [Temporal on v26.x: until() and round() add one smallestUnit to a whole number of years, months or weeks (temporal_rs 0.2.3)](https://github.com/nodejs/node/issues/67457) — updated 2026-11-13T15:50:12Z
+- [https: pipelined request during a response drain fails with HPE_PAUSED](https://github.com/nodejs/node/issues/67455) — updated 2026-11-13T13:34:09Z
+- [buffer.toString() fails when buffer.length >= 32 and null-terminated on big-endian](https://github.com/nodejs/node/issues/64807) — updated 2026-11-13T09:29:40Z
 
 ## golang/go
 
-- [x/build/cmd/relui: define a govulncheck-action tagging workflow](https://github.com/golang/go/issues/77863) — updated 2026-11-12T16:46:43Z
-- [cmd/compile: put stack offsets into loads and stores on GOARCH=wasm](https://github.com/golang/go/issues/83028) — updated 2026-11-12T16:18:20Z
-- [cmd/compile: performance of go wasm is very poor](https://github.com/golang/go/issues/65440) — updated 2026-11-12T16:18:19Z
+- [x/tools/go/analysis/passes/modernize: unsafefuncs: fix doesn't compile when the offset is not an integer or overflows int](https://github.com/golang/go/issues/83050) — updated 2026-11-13T16:22:08Z
+- [x/tools/gopls: validate that user build flags are actually flags](https://github.com/golang/go/issues/58023) — updated 2026-11-13T16:14:00Z
+- [os: Root.OpenFile ignores syscall.O_NOFOLLOW on Unix](https://github.com/golang/go/issues/83038) — updated 2026-11-13T15:44:43Z
 
 ## llvm/llvm-project
 
-- [[X86] zmm byte rotate by 24 lowered to vprold instead of vpshufb](https://github.com/llvm/llvm-project/issues/241962) — updated 2026-11-12T16:47:59Z
-- [[X86] Failure to properly use imul/mul for smulh/umulh scalar patterns](https://github.com/llvm/llvm-project/issues/238789) — updated 2026-11-12T16:47:36Z
-- [[AMDGPU][gfx125x] Is waiting for global_inv required when it's the only outstanding LOADcnt op?](https://github.com/llvm/llvm-project/issues/241948) — updated 2026-11-12T16:45:13Z
+- [[clang-format] BlockIndent column-aligns a trailing member access to the opening parenthesis](https://github.com/llvm/llvm-project/issues/242373) — updated 2026-11-13T16:15:28Z
+- [[X86] X86CmovConversion drops a zero extension that a byte-insert pattern relies on](https://github.com/llvm/llvm-project/issues/242379) — updated 2026-11-13T16:14:42Z
+- [[AArch64] Writes to global register variables in -ffixed-xN registers are hoisted and speculated (MachineLICM, early-ifcvt, ccmp)](https://github.com/llvm/llvm-project/issues/241605) — updated 2026-11-13T16:10:10Z
 
 ## mozilla/gecko-dev
 
