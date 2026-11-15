@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-14
+# Open-source issue digest — 2026-11-15
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,9 +10,9 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [RFC: add a graphical-session-compositor.target special unit](https://github.com/systemd/systemd/issues/44336) — updated 2026-11-14T13:29:41Z
-- [sd-sysinstall disk table should show more details (model, serial, size, ...)](https://github.com/systemd/systemd/issues/44816) — updated 2026-11-14T10:29:53Z
-- [Prefer less option `--redraw-on-quit` over `-X, --no-init` in the default value of `$SYSTEMD_LESS`](https://github.com/systemd/systemd/issues/44815) — updated 2026-11-14T04:01:12Z
+- [systemd-resolved fails to fall back to non-DNSSEC style requests in allow-downgrade mode.](https://github.com/systemd/systemd/issues/21107) — updated 2026-11-15T10:37:14Z
+- [excessive logging: "Session N logged out. Waiting for processes to exit."](https://github.com/systemd/systemd/issues/44828) — updated 2026-11-15T10:04:12Z
+- [Silence kernel spam for certain HP laptops multimedia keys](https://github.com/systemd/systemd/issues/44825) — updated 2026-11-15T08:41:36Z
 
 ## containerd/containerd
 
@@ -22,33 +22,33 @@ _No qualifying open issues._
 
 ## omacom/omarchy
 
-- [Bluetooth speaker connects as a2dp-duplex and stays silent until the sound services restart](https://github.com/omacom/omarchy/issues/18900) — updated 2026-11-14T14:57:59Z
-- [hyprland: startup-cursor causes black square cursor on AMD GPUs (amdgpu DRM hardware cursor)](https://github.com/omacom/omarchy/issues/17771) — updated 2026-11-14T14:45:40Z
-- [MacBookPro15,3: built-in screen backlight stays on after idle blank despite dpmsStatus false](https://github.com/omacom/omarchy/issues/18898) — updated 2026-11-14T14:25:35Z
+- [Dictation installer offers AVX2-only Voxtype on CPUs without AVX2](https://github.com/omacom/omarchy/issues/7883) — updated 2026-11-15T15:28:28Z
+- [Surface Laptop 7 15": wakes from suspend by itself (lid switch line and USB-A wake line fire together)](https://github.com/omacom/omarchy/issues/18970) — updated 2026-11-15T15:18:30Z
+- [[Snapdragon X] Black screen after Limine / at LUKS password prompt on ASUS Vivobook S 15 & Zenbooks (Fix: drop early KMS & enable SimpleDRM)](https://github.com/omacom/omarchy/issues/17327) — updated 2026-11-15T14:52:52Z
 
 ## microsoft/vscode
 
-- [Terminal font unreadable](https://github.com/microsoft/vscode/issues/348339) — updated 2026-11-14T14:59:21Z
-- [Agents window: Changes view closes after switching to another session and back (sessions.experimental.layoutScope = chat)](https://github.com/microsoft/vscode/issues/346834) — updated 2026-11-14T14:55:16Z
-- [Integrated terminal text appears unusually small and widely spaced in VS Code Insiders](https://github.com/microsoft/vscode/issues/348328) — updated 2026-11-14T14:53:56Z
+- [Terminal font rendering broken as of vscode insiders build 944d79c.](https://github.com/microsoft/vscode/issues/348403) — updated 2026-11-15T15:39:17Z
+- [issue](https://github.com/microsoft/vscode/issues/348385) — updated 2026-11-15T15:37:04Z
+- [Add option to hide first-line preview of collapsed notebook cell input](https://github.com/microsoft/vscode/issues/348406) — updated 2026-11-15T15:34:38Z
 
 ## google/googletest
 
-- [[Bug]: QNX 8.0: threadsafe death tests abort, fchdir() needs a directory opened with O_DIRECTORY](https://github.com/google/googletest/issues/5170) — updated 2026-11-14T13:13:50Z
+- [[Bug]: QNX 8.0: threadsafe death tests abort, fchdir() needs a directory opened with O_DIRECTORY](https://github.com/google/googletest/issues/5170) — updated 2026-11-14T18:46:49Z
 - [gtest_main does not discover any tests on Windows (Visual Studio)](https://github.com/google/googletest/issues/2157) — updated 2026-11-13T11:06:06Z
 - [Flag to also run skipped tests](https://github.com/google/googletest/issues/3831) — updated 2026-11-13T02:06:51Z
 
 ## facebook/react
 
-- [Bug: [Flight] an invalid Date (new Date(NaN)) inside props or a server action argument arrives as null](https://github.com/react/react/issues/38240) — updated 2026-11-13T18:18:13Z
-- [Bug: Hydration mismatch on `<script defer>` rendered inside `<head>`](https://github.com/react/react/issues/36169) — updated 2026-11-13T09:09:12Z
-- [Add example of focusing an input using callback refs](https://github.com/react/react/issues/38054) — updated 2026-11-13T04:22:22Z
+- [Bug: Fragment ref listeners, observers and `reactFragments` handles never reach children hydrated after the ref attached (a Suspense or Activity boundary directly inside the Fragment)](https://github.com/react/react/issues/38253) — updated 2026-11-15T11:25:12Z
+- [Bug: FragmentInstance methods read a work-in-progress fiber after a commit that leaves the Fragment untouched (TypeError after a suspended transition and in getSnapshotBeforeUpdate)](https://github.com/react/react/issues/38252) — updated 2026-11-15T11:25:11Z
+- [Bug:](https://github.com/react/react/issues/37303) — updated 2026-11-15T07:07:32Z
 
 ## openai/openai-python
 
+- [_ensure_strict_json_schema hits RecursionError on cyclic $ref with siblings, drops inherited allOf properties, and skips oneOf/prefixItems](https://github.com/openai/openai-python/issues/4272) — updated 2026-11-15T13:51:07Z
 - [Response parsing returns str for dict/list when Content-Type is mixed-case or has whitespace before ';'](https://github.com/openai/openai-python/issues/4271) — updated 2026-11-14T10:40:10Z
 - [test(auth): cover HTTP 500 status and RFC 7231 Retry-After seconds headers in _retry_delay](https://github.com/openai/openai-python/issues/4234) — updated 2026-11-13T13:18:40Z
-- [ChatCompletionStream.get_final_completion() can return an incomplete result after an early EOF](https://github.com/openai/openai-python/issues/4063) — updated 2026-11-12T13:07:30Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
+- [Grappler MemoryOptimizer `TemporaryVariable` survives dataset EOF, causing `AlreadyExistsError`](https://github.com/tensorflow/tensorflow/issues/130303) — updated 2026-11-14T23:47:28Z
+- [tf.float16 gradient clipping overflows on finite inputs, silently zeroing gradients or producing NaNs](https://github.com/tensorflow/tensorflow/issues/130356) — updated 2026-11-14T18:26:09Z
 - [tf.image.adjust_saturation turns red pixels gray or black on CPU when blue is a few ulps above green](https://github.com/tensorflow/tensorflow/issues/129605) — updated 2026-11-14T01:37:11Z
-- [TF 2.21.0 source build fails: LLVM checksum mismatch "Checksum was 00b1077e… but wanted 3f986184…"](https://github.com/tensorflow/tensorflow/issues/129543) — updated 2026-11-13T16:19:57Z
-- [Grappler MemoryOptimizer `TemporaryVariable` survives dataset EOF, causing `AlreadyExistsError`](https://github.com/tensorflow/tensorflow/issues/130303) — updated 2026-11-13T15:38:26Z
 
 ## rust-lang/rust
 
-- [Exponential compile time in LoopVectorize (vputils::isSingleScalar) on a summed zip with chain, regression in 1.99 (LLVM 23)](https://github.com/rust-lang/rust/issues/165964) — updated 2026-11-14T14:54:36Z
-- [[ICE]: llvm.* function must use `extern "llvm-intrinsic"`](https://github.com/rust-lang/rust/issues/165959) — updated 2026-11-14T14:32:12Z
-- [Tracking Issue for map_try_insert](https://github.com/rust-lang/rust/issues/82766) — updated 2026-11-14T13:54:09Z
+- [Significant compilation time regression starting in v1.95.0-nightly (bevy)](https://github.com/rust-lang/rust/issues/153910) — updated 2026-11-15T15:20:31Z
+- [x86_64 opt-level=0: load through a pointer made from f64 bits uses the XMM register as the address base](https://github.com/rust-lang/rust/issues/165994) — updated 2026-11-15T15:15:13Z
+- [Dependency Dashboard](https://github.com/rust-lang/rust/issues/134129) — updated 2026-11-15T14:42:14Z
 
 ## nodejs/node
 
-- [https: pipelined request during a response drain fails with HPE_PAUSED](https://github.com/nodejs/node/issues/67455) — updated 2026-11-14T08:40:43Z
-- [Style issues in the installation interface and no permission for the default directory](https://github.com/nodejs/node/issues/67464) — updated 2026-11-14T08:39:24Z
-- [Temporal on v26.x: until() and round() add one smallestUnit to a whole number of years, months or weeks (temporal_rs 0.2.3)](https://github.com/nodejs/node/issues/67457) — updated 2026-11-14T07:34:48Z
+- [Build errors with V8 <15.7 and ICU 79](https://github.com/nodejs/node/issues/66987) — updated 2026-11-15T13:59:28Z
+- [worker.terminate() during zlib stream construction aborts the process: Assertion failed: init_done_ && "close before init"](https://github.com/nodejs/node/issues/67485) — updated 2026-11-15T13:03:50Z
+- [v8: JSON.stringify fast path allocates memory proportional to string length before throwing on a cyclic object](https://github.com/nodejs/node/issues/67480) — updated 2026-11-15T11:26:44Z
 
 ## golang/go
 
-- [proposal: spec: add decimal float types (IEEE 754-2008)](https://github.com/golang/go/issues/19787) — updated 2026-11-14T14:09:41Z
-- [encoding/json: stack overflow instead of cycle error for self-referential pointer types](https://github.com/golang/go/issues/82947) — updated 2026-11-14T12:18:00Z
-- [x/crypto/ssh: add example for KeyboardInteractive](https://github.com/golang/go/issues/35238) — updated 2026-11-14T11:56:46Z
+- [proposal: fmt: ErrorAppender interface](https://github.com/golang/go/issues/83013) — updated 2026-11-15T15:33:35Z
+- [proposal: mime/multipart: add Reader.Reset and Reader.ReuseParts](https://github.com/golang/go/issues/83051) — updated 2026-11-15T15:25:49Z
+- [proposal: spec: add decimal float types (IEEE 754-2008)](https://github.com/golang/go/issues/19787) — updated 2026-11-15T13:17:50Z
 
 ## llvm/llvm-project
 
-- [doxygen keyword "internal" is not recognized as documentation](https://github.com/llvm/llvm-project/issues/47159) — updated 2026-11-14T15:04:50Z
-- [Presence of trailing return type in generic lambda defined within function template disables constexpr operator()](https://github.com/llvm/llvm-project/issues/174514) — updated 2026-11-14T15:03:48Z
-- [[AArch64][GlobalISel] Bad machine code: mismatching COPY sizes for `ret ptr @g` on arm64_32](https://github.com/llvm/llvm-project/issues/233166) — updated 2026-11-14T15:02:43Z
+- [[mlir][SCF] convert-scf-to-cf breaks SizedRegion<1> constraint when lowering scf.if inside test.isolated_region_branch](https://github.com/llvm/llvm-project/issues/242841) — updated 2026-11-15T15:34:46Z
+- [[clangd] On Windows, clangd keeps more than 10 GiB of freed memory committed after background indexing (rpmalloc)](https://github.com/llvm/llvm-project/issues/242835) — updated 2026-11-15T15:28:57Z
+- [Trying to give a default argument to a lambda operator() by a friend declaration talks about "lambda expression"](https://github.com/llvm/llvm-project/issues/15198) — updated 2026-11-15T15:22:19Z
 
 ## mozilla/gecko-dev
 
