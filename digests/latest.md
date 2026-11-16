@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-15
+# Open-source issue digest — 2026-11-16
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [systemd-resolved fails to fall back to non-DNSSEC style requests in allow-downgrade mode.](https://github.com/systemd/systemd/issues/21107) — updated 2026-11-15T10:37:14Z
-- [excessive logging: "Session N logged out. Waiting for processes to exit."](https://github.com/systemd/systemd/issues/44828) — updated 2026-11-15T10:04:12Z
-- [Silence kernel spam for certain HP laptops multimedia keys](https://github.com/systemd/systemd/issues/44825) — updated 2026-11-15T08:41:36Z
+- [cryptsetup token plugin breaks output of luksDump](https://github.com/systemd/systemd/issues/43897) — updated 2026-11-16T17:44:36Z
+- [Runaway memory-consuming process freezes entire GNOME desktop with out-of-box Fedora 37](https://github.com/systemd/systemd/issues/25596) — updated 2026-11-16T16:03:26Z
+- [journal-remote: compressed uploads fail whenever the request body spans more than one MHD callback](https://github.com/systemd/systemd/issues/43614) — updated 2026-11-16T11:24:31Z
 
 ## containerd/containerd
 
-- [Resolve falls back to /blobs after a transport error on /manifests, storing an application/octet-stream descriptor](https://github.com/containerd/containerd/issues/14580) — updated 2026-11-14T09:12:50Z
-- [Unable to diff Windows Containers](https://github.com/containerd/containerd/issues/14567) — updated 2026-11-13T17:54:05Z
-- [Reimport snapshot error: file already exists with Windows Containers](https://github.com/containerd/containerd/issues/14540) — updated 2026-11-13T17:17:59Z
+- [cri close stdin even though exec process is still running.](https://github.com/containerd/containerd/issues/12734) — updated 2026-11-16T16:23:39Z
+- [2.3: a daemon with a non-default state dir leaves `/run/containerd` at 0700, which breaks user-namespaced containers for a second daemon](https://github.com/containerd/containerd/issues/14592) — updated 2026-11-16T14:39:07Z
+- [cri pull image failed unexpected commit digest xxxx, expected xxx failed precondition"](https://github.com/containerd/containerd/issues/14561) — updated 2026-11-16T03:48:19Z
 
 ## omacom/omarchy
 
-- [Dictation installer offers AVX2-only Voxtype on CPUs without AVX2](https://github.com/omacom/omarchy/issues/7883) — updated 2026-11-15T15:28:28Z
-- [Surface Laptop 7 15": wakes from suspend by itself (lid switch line and USB-A wake line fire together)](https://github.com/omacom/omarchy/issues/18970) — updated 2026-11-15T15:18:30Z
-- [[Snapdragon X] Black screen after Limine / at LUKS password prompt on ASUS Vivobook S 15 & Zenbooks (Fix: drop early KMS & enable SimpleDRM)](https://github.com/omacom/omarchy/issues/17327) — updated 2026-11-15T14:52:52Z
+- [Floating desktop gets stuck on visible special:minimized workspace; minimize and dock restore fail](https://github.com/omacom/omarchy/issues/17890) — updated 2026-11-16T18:06:41Z
+- [T2 MacBook Pro: internal keyboard dead at LUKS prompt due to unconditional t2bce modules in apple-t2.conf](https://github.com/omacom/omarchy/issues/17155) — updated 2026-11-16T18:02:36Z
+- [Snapdragon UKI build fails with `PEError: Not enough header space to add section .uname` when `DeviceTreeAuto` exceeds the stub's section limit](https://github.com/omacom/omarchy/issues/19136) — updated 2026-11-16T17:57:09Z
 
 ## microsoft/vscode
 
-- [Terminal font rendering broken as of vscode insiders build 944d79c.](https://github.com/microsoft/vscode/issues/348403) — updated 2026-11-15T15:39:17Z
-- [issue](https://github.com/microsoft/vscode/issues/348385) — updated 2026-11-15T15:37:04Z
-- [Add option to hide first-line preview of collapsed notebook cell input](https://github.com/microsoft/vscode/issues/348406) — updated 2026-11-15T15:34:38Z
+- [Inbox: Action placement in sessions panel inconsistent](https://github.com/microsoft/vscode/issues/348533) — updated 2026-11-16T18:30:48Z
+- [Agent: All thought times are displayed as 1s](https://github.com/microsoft/vscode/issues/347771) — updated 2026-11-16T18:30:35Z
+- [Agents window: Close Canvas fails on remote agent hosts - Closing canvases is unavailable for this session](https://github.com/microsoft/vscode/issues/347590) — updated 2026-11-16T18:27:36Z
 
 ## google/googletest
 
@@ -40,13 +40,13 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Bug: Fragment ref listeners, observers and `reactFragments` handles never reach children hydrated after the ref attached (a Suspense or Activity boundary directly inside the Fragment)](https://github.com/react/react/issues/38253) — updated 2026-11-15T11:25:12Z
-- [Bug: FragmentInstance methods read a work-in-progress fiber after a commit that leaves the Fragment untouched (TypeError after a suspended transition and in getSnapshotBeforeUpdate)](https://github.com/react/react/issues/38252) — updated 2026-11-15T11:25:11Z
-- [Bug:](https://github.com/react/react/issues/37303) — updated 2026-11-15T07:07:32Z
+- [[Compiler Bug]: Hook called inside an object literal is memoized with it and skipped on later renders](https://github.com/react/react/issues/38264) — updated 2026-11-16T17:19:58Z
+- [[Compiler Bug]: Render counters unregister after the first update](https://github.com/react/react/issues/38261) — updated 2026-11-16T13:51:04Z
+- [Bug: ](https://github.com/react/react/issues/37229) — updated 2026-11-16T13:20:33Z
 
 ## openai/openai-python
 
-- [_ensure_strict_json_schema hits RecursionError on cyclic $ref with siblings, drops inherited allOf properties, and skips oneOf/prefixItems](https://github.com/openai/openai-python/issues/4272) — updated 2026-11-15T13:51:07Z
+- [_ensure_strict_json_schema hits RecursionError on cyclic $ref with siblings, drops inherited allOf properties, and skips oneOf/prefixItems](https://github.com/openai/openai-python/issues/4272) — updated 2026-11-16T12:41:36Z
 - [Response parsing returns str for dict/list when Content-Type is mixed-case or has whitespace before ';'](https://github.com/openai/openai-python/issues/4271) — updated 2026-11-14T10:40:10Z
 - [test(auth): cover HTTP 500 status and RFC 7231 Retry-After seconds headers in _retry_delay](https://github.com/openai/openai-python/issues/4234) — updated 2026-11-13T13:18:40Z
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [Grappler MemoryOptimizer `TemporaryVariable` survives dataset EOF, causing `AlreadyExistsError`](https://github.com/tensorflow/tensorflow/issues/130303) — updated 2026-11-14T23:47:28Z
-- [tf.float16 gradient clipping overflows on finite inputs, silently zeroing gradients or producing NaNs](https://github.com/tensorflow/tensorflow/issues/130356) — updated 2026-11-14T18:26:09Z
-- [tf.image.adjust_saturation turns red pixels gray or black on CPU when blue is a few ulps above green](https://github.com/tensorflow/tensorflow/issues/129605) — updated 2026-11-14T01:37:11Z
+- [Numerical sensitivity in GroupNorm backward pass under upstream-gradient scaling (metamorphic testing) in TF2.17.0](https://github.com/tensorflow/tensorflow/issues/107788) — updated 2026-11-16T18:30:38Z
+- [Doesn't build on GCC 16.2.1](https://github.com/tensorflow/tensorflow/issues/130401) — updated 2026-11-16T16:13:41Z
+- [tf.image.grayscale_to_rgb raises AttributeError for NumPy array and list input](https://github.com/tensorflow/tensorflow/issues/130399) — updated 2026-11-16T14:16:21Z
 
 ## rust-lang/rust
 
-- [Significant compilation time regression starting in v1.95.0-nightly (bevy)](https://github.com/rust-lang/rust/issues/153910) — updated 2026-11-15T15:20:31Z
-- [x86_64 opt-level=0: load through a pointer made from f64 bits uses the XMM register as the address base](https://github.com/rust-lang/rust/issues/165994) — updated 2026-11-15T15:15:13Z
-- [Dependency Dashboard](https://github.com/rust-lang/rust/issues/134129) — updated 2026-11-15T14:42:14Z
+- [`test-aarch64-msvc-{1,2}` jobs are failing when trying to build with stage 1 compiler](https://github.com/rust-lang/rust/issues/165953) — updated 2026-11-16T18:13:03Z
+- [CFI: std::thread::spawn fails the CFI check on linux-gnu (__pthread_get_minstack called through dlsym)](https://github.com/rust-lang/rust/issues/166068) — updated 2026-11-16T17:33:59Z
+- [Enforce rustdoc lints in standard library CI](https://github.com/rust-lang/rust/issues/166067) — updated 2026-11-16T17:31:41Z
 
 ## nodejs/node
 
-- [Build errors with V8 <15.7 and ICU 79](https://github.com/nodejs/node/issues/66987) — updated 2026-11-15T13:59:28Z
-- [worker.terminate() during zlib stream construction aborts the process: Assertion failed: init_done_ && "close before init"](https://github.com/nodejs/node/issues/67485) — updated 2026-11-15T13:03:50Z
-- [v8: JSON.stringify fast path allocates memory proportional to string length before throwing on a cyclic object](https://github.com/nodejs/node/issues/67480) — updated 2026-11-15T11:26:44Z
+- [Nominating Mert Can Altin (@mertcanaltin) as a collaborator](https://github.com/nodejs/node/issues/67521) — updated 2026-11-16T17:42:22Z
+- [node: OpenSSL configuration error](https://github.com/nodejs/node/issues/67520) — updated 2026-11-16T15:23:54Z
+- [Nominating Marten Richter (@martenrichter) as a collaborator](https://github.com/nodejs/node/issues/67522) — updated 2026-11-16T15:03:13Z
 
 ## golang/go
 
-- [proposal: fmt: ErrorAppender interface](https://github.com/golang/go/issues/83013) — updated 2026-11-15T15:33:35Z
-- [proposal: mime/multipart: add Reader.Reset and Reader.ReuseParts](https://github.com/golang/go/issues/83051) — updated 2026-11-15T15:25:49Z
-- [proposal: spec: add decimal float types (IEEE 754-2008)](https://github.com/golang/go/issues/19787) — updated 2026-11-15T13:17:50Z
+- [cmd/go: defensively unset dangerous VCS configuration options](https://github.com/golang/go/issues/74520) — updated 2026-11-16T18:21:45Z
+- [cmd/go: develop safe-by-default API for calling VCS tools](https://github.com/golang/go/issues/77434) — updated 2026-11-16T18:20:52Z
+- [cmd/compile: mention shadowing of predeclared identifiers in errors they cause](https://github.com/golang/go/issues/33567) — updated 2026-11-16T17:50:37Z
 
 ## llvm/llvm-project
 
-- [[mlir][SCF] convert-scf-to-cf breaks SizedRegion<1> constraint when lowering scf.if inside test.isolated_region_branch](https://github.com/llvm/llvm-project/issues/242841) — updated 2026-11-15T15:34:46Z
-- [[clangd] On Windows, clangd keeps more than 10 GiB of freed memory committed after background indexing (rpmalloc)](https://github.com/llvm/llvm-project/issues/242835) — updated 2026-11-15T15:28:57Z
-- [Trying to give a default argument to a lambda operator() by a friend declaration talks about "lambda expression"](https://github.com/llvm/llvm-project/issues/15198) — updated 2026-11-15T15:22:19Z
+- [[AArch64][Windows] preserve_all function places a local in a callee-saved register's save slot](https://github.com/llvm/llvm-project/issues/242966) — updated 2026-11-16T18:30:04Z
+- [[KnownFPClass] Add magnitude refinement to KnownFPClass (to distinguish `|x|>1.0`, `|x|=1.0`, and `|x|<1.0`)](https://github.com/llvm/llvm-project/issues/240038) — updated 2026-11-16T18:06:57Z
+- [[clang][C++] Bad error recovery with lambdas returning unexpanded packs](https://github.com/llvm/llvm-project/issues/91696) — updated 2026-11-16T17:57:24Z
 
 ## mozilla/gecko-dev
 
