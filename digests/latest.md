@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-16
+# Open-source issue digest — 2026-11-17
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [cryptsetup token plugin breaks output of luksDump](https://github.com/systemd/systemd/issues/43897) — updated 2026-11-16T17:44:36Z
-- [Runaway memory-consuming process freezes entire GNOME desktop with out-of-box Fedora 37](https://github.com/systemd/systemd/issues/25596) — updated 2026-11-16T16:03:26Z
-- [journal-remote: compressed uploads fail whenever the request body spans more than one MHD callback](https://github.com/systemd/systemd/issues/43614) — updated 2026-11-16T11:24:31Z
+- [RFE: allow updating BPFProgram= on a running unit](https://github.com/systemd/systemd/issues/44858) — updated 2026-11-17T17:31:05Z
+- [sd-measure PCR policy deduplication assumes signatures are deterministic](https://github.com/systemd/systemd/issues/44788) — updated 2026-11-17T15:56:39Z
+- [manifest: does not follow UAPI.16 as of uapi-group/specifications#253](https://github.com/systemd/systemd/issues/44855) — updated 2026-11-17T12:31:00Z
 
 ## containerd/containerd
 
-- [cri close stdin even though exec process is still running.](https://github.com/containerd/containerd/issues/12734) — updated 2026-11-16T16:23:39Z
-- [2.3: a daemon with a non-default state dir leaves `/run/containerd` at 0700, which breaks user-namespaced containers for a second daemon](https://github.com/containerd/containerd/issues/14592) — updated 2026-11-16T14:39:07Z
-- [cri pull image failed unexpected commit digest xxxx, expected xxx failed precondition"](https://github.com/containerd/containerd/issues/14561) — updated 2026-11-16T03:48:19Z
+- [Importing containerd configuration files replaces nested plugin arrays](https://github.com/containerd/containerd/issues/14607) — updated 2026-11-17T16:01:55Z
+- [2.3: a daemon with a non-default state dir leaves `/run/containerd` at 0700, which breaks user-namespaced containers for a second daemon](https://github.com/containerd/containerd/issues/14592) — updated 2026-11-17T13:03:16Z
+- [CRI: ImageFsInfo does not account for lazy-pulling snapshotter caches, so kubelet disk-pressure reclamation cannot reach them](https://github.com/containerd/containerd/issues/14603) — updated 2026-11-17T03:29:01Z
 
 ## omacom/omarchy
 
-- [Floating desktop gets stuck on visible special:minimized workspace; minimize and dock restore fail](https://github.com/omacom/omarchy/issues/17890) — updated 2026-11-16T18:06:41Z
-- [T2 MacBook Pro: internal keyboard dead at LUKS prompt due to unconditional t2bce modules in apple-t2.conf](https://github.com/omacom/omarchy/issues/17155) — updated 2026-11-16T18:02:36Z
-- [Snapdragon UKI build fails with `PEError: Not enough header space to add section .uname` when `DeviceTreeAuto` exceeds the stub's section limit](https://github.com/omacom/omarchy/issues/19136) — updated 2026-11-16T17:57:09Z
+- [fix-suspend-nvme.sh targets the wrong PCI device on 15-inch MacBooks (13,3/14,3): NVMe stays exposed to D3cold, suspend hangs on resume](https://github.com/omacom/omarchy/issues/18669) — updated 2026-11-17T17:30:30Z
+- [TB4 dock display stays dark at boot: DP tunnel is torn down before `xe` is up, and nothing ever retries](https://github.com/omacom/omarchy/issues/19199) — updated 2026-11-17T17:20:40Z
+- [omarchy-sudo-passwordless reports "already DISABLED" while a third-party sudoers drop-in still grants NOPASSWD: ALL](https://github.com/omacom/omarchy/issues/19131) — updated 2026-11-17T16:52:06Z
 
 ## microsoft/vscode
 
-- [Inbox: Action placement in sessions panel inconsistent](https://github.com/microsoft/vscode/issues/348533) — updated 2026-11-16T18:30:48Z
-- [Agent: All thought times are displayed as 1s](https://github.com/microsoft/vscode/issues/347771) — updated 2026-11-16T18:30:35Z
-- [Agents window: Close Canvas fails on remote agent hosts - Closing canvases is unavailable for this session](https://github.com/microsoft/vscode/issues/347590) — updated 2026-11-16T18:27:36Z
+- [Meta: Sorry, your request failed. Please try again.](https://github.com/microsoft/vscode/issues/253136) — updated 2026-11-17T17:33:29Z
+- [Unable to use Copilot in a public repo without giving full access to GitHub account, inc private repos, deploy keys, settings, invites](https://github.com/microsoft/vscode/issues/348886) — updated 2026-11-17T17:32:33Z
+- [Codex chat intermittently fails with “The requested model is not supported” for GPT-6.1-Sol (ChatGPT)](https://github.com/microsoft/vscode/issues/344514) — updated 2026-11-17T17:31:12Z
 
 ## google/googletest
 
@@ -40,9 +40,9 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [[Compiler Bug]: Hook called inside an object literal is memoized with it and skipped on later renders](https://github.com/react/react/issues/38264) — updated 2026-11-16T17:19:58Z
-- [[Compiler Bug]: Render counters unregister after the first update](https://github.com/react/react/issues/38261) — updated 2026-11-16T13:51:04Z
-- [Bug: ](https://github.com/react/react/issues/37229) — updated 2026-11-16T13:20:33Z
+- [[Compiler Bug]: MobX observer component is compiled without an incompatible-library diagnostic and loses reactivity](https://github.com/react/react/issues/37000) — updated 2026-11-17T12:23:04Z
+- [Bug: Updating state during render when using `useSyncExternalStore` throws `Cannot update a component (Component) while rendering a different component (Component)`](https://github.com/react/react/issues/31730) — updated 2026-11-17T12:11:48Z
+- [Bug:](https://github.com/react/react/issues/38277) — updated 2026-11-17T09:48:16Z
 
 ## openai/openai-python
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [Numerical sensitivity in GroupNorm backward pass under upstream-gradient scaling (metamorphic testing) in TF2.17.0](https://github.com/tensorflow/tensorflow/issues/107788) — updated 2026-11-16T18:30:38Z
-- [Doesn't build on GCC 16.2.1](https://github.com/tensorflow/tensorflow/issues/130401) — updated 2026-11-16T16:13:41Z
-- [tf.image.grayscale_to_rgb raises AttributeError for NumPy array and list input](https://github.com/tensorflow/tensorflow/issues/130399) — updated 2026-11-16T14:16:21Z
+- [Gradient of SparseTensor * scalar (SparseDenseCwiseMul/Div) fails with GatherNd error](https://github.com/tensorflow/tensorflow/issues/130446) — updated 2026-11-17T16:14:24Z
+- [tf.sigmoid on bfloat16 is non-monotonic and not correctly rounded in eager/graph on CPU; XLA returns the correctly rounded values](https://github.com/tensorflow/tensorflow/issues/123104) — updated 2026-11-17T10:33:33Z
+- [tf.math.erf returns nan for inf and -inf, inconsistent with PyTorch/SciPy](https://github.com/tensorflow/tensorflow/issues/108483) — updated 2026-11-17T08:43:10Z
 
 ## rust-lang/rust
 
-- [`test-aarch64-msvc-{1,2}` jobs are failing when trying to build with stage 1 compiler](https://github.com/rust-lang/rust/issues/165953) — updated 2026-11-16T18:13:03Z
-- [CFI: std::thread::spawn fails the CFI check on linux-gnu (__pthread_get_minstack called through dlsym)](https://github.com/rust-lang/rust/issues/166068) — updated 2026-11-16T17:33:59Z
-- [Enforce rustdoc lints in standard library CI](https://github.com/rust-lang/rust/issues/166067) — updated 2026-11-16T17:31:41Z
+- [aarch64: `is_ascii` is slower for most inputs under 64 bytes since #160143 (1.99)](https://github.com/rust-lang/rust/issues/166110) — updated 2026-11-17T17:35:25Z
+- [Cloning a `Peekable` iterator can violate `FusedIterator`](https://github.com/rust-lang/rust/issues/166085) — updated 2026-11-17T17:17:56Z
+- [Rust's stdio should not ignore EBADF error on non-windows platforms](https://github.com/rust-lang/rust/issues/47271) — updated 2026-11-17T17:03:50Z
 
 ## nodejs/node
 
-- [Nominating Mert Can Altin (@mertcanaltin) as a collaborator](https://github.com/nodejs/node/issues/67521) — updated 2026-11-16T17:42:22Z
-- [node: OpenSSL configuration error](https://github.com/nodejs/node/issues/67520) — updated 2026-11-16T15:23:54Z
-- [Nominating Marten Richter (@martenrichter) as a collaborator](https://github.com/nodejs/node/issues/67522) — updated 2026-11-16T15:03:13Z
+- [Faster contributor setup with the dev container](https://github.com/nodejs/node/issues/67440) — updated 2026-11-17T17:26:54Z
+- [Terminating a worker while it evaluates the parent of a top-level-await module aborts the process](https://github.com/nodejs/node/issues/67550) — updated 2026-11-17T17:10:06Z
+- [v26.x: Intl.DateTimeFormat specification bugs when formatting Temporal objects](https://github.com/nodejs/node/issues/67484) — updated 2026-11-17T15:01:02Z
 
 ## golang/go
 
-- [cmd/go: defensively unset dangerous VCS configuration options](https://github.com/golang/go/issues/74520) — updated 2026-11-16T18:21:45Z
-- [cmd/go: develop safe-by-default API for calling VCS tools](https://github.com/golang/go/issues/77434) — updated 2026-11-16T18:20:52Z
-- [cmd/compile: mention shadowing of predeclared identifiers in errors they cause](https://github.com/golang/go/issues/33567) — updated 2026-11-16T17:50:37Z
+- [cmd/compile: s390x large Move/Zero loop leaves a past-the-end pointer in a live stack slot ("found bad pointer in Go heap")](https://github.com/golang/go/issues/83097) — updated 2026-11-17T17:31:40Z
+- [proposal: crypto/passkey: new package](https://github.com/golang/go/issues/80663) — updated 2026-11-17T17:21:59Z
+- [proposal: cmd/cgo: cgo without a C toolchain](https://github.com/golang/go/issues/81450) — updated 2026-11-17T17:15:01Z
 
 ## llvm/llvm-project
 
-- [[AArch64][Windows] preserve_all function places a local in a callee-saved register's save slot](https://github.com/llvm/llvm-project/issues/242966) — updated 2026-11-16T18:30:04Z
-- [[KnownFPClass] Add magnitude refinement to KnownFPClass (to distinguish `|x|>1.0`, `|x|=1.0`, and `|x|<1.0`)](https://github.com/llvm/llvm-project/issues/240038) — updated 2026-11-16T18:06:57Z
-- [[clang][C++] Bad error recovery with lambdas returning unexpanded packs](https://github.com/llvm/llvm-project/issues/91696) — updated 2026-11-16T17:57:24Z
+- [[RISCV] Crash with a `double` operand and the "R" inline asm constraint on RV32](https://github.com/llvm/llvm-project/issues/243541) — updated 2026-11-17T17:28:21Z
+- [[X86] GCC and clang disagree on the classification of zero-length arrays and flexible array members](https://github.com/llvm/llvm-project/issues/243361) — updated 2026-11-17T17:21:13Z
+- [[PowerPC] "Impossible reg-to-reg copy" with a register variable in ctr used as an inline asm operand](https://github.com/llvm/llvm-project/issues/243534) — updated 2026-11-17T17:20:49Z
 
 ## mozilla/gecko-dev
 
