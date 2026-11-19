@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-18
+# Open-source issue digest — 2026-11-19
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,51 +10,51 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [systemd-resolved doesn't respond to miltipacket mdns queries ](https://github.com/systemd/systemd/issues/14119) — updated 2026-11-18T16:52:59Z
-- [SysUpdate.ListTargets returns a wrong value in currentVersionIsPending](https://github.com/systemd/systemd/issues/44883) — updated 2026-11-18T15:43:20Z
-- [`sd-dhcp6-client`: DHCPv6 Prefix Delegation (IA_PD) hangs silently, times out without processing valid ISP replies](https://github.com/systemd/systemd/issues/43457) — updated 2026-11-18T14:46:01Z
+- [cryptsetup always asks for a token pin, even when that's inappropriate](https://github.com/systemd/systemd/issues/44900) — updated 2026-11-19T14:56:48Z
+- [manifest: UAPI.16 integer fields accept strings, -0, 1.0 and 1e3](https://github.com/systemd/systemd/issues/44897) — updated 2026-11-19T11:59:18Z
+- [path: PathChanged= below a search-only directory never triggers, and nothing is logged](https://github.com/systemd/systemd/issues/44888) — updated 2026-11-18T21:47:52Z
 
 ## containerd/containerd
 
-- [overlay snapshotter: a user-namespaced container from a zero-layer image cannot create /proc](https://github.com/containerd/containerd/issues/14532) — updated 2026-11-18T17:03:37Z
-- [overlayfs: orphaned RW snapshots after container removal — disk + bolt DB residue, no mount reference, no tooling to find/clean](https://github.com/containerd/containerd/issues/13416) — updated 2026-11-18T09:20:13Z
-- [CRI: pinned label never applied when pinned_images config value has no tag](https://github.com/containerd/containerd/issues/13314) — updated 2026-11-18T06:47:46Z
+- [`containerd config dump` does not reflect plugin config migrations, and `containerd config migrate` fills in default config](https://github.com/containerd/containerd/issues/11747) — updated 2026-11-19T15:34:34Z
+- [Reimport snapshot error: file already exists with Windows Containers](https://github.com/containerd/containerd/issues/14540) — updated 2026-11-19T12:20:11Z
+- [CRI: ImageFsInfo does not account for lazy-pulling snapshotter caches, so kubelet disk-pressure reclamation cannot reach them](https://github.com/containerd/containerd/issues/14603) — updated 2026-11-19T08:25:40Z
 
 ## omacom/omarchy
 
-- [Document x86-64 ISA baseline (AVX2 or not?) for users + packagers](https://github.com/omacom/omarchy/issues/16798) — updated 2026-11-18T17:15:21Z
-- [HDR metadata in DisplayID 2.0 / CTA-861 block not parsed on ASUS Vivobook S 14 OLED (libdisplay-info 0.3.0)](https://github.com/omacom/omarchy/issues/16797) — updated 2026-11-18T17:14:52Z
-- [Hard freezes at modeset boundaries on linux-omarchy 7.2.8-9 with nvidia-open-dkms 615.78.08-1 (TUXEDO InfinityBook Pro 14 Gen6)](https://github.com/omacom/omarchy/issues/16794) — updated 2026-11-18T17:14:29Z
+- [[Bug] RTL8723DE Wi-Fi and Bluetooth fail after warm reboot when Bluetooth is active](https://github.com/omacom/omarchy/issues/16347) — updated 2026-11-19T16:36:16Z
+- [# No Sound Fix: ASUS ROG Strix G16 (2025) on Omarchy 3.4.1](https://github.com/omacom/omarchy/issues/4821) — updated 2026-11-19T16:15:08Z
+- [Preview screen-sharing picker shows an empty Outputs tab for the built-in display](https://github.com/omacom/omarchy/issues/19506) — updated 2026-11-19T16:12:53Z
 
 ## microsoft/vscode
 
-- [Match native inline comment borders and styling to the VS Code workbench](https://github.com/microsoft/vscode/issues/349108) — updated 2026-11-18T17:13:57Z
-- [Chat input offers 'Click to open' for built-in agent host skills that have no file](https://github.com/microsoft/vscode/issues/349107) — updated 2026-11-18T17:08:00Z
-- [BUG: code --status prints an empty "Conf files:" line when the workspace has no config files](https://github.com/microsoft/vscode/issues/349105) — updated 2026-11-18T17:06:11Z
+- ["Signature verification failed with 'UnknownError' error" when installing any extension](https://github.com/microsoft/vscode/issues/338194) — updated 2026-11-19T17:22:24Z
+- [Add Option to Prevent Automatic Collapsing of Thinking Process in GitHub Copilot Chat Agent](https://github.com/microsoft/vscode/issues/292119) — updated 2026-11-19T17:19:15Z
+- [VS Code Copilot sandbox on Windows: PowerShell 5.1 cannot reach Stripe API despite outbound network being allowed](https://github.com/microsoft/vscode/issues/349282) — updated 2026-11-19T17:15:55Z
 
 ## google/googletest
 
+- [[Bug]: cmake warning: Use of non-target directives is not recommended](https://github.com/google/googletest/issues/5176) — updated 2026-11-19T15:02:40Z
 - [[Bug]: QNX 8.0: threadsafe death tests abort, fchdir() needs a directory opened with O_DIRECTORY](https://github.com/google/googletest/issues/5170) — updated 2026-11-14T18:46:49Z
 - [gtest_main does not discover any tests on Windows (Visual Studio)](https://github.com/google/googletest/issues/2157) — updated 2026-11-13T11:06:06Z
-- [Flag to also run skipped tests](https://github.com/google/googletest/issues/3831) — updated 2026-11-13T02:06:51Z
 
 ## facebook/react
 
-- [gitGost open proxy test](https://github.com/react/react/issues/38306) — updated 2026-11-18T16:37:36Z
-- [[Compiler Bug]: false positive ref access in render error when props contain both a `ref` and a `value` and both are accessed](https://github.com/react/react/issues/34342) — updated 2026-11-18T10:47:28Z
-- [Bug: [React 19.1/19.2/19.3] useEffect does not run after changed dependencies due to startTransition](https://github.com/react/react/issues/34556) — updated 2026-11-18T09:08:55Z
+- [Bug: `react-hooks/set-state-in-effect` overly strict?](https://github.com/react/react/issues/34743) — updated 2026-11-19T17:07:28Z
+- [[Fizz] renderToPipeableStream throws error 390 ("Aborted, errored or already flushed boundaries should not be flushed again") when a child errors while its boundary's completed segment waits on backpressure](https://github.com/react/react/issues/38322) — updated 2026-11-19T13:59:46Z
+- [Bug: a component loses its state when its type changes from React.lazy to the component the lazy resolved to](https://github.com/react/react/issues/37899) — updated 2026-11-19T10:19:53Z
 
 ## openai/openai-python
 
+- [Fix for the discriminator cache race in #4036 (thread-safe model build), ready on a fork branch](https://github.com/openai/openai-python/issues/4293) — updated 2026-11-19T13:23:49Z
 - [Response parsing returns str for dict/list when Content-Type is mixed-case or has whitespace before ';'](https://github.com/openai/openai-python/issues/4271) — updated 2026-11-18T10:40:41Z
 - [Parsed Chat Completions emit false serialization warnings and fail with `warnings="error"`](https://github.com/openai/openai-python/issues/4287) — updated 2026-11-18T04:16:55Z
-- [_ensure_strict_json_schema hits RecursionError on cyclic $ref with siblings, drops inherited allOf properties, and skips oneOf/prefixItems](https://github.com/openai/openai-python/issues/4272) — updated 2026-11-16T12:41:36Z
 
 ## nasa/openmct
 
+- [Time Conductor should allow a fixed start time in realtime mode](https://github.com/nasa/openmct/issues/8471) — updated 2026-11-18T23:50:18Z
 - [Improve open source contribution process](https://github.com/nasa/openmct/issues/8463) — updated 2026-11-11T00:09:48Z
 - [[Notifications] Clear all button silences future notifications](https://github.com/nasa/openmct/issues/8447) — updated 2026-11-10T04:07:46Z
-- [CSV export leaves Condition Set string outputs unescaped](https://github.com/nasa/openmct/issues/8459) — updated 2026-11-05T14:46:42Z
 
 ## apache/kafka
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [[XLA] Small-range float32 stateless_uniform collapses to a constant on CPU and GPU](https://github.com/tensorflow/tensorflow/issues/128963) — updated 2026-11-18T10:28:19Z
-- [tf.experimental.numpy.amax/amin silently return -inf/+inf for a zero-size reduction axis instead of raising like NumPy](https://github.com/tensorflow/tensorflow/issues/126903) — updated 2026-11-18T09:02:05Z
-- [[XLA] Complex exp(-Inf + Inf*i) returns NaN on CPU XLA and GPU](https://github.com/tensorflow/tensorflow/issues/128988) — updated 2026-11-18T07:59:28Z
+- [tensorflow](https://github.com/tensorflow/tensorflow/issues/130510) — updated 2026-11-19T08:27:54Z
+- [`tf.raw_ops.ImmutableConst` causes Segfault (`SIGSEGV`) with large shape dimensions](https://github.com/tensorflow/tensorflow/issues/108665) — updated 2026-11-19T08:24:38Z
+- [Inconsistent Error Handling in `tf.raw_ops.SparseSegmentSqrtNGradV2` Between CPU and GPU Implementations](https://github.com/tensorflow/tensorflow/issues/94376) — updated 2026-11-19T08:23:54Z
 
 ## rust-lang/rust
 
-- [[ICE]: `expected type for _ but found _ when instantiating`, with `fn_delegation` feature.](https://github.com/rust-lang/rust/issues/165691) — updated 2026-11-18T17:03:44Z
-- [Diagnostics should recommend swapping operand order if possible](https://github.com/rust-lang/rust/issues/165968) — updated 2026-11-18T16:53:28Z
-- [Writing `Some<x>` or similar results in overzealous "comparison operators cannot be chained"](https://github.com/rust-lang/rust/issues/166133) — updated 2026-11-18T16:52:47Z
+- [Tone down encouragement to make everything Copy](https://github.com/rust-lang/rust/issues/66588) — updated 2026-11-19T17:05:12Z
+- [Dependency Dashboard](https://github.com/rust-lang/rust/issues/134129) — updated 2026-11-19T16:50:29Z
+- [[ICE]: gcc backend SIGSEGV](https://github.com/rust-lang/rust/issues/166214) — updated 2026-11-19T16:37:04Z
 
 ## nodejs/node
 
-- [gitGost open proxy test](https://github.com/nodejs/node/issues/67587) — updated 2026-11-18T16:37:40Z
-- [Streaming `TextDecoder` drops a U+FEFF that follows bytes held over from the previous call](https://github.com/nodejs/node/issues/67561) — updated 2026-11-18T15:17:26Z
-- [CLI --eval rejects valid trailing line comments when input contains crypto](https://github.com/nodejs/node/issues/67159) — updated 2026-11-18T15:08:56Z
+- [Node.js 27 regression: repl implicitly awaits Promise objects](https://github.com/nodejs/node/issues/67619) — updated 2026-11-19T17:12:19Z
+- [Windows build: node.exe missing Control Flow Guard (CFG) and DYNAMICBASE mitigations](https://github.com/nodejs/node/issues/64212) — updated 2026-11-19T16:37:07Z
+- [Faster contributor setup with the dev container](https://github.com/nodejs/node/issues/67440) — updated 2026-11-19T15:36:15Z
 
 ## golang/go
 
-- [go/types, types2: type checking trace looks incorrect](https://github.com/golang/go/issues/75882) — updated 2026-11-18T17:09:39Z
-- [go/types: Checker.Files panics (in validType) on recursive type](https://github.com/golang/go/issues/83067) — updated 2026-11-18T16:56:09Z
-- [proposal: crypto/tls: Profiles](https://github.com/golang/go/issues/79043) — updated 2026-11-18T16:55:29Z
+- [runtime: better adaptive stack sizing](https://github.com/golang/go/issues/77893) — updated 2026-11-19T17:08:55Z
+- [proposal: net/http, mime/multipart: better control over form parsing](https://github.com/golang/go/issues/82173) — updated 2026-11-19T16:55:13Z
+- [cmd/compile: side effect lost in append(f(), make([]T, g())...) when f and g are inlined](https://github.com/golang/go/issues/83209) — updated 2026-11-19T16:26:47Z
 
 ## llvm/llvm-project
 
-- [llvm-strip: `--enable-deterministic-archives` fails to strip timestamps (llvm-mingw 23.1.4)](https://github.com/llvm/llvm-project/issues/237323) — updated 2026-11-18T17:12:56Z
-- [[X86] Replace createVariablePermute with a generic DAG combine](https://github.com/llvm/llvm-project/issues/243924) — updated 2026-11-18T17:08:53Z
-- [[compiler-rt][profile] Padding handling causes Windows Arm64 profile corruption and cross-platform MC/DC merge crashes](https://github.com/llvm/llvm-project/issues/243922) — updated 2026-11-18T17:00:52Z
+- [[mlir][vector] Unify masking in the Vector dialect](https://github.com/llvm/llvm-project/issues/239511) — updated 2026-11-19T17:22:30Z
+- [[fuzzer-found][instrumentor] Instrumentor emits verifier-invalid IR for four unrelated constructs](https://github.com/llvm/llvm-project/issues/244299) — updated 2026-11-19T17:21:42Z
+- [SLP vectorization causes 1.75x slowdown with march=skylake-avx512 due to vgatherdps](https://github.com/llvm/llvm-project/issues/70259) — updated 2026-11-19T17:21:01Z
 
 ## mozilla/gecko-dev
 
