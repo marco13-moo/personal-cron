@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-20
+# Open-source issue digest — 2026-11-21
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [elf2efi warns about linker metadata in the x86-64 stub GOT](https://github.com/systemd/systemd/issues/44913) — updated 2026-11-20T14:41:37Z
-- [Documentation possibly incorrect for "LoadState" unit property](https://github.com/systemd/systemd/issues/44923) — updated 2026-11-20T05:18:22Z
-- [Unprivileged `PrivateUsers=managed` tries to use the runtime directory `/run/user/0`](https://github.com/systemd/systemd/issues/44919) — updated 2026-11-20T00:54:45Z
+- [core: set $LISTEN_PID, $WATCHDOG_PID and $SYSTEMD_EXEC_PID in the payload process instead of assuming PID 1](https://github.com/systemd/systemd/issues/44960) — updated 2026-11-21T08:58:42Z
+- [RFC: add a graphical-session-display-server.target special unit](https://github.com/systemd/systemd/issues/44336) — updated 2026-11-21T06:31:46Z
+- [fscrypt for State directories and key protection](https://github.com/systemd/systemd/issues/44950) — updated 2026-11-21T02:38:47Z
 
 ## containerd/containerd
 
+- [Unable to diff Windows Containers](https://github.com/containerd/containerd/issues/14567) — updated 2026-11-21T09:52:51Z
+- [StopPodSandbox hangs during kubeadm reset with containerd 2.4.2 (deterministic reproducer; kubelet retries DeadlineExceeded for ~5 min)](https://github.com/containerd/containerd/issues/14629) — updated 2026-11-20T21:13:33Z
 - [remotes/docker: pushWriter leaks the upload request when Close() runs before the first Write](https://github.com/containerd/containerd/issues/14628) — updated 2026-11-20T14:49:36Z
-- [Importing containerd configuration files replaces nested plugin arrays](https://github.com/containerd/containerd/issues/14607) — updated 2026-11-20T04:25:33Z
-- [ctr: --cpu-burst flag is not defined, so `ctr run --cpu-burst` always fails](https://github.com/containerd/containerd/issues/14585) — updated 2026-11-20T04:25:26Z
 
 ## omacom/omarchy
 
-- [KDE Connect opens with light colors despite dark theme; Fusion override fixes it](https://github.com/omacom/omarchy/issues/19581) — updated 2026-11-20T16:52:15Z
-- [v4.5.0 stable ships without the rtkit fix (#16824), so omarchy-shell is still SIGKILLed via RLIMIT_RTTIME=0 (#16348)](https://github.com/omacom/omarchy/issues/18741) — updated 2026-11-20T16:46:07Z
-- [MacBookPro16,2 (T2): internal mic captures nothing after resume from deep sleep (t2bce_audio)](https://github.com/omacom/omarchy/issues/19582) — updated 2026-11-20T16:43:15Z
+- [Weather bar icon missing on 4.5.0-3](https://github.com/omacom/omarchy/issues/19348) — updated 2026-11-21T15:33:32Z
+- [Undocking with the lid closed suspends with no active output: black screen after resume (clamshell race)](https://github.com/omacom/omarchy/issues/13300) — updated 2026-11-21T15:10:52Z
+- [omarchy-brightness-display: Brightness trapped at 0% on displays with low max_brightness (acpi_video0)](https://github.com/omacom/omarchy/issues/8523) — updated 2026-11-21T15:01:53Z
 
 ## microsoft/vscode
 
-- [Agents window: Go to File on a remote agent host follows symlink loops and ignores `.git/info/exclude`](https://github.com/microsoft/vscode/issues/349485) — updated 2026-11-20T16:56:18Z
-- [[AGENT-WINDOWS] Bug on second message send inside progress conversion in claude mode](https://github.com/microsoft/vscode/issues/349489) — updated 2026-11-20T16:48:41Z
-- [Agents window: Mark as Done keeps a long agent host session in the sessions list for ~0.4–0.5 s](https://github.com/microsoft/vscode/issues/349486) — updated 2026-11-20T16:41:33Z
+- [Ctrl+N IS THE SHORTCUT TO UNDO AGENT EDITS IN LOCAL HARNESS](https://github.com/microsoft/vscode/issues/349620) — updated 2026-11-21T15:56:39Z
+- [Support for Navigable Groups in IntelliSense Suggestions](https://github.com/microsoft/vscode/issues/349619) — updated 2026-11-21T15:43:33Z
+- [Weekly updates are too frequent](https://github.com/microsoft/vscode/issues/309223) — updated 2026-11-21T14:58:40Z
 
 ## google/googletest
 
@@ -40,15 +40,15 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Bug: streaming hydration can overtake the HTML parser — false fatal #418 (args HTML) wipes the SSR DOM when a network chunk boundary splits the shell](https://github.com/react/react/issues/37321) — updated 2026-11-20T16:25:03Z
-- [Bug: Typescript error when import pluginReactHooks from 'eslint-plugin-react-hooks';](https://github.com/react/react/issues/36907) — updated 2026-11-20T14:08:37Z
-- [[Fizz] renderToPipeableStream throws error 390 ("Aborted, errored or already flushed boundaries should not be flushed again") when a child errors while its boundary's completed segment waits on backpressure](https://github.com/react/react/issues/38322) — updated 2026-11-19T18:19:09Z
+- [Bug: onSelect does not fire for keyboard selection inside a shadow root](https://github.com/react/react/issues/38176) — updated 2026-11-21T14:17:37Z
+- [Bug: Server-rendered <textarea> loses its first line break when the value starts with \\r\\n](https://github.com/react/react/issues/38259) — updated 2026-11-21T14:16:28Z
+- [Bug: credentialless="" is dropped](https://github.com/react/react/issues/38330) — updated 2026-11-21T12:44:57Z
 
 ## openai/openai-python
 
-- [Fix for the discriminator cache race in #4036 (thread-safe model build), ready on a fork branch](https://github.com/openai/openai-python/issues/4293) — updated 2026-11-19T13:23:49Z
-- [Response parsing returns str for dict/list when Content-Type is mixed-case or has whitespace before ';'](https://github.com/openai/openai-python/issues/4271) — updated 2026-11-18T10:40:41Z
-- [Parsed Chat Completions emit false serialization warnings and fail with `warnings="error"`](https://github.com/openai/openai-python/issues/4287) — updated 2026-11-18T04:16:55Z
+- [`BaseClient._prepare_url()` corrupts relative endpoint URLs when `base_url` contains query parameters](https://github.com/openai/openai-python/issues/4311) — updated 2026-11-21T14:48:25Z
+- [`BaseModel.construct()` leaks consumed field aliases into `model_extra`, emitting duplicate JSON keys and shadowing field mutations](https://github.com/openai/openai-python/issues/4310) — updated 2026-11-21T14:48:22Z
+- [chat.completions.stream() drops tool_calls.function.arguments.done when a tool call arrives in the same chunk as finish_reason](https://github.com/openai/openai-python/issues/4309) — updated 2026-11-21T13:53:26Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
+- [tf.raw_ops.SparseMatrixAdd with complex128 on GPU causes a segmentation fault](https://github.com/tensorflow/tensorflow/issues/129392) — updated 2026-11-21T01:36:26Z
 - [tf.nn.conv3d_transpose raises AbortedError (Status: 2, could not create a primitive descriptor) on CPU](https://github.com/tensorflow/tensorflow/issues/113188) — updated 2026-11-20T11:46:36Z
 - [tensorflow](https://github.com/tensorflow/tensorflow/issues/130510) — updated 2026-11-20T09:44:48Z
-- [Fatal crash in `tf.raw_ops.TensorScatterMin` with malformed indices](https://github.com/tensorflow/tensorflow/issues/94132) — updated 2026-11-20T01:36:56Z
 
 ## rust-lang/rust
 
-- [Closures can be called with parameter types the closure was never created with](https://github.com/rust-lang/rust/issues/166267) — updated 2026-11-20T16:57:24Z
-- [[ICE]: gcc backend SIGSEGV](https://github.com/rust-lang/rust/issues/166214) — updated 2026-11-20T16:57:24Z
-- [Importing unstable built-in attributes is not feature-gated.](https://github.com/rust-lang/rust/issues/166056) — updated 2026-11-20T16:55:08Z
+- [Regression on `wasm32-wasip1` with `+atomics` target feature when accessing TLS](https://github.com/rust-lang/rust/issues/166314) — updated 2026-11-21T16:01:29Z
+- [[ICE]: `mentioned_items for DefId have not yet been set`](https://github.com/rust-lang/rust/issues/166278) — updated 2026-11-21T15:57:33Z
+- [MIR: Dominator test also unsound when the activation post-dominates the reservation](https://github.com/rust-lang/rust/issues/166316) — updated 2026-11-21T15:54:07Z
 
 ## nodejs/node
 
-- [sqlite: bind parameters the same way `better-sqlite3` does.](https://github.com/nodejs/node/issues/67353) — updated 2026-11-20T15:49:54Z
-- [test_runner: `--watch` with `--test-isolation=none` reruns every test file, not the affected one](https://github.com/nodejs/node/issues/65037) — updated 2026-11-20T15:46:12Z
-- [test_runner: MockTimers does not support Temporal](https://github.com/nodejs/node/issues/63369) — updated 2026-11-20T15:46:02Z
+- [Log file name in node test reported](https://github.com/nodejs/node/issues/67680) — updated 2026-11-21T15:14:58Z
+- [Utf8Stream writes duplicate bytes when a short write splits a multi-byte character](https://github.com/nodejs/node/issues/67679) — updated 2026-11-21T14:13:13Z
+- [meta: macos-14 used in v22.x no longer available since Nov 2, 2026](https://github.com/nodejs/node/issues/67643) — updated 2026-11-21T13:39:42Z
 
 ## golang/go
 
-- [[freeze exception] crypto/fips140: initial support for Wasm](https://github.com/golang/go/issues/83248) — updated 2026-11-20T16:46:20Z
-- [x/tools/gopls/internal/cache: TestMatchingPortsStdlib failures](https://github.com/golang/go/issues/82390) — updated 2026-11-20T16:39:30Z
-- [proposal: go/types/exportdata: add Encode, Decode functions [freeze exception]](https://github.com/golang/go/issues/69491) — updated 2026-11-20T16:34:04Z
+- [net: UDPConn.WriteToUDPAddrPort sometimes blocks forever on darwin/arm64](https://github.com/golang/go/issues/73919) — updated 2026-11-21T15:31:41Z
+- [cmd/go: @upgrade and go get -u cross from v1 pseudo-version to +incompatible](https://github.com/golang/go/issues/83139) — updated 2026-11-21T15:25:42Z
+- [x/tools/go/analysis/passes/modernize: atomictypes: fix breaks conversions and assignments of the struct type](https://github.com/golang/go/issues/83262) — updated 2026-11-21T15:18:19Z
 
 ## llvm/llvm-project
 
-- [[PCM] `buckets should be 4-byte aligned` assertion failure with PCM + ASAN for COFF](https://github.com/llvm/llvm-project/issues/244580) — updated 2026-11-20T16:42:13Z
-- [[CIR][AMDGPU] Implement the remaining AMDGPU target builtins in CIRGen](https://github.com/llvm/llvm-project/issues/241525) — updated 2026-11-20T16:26:47Z
-- [[ConstantFolding] constrained fpext of a constant is not folded under -frounding-math](https://github.com/llvm/llvm-project/issues/244637) — updated 2026-11-20T16:20:19Z
+- [[ARM][MVE] Debug values change VPNOT/VCMP rewrites in arm-mve-vpt-opts](https://github.com/llvm/llvm-project/issues/244901) — updated 2026-11-21T15:50:49Z
+- [[AArch64][SME] Debug info changes code after a conditional smstart (expandConditionalPseudo splits off a debug-only block)](https://github.com/llvm/llvm-project/issues/244896) — updated 2026-11-21T15:50:40Z
+- [[mlir][vector] Remove in_bounds from Xfer Ops](https://github.com/llvm/llvm-project/issues/227821) — updated 2026-11-21T15:02:27Z
 
 ## mozilla/gecko-dev
 
