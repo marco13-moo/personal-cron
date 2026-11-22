@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-21
+# Open-source issue digest — 2026-11-22
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [core: set $LISTEN_PID, $WATCHDOG_PID and $SYSTEMD_EXEC_PID in the payload process instead of assuming PID 1](https://github.com/systemd/systemd/issues/44960) — updated 2026-11-21T08:58:42Z
-- [RFC: add a graphical-session-display-server.target special unit](https://github.com/systemd/systemd/issues/44336) — updated 2026-11-21T06:31:46Z
-- [fscrypt for State directories and key protection](https://github.com/systemd/systemd/issues/44950) — updated 2026-11-21T02:38:47Z
+- [`systemd --user` spins while resolving a missing scope and stops answering requests](https://github.com/systemd/systemd/issues/44200) — updated 2026-11-22T14:52:00Z
+- [sysupdate fails to resume partial update if cancelled](https://github.com/systemd/systemd/issues/42187) — updated 2026-11-22T01:49:02Z
+- [Add varlink API to provide dynamic RRsets records to resolved](https://github.com/systemd/systemd/issues/44973) — updated 2026-11-22T01:34:15Z
 
 ## containerd/containerd
 
-- [Unable to diff Windows Containers](https://github.com/containerd/containerd/issues/14567) — updated 2026-11-21T09:52:51Z
-- [StopPodSandbox hangs during kubeadm reset with containerd 2.4.2 (deterministic reproducer; kubelet retries DeadlineExceeded for ~5 min)](https://github.com/containerd/containerd/issues/14629) — updated 2026-11-20T21:13:33Z
-- [remotes/docker: pushWriter leaks the upload request when Close() runs before the first Write](https://github.com/containerd/containerd/issues/14628) — updated 2026-11-20T14:49:36Z
+- [Potential handle leak in file compression.go](https://github.com/containerd/containerd/issues/14565) — updated 2026-11-22T15:21:01Z
+- [overlayfs: orphaned RW snapshots after container removal — disk + bolt DB residue, no mount reference, no tooling to find/clean](https://github.com/containerd/containerd/issues/13416) — updated 2026-11-22T14:26:19Z
+- [Data written to subPath PVC mount is lost on node reboot — writes go to   containerd overlay snapshot instead of the PVC directory](https://github.com/containerd/containerd/issues/13710) — updated 2026-11-22T14:24:12Z
 
 ## omacom/omarchy
 
-- [Weather bar icon missing on 4.5.0-3](https://github.com/omacom/omarchy/issues/19348) — updated 2026-11-21T15:33:32Z
-- [Undocking with the lid closed suspends with no active output: black screen after resume (clamshell race)](https://github.com/omacom/omarchy/issues/13300) — updated 2026-11-21T15:10:52Z
-- [omarchy-brightness-display: Brightness trapped at 0% on displays with low max_brightness (acpi_video0)](https://github.com/omacom/omarchy/issues/8523) — updated 2026-11-21T15:01:53Z
+- [Recovery binary hash mismatch causes installation failure on Apple Silicon (Installer 2.3.16)](https://github.com/omacom/omarchy/issues/18016) — updated 2026-11-22T15:56:42Z
+- [Hyprland aborts in CInputManager::refocusLastWindow when a mirrored external monitor is unplugged](https://github.com/omacom/omarchy/issues/18492) — updated 2026-11-22T15:50:23Z
+- [omarchy-shell-config commit isn't atomic when /tmp is tmpfs: the shell reads an empty shell.json, drops a plugin bar and can reset the config to defaults](https://github.com/omacom/omarchy/issues/18094) — updated 2026-11-22T15:19:10Z
 
 ## microsoft/vscode
 
-- [Ctrl+N IS THE SHORTCUT TO UNDO AGENT EDITS IN LOCAL HARNESS](https://github.com/microsoft/vscode/issues/349620) — updated 2026-11-21T15:56:39Z
-- [Support for Navigable Groups in IntelliSense Suggestions](https://github.com/microsoft/vscode/issues/349619) — updated 2026-11-21T15:43:33Z
-- [Weekly updates are too frequent](https://github.com/microsoft/vscode/issues/309223) — updated 2026-11-21T14:58:40Z
+- [First input can be lost after opening a custom editor with preserveFocus beside a text editor](https://github.com/microsoft/vscode/issues/349671) — updated 2026-11-22T15:53:10Z
+- [Agent Host: work delegated with `create_session` always runs as the default agent, so it can't be handed to a custom agent](https://github.com/microsoft/vscode/issues/349600) — updated 2026-11-22T15:11:35Z
+- [Test: Create Dev Containers from Remote Environments and from sessions](https://github.com/microsoft/vscode/issues/349554) — updated 2026-11-22T14:59:29Z
 
 ## google/googletest
 
@@ -40,15 +40,15 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Bug: onSelect does not fire for keyboard selection inside a shadow root](https://github.com/react/react/issues/38176) — updated 2026-11-21T14:17:37Z
-- [Bug: Server-rendered <textarea> loses its first line break when the value starts with \\r\\n](https://github.com/react/react/issues/38259) — updated 2026-11-21T14:16:28Z
-- [Bug: credentialless="" is dropped](https://github.com/react/react/issues/38330) — updated 2026-11-21T12:44:57Z
+- [[React 19] aria attributes on custom elements behave maybe incorrectly](https://github.com/react/react/issues/32251) — updated 2026-11-22T11:06:28Z
+- [Bug: [Flight] an invalid Date (new Date(NaN)) inside props or a server action argument arrives as null](https://github.com/react/react/issues/38240) — updated 2026-11-22T05:20:57Z
+- [Perf: Inserting many siblings in one commit is quadratic in getHostSibling](https://github.com/react/react/issues/38232) — updated 2026-11-22T02:33:41Z
 
 ## openai/openai-python
 
-- [`BaseClient._prepare_url()` corrupts relative endpoint URLs when `base_url` contains query parameters](https://github.com/openai/openai-python/issues/4311) — updated 2026-11-21T14:48:25Z
-- [`BaseModel.construct()` leaks consumed field aliases into `model_extra`, emitting duplicate JSON keys and shadowing field mutations](https://github.com/openai/openai-python/issues/4310) — updated 2026-11-21T14:48:22Z
-- [chat.completions.stream() drops tool_calls.function.arguments.done when a tool call arrives in the same chunk as finish_reason](https://github.com/openai/openai-python/issues/4309) — updated 2026-11-21T13:53:26Z
+- [`BaseClient._prepare_url()` corrupts relative endpoint URLs when `base_url` contains query parameters](https://github.com/openai/openai-python/issues/4311) — updated 2026-11-22T15:10:45Z
+- [AsyncOpenAI.responses.stream() silently skips input validation due to stale isinstance(input, NotGiven) check](https://github.com/openai/openai-python/issues/4306) — updated 2026-11-22T12:58:04Z
+- [TranscriptGrouper / AsyncTranscriptGrouper: unvalidated additional_acknowledgments splits bare str and raises TypeError/AttributeError instead of OpenAIError](https://github.com/openai/openai-python/issues/4307) — updated 2026-11-22T05:17:14Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
+- [tf_upgrade_v2: bool literals ignored on Python 3.14, fractional pool crash](https://github.com/tensorflow/tensorflow/issues/130576) — updated 2026-11-22T05:16:37Z
 - [tf.raw_ops.SparseMatrixAdd with complex128 on GPU causes a segmentation fault](https://github.com/tensorflow/tensorflow/issues/129392) — updated 2026-11-21T01:36:26Z
 - [tf.nn.conv3d_transpose raises AbortedError (Status: 2, could not create a primitive descriptor) on CPU](https://github.com/tensorflow/tensorflow/issues/113188) — updated 2026-11-20T11:46:36Z
-- [tensorflow](https://github.com/tensorflow/tensorflow/issues/130510) — updated 2026-11-20T09:44:48Z
 
 ## rust-lang/rust
 
-- [Regression on `wasm32-wasip1` with `+atomics` target feature when accessing TLS](https://github.com/rust-lang/rust/issues/166314) — updated 2026-11-21T16:01:29Z
-- [[ICE]: `mentioned_items for DefId have not yet been set`](https://github.com/rust-lang/rust/issues/166278) — updated 2026-11-21T15:57:33Z
-- [MIR: Dominator test also unsound when the activation post-dominates the reservation](https://github.com/rust-lang/rust/issues/166316) — updated 2026-11-21T15:54:07Z
+- [`#[expect]` on a lint does not prevent `long-type` files from being created.](https://github.com/rust-lang/rust/issues/166293) — updated 2026-11-22T16:05:50Z
+- [[ICE]: gpu_offload:  path with `Res::Err` but no error emitted](https://github.com/rust-lang/rust/issues/166359) — updated 2026-11-22T16:02:42Z
+- [`export_name` on provided trait associated functions has funny behavior](https://github.com/rust-lang/rust/issues/164571) — updated 2026-11-22T15:32:27Z
 
 ## nodejs/node
 
-- [Log file name in node test reported](https://github.com/nodejs/node/issues/67680) — updated 2026-11-21T15:14:58Z
-- [Utf8Stream writes duplicate bytes when a short write splits a multi-byte character](https://github.com/nodejs/node/issues/67679) — updated 2026-11-21T14:13:13Z
-- [meta: macos-14 used in v22.x no longer available since Nov 2, 2026](https://github.com/nodejs/node/issues/67643) — updated 2026-11-21T13:39:42Z
+- [`styleText` fast path bypasses `options` and `options.validateStream` validation](https://github.com/nodejs/node/issues/67700) — updated 2026-11-22T15:20:47Z
+- [Node.js 27 regression: repl implicitly awaits Promise objects](https://github.com/nodejs/node/issues/67619) — updated 2026-11-22T10:21:58Z
+- [`path.escapeGlob`](https://github.com/nodejs/node/issues/61258) — updated 2026-11-22T09:42:42Z
 
 ## golang/go
 
-- [net: UDPConn.WriteToUDPAddrPort sometimes blocks forever on darwin/arm64](https://github.com/golang/go/issues/73919) — updated 2026-11-21T15:31:41Z
-- [cmd/go: @upgrade and go get -u cross from v1 pseudo-version to +incompatible](https://github.com/golang/go/issues/83139) — updated 2026-11-21T15:25:42Z
-- [x/tools/go/analysis/passes/modernize: atomictypes: fix breaks conversions and assignments of the struct type](https://github.com/golang/go/issues/83262) — updated 2026-11-21T15:18:19Z
+- [runtime: make underlying implementation of channels more efficient (Reference -> https://github.com/alphadose/ZenQ)](https://github.com/golang/go/issues/52652) — updated 2026-11-22T15:56:21Z
+- [proposal: spec: add decimal float types (IEEE 754-2008)](https://github.com/golang/go/issues/19787) — updated 2026-11-22T15:56:13Z
+- [cmd/go: GOAUTH=git runs 'git credential approve/reject' in the current directory](https://github.com/golang/go/issues/83290) — updated 2026-11-22T15:49:24Z
 
 ## llvm/llvm-project
 
-- [[ARM][MVE] Debug values change VPNOT/VCMP rewrites in arm-mve-vpt-opts](https://github.com/llvm/llvm-project/issues/244901) — updated 2026-11-21T15:50:49Z
-- [[AArch64][SME] Debug info changes code after a conditional smstart (expandConditionalPseudo splits off a debug-only block)](https://github.com/llvm/llvm-project/issues/244896) — updated 2026-11-21T15:50:40Z
-- [[mlir][vector] Remove in_bounds from Xfer Ops](https://github.com/llvm/llvm-project/issues/227821) — updated 2026-11-21T15:02:27Z
+- [[X86] llc does not terminate on a v64i8 shuffle that splats the low 2 or 4 bytes of a one-use binop (AVX512BW)](https://github.com/llvm/llvm-project/issues/245049) — updated 2026-11-22T16:06:32Z
+- [[LoopDeletion] Segfault at -O1 and above in breakLoopBackedge (BasicBlock::getTerminator) on a loop containing an indirect goto](https://github.com/llvm/llvm-project/issues/244616) — updated 2026-11-22T15:54:32Z
+- [[CIR] Implement handling of AArch64 (Arm) SVE intrinsics](https://github.com/llvm/llvm-project/issues/223963) — updated 2026-11-22T15:42:28Z
 
 ## mozilla/gecko-dev
 
