@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-22
+# Open-source issue digest — 2026-11-23
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [`systemd --user` spins while resolving a missing scope and stops answering requests](https://github.com/systemd/systemd/issues/44200) — updated 2026-11-22T14:52:00Z
-- [sysupdate fails to resume partial update if cancelled](https://github.com/systemd/systemd/issues/42187) — updated 2026-11-22T01:49:02Z
-- [Add varlink API to provide dynamic RRsets records to resolved](https://github.com/systemd/systemd/issues/44973) — updated 2026-11-22T01:34:15Z
+- [RFE: let `io.systemd.Unit.List` return only some fields](https://github.com/systemd/systemd/issues/45007) — updated 2026-11-23T19:21:09Z
+- [sd-bus: sd_bus_ref() can wrap n_ref and free a bus that is still referenced](https://github.com/systemd/systemd/issues/45002) — updated 2026-11-23T18:54:43Z
+- [Enable network namespace based isolation for AF_VSOCK sockets](https://github.com/systemd/systemd/issues/44171) — updated 2026-11-23T17:02:57Z
 
 ## containerd/containerd
 
-- [Potential handle leak in file compression.go](https://github.com/containerd/containerd/issues/14565) — updated 2026-11-22T15:21:01Z
-- [overlayfs: orphaned RW snapshots after container removal — disk + bolt DB residue, no mount reference, no tooling to find/clean](https://github.com/containerd/containerd/issues/13416) — updated 2026-11-22T14:26:19Z
-- [Data written to subPath PVC mount is lost on node reboot — writes go to   containerd overlay snapshot instead of the PVC directory](https://github.com/containerd/containerd/issues/13710) — updated 2026-11-22T14:24:12Z
+- [Backport containerd/nri v0.12.5 to release/2.3: a required NRI plugin is counted present for the first CreateContainer after it disconnects](https://github.com/containerd/containerd/issues/14635) — updated 2026-11-23T13:38:08Z
+- [[SIG-Node]: 5758 - Per-container ulimits configuration](https://github.com/containerd/containerd/issues/13572) — updated 2026-11-23T13:22:51Z
+- [Reimport snapshot error: file already exists with Windows Containers](https://github.com/containerd/containerd/issues/14540) — updated 2026-11-23T07:19:33Z
 
 ## omacom/omarchy
 
-- [Recovery binary hash mismatch causes installation failure on Apple Silicon (Installer 2.3.16)](https://github.com/omacom/omarchy/issues/18016) — updated 2026-11-22T15:56:42Z
-- [Hyprland aborts in CInputManager::refocusLastWindow when a mirrored external monitor is unplugged](https://github.com/omacom/omarchy/issues/18492) — updated 2026-11-22T15:50:23Z
-- [omarchy-shell-config commit isn't atomic when /tmp is tmpfs: the shell reads an empty shell.json, drops a plugin bar and can reset the config to defaults](https://github.com/omacom/omarchy/issues/18094) — updated 2026-11-22T15:19:10Z
+- [Lock screen blanks immediately after boot/monitor wake due to 5s idleBlankTimer](https://github.com/omacom/omarchy/issues/19946) — updated 2026-11-23T20:11:16Z
+- [Polkit dialog gives no feedback when a fingerprint scan doesn't match](https://github.com/omacom/omarchy/issues/19948) — updated 2026-11-23T20:10:25Z
+- [linux-omarchy 7.2.15 drops the LG TV's 4K144 (DisplayID) mode; 7.2.8-9 exposes it](https://github.com/omacom/omarchy/issues/19949) — updated 2026-11-23T20:09:50Z
 
 ## microsoft/vscode
 
-- [First input can be lost after opening a custom editor with preserveFocus beside a text editor](https://github.com/microsoft/vscode/issues/349671) — updated 2026-11-22T15:53:10Z
-- [Agent Host: work delegated with `create_session` always runs as the default agent, so it can't be handed to a custom agent](https://github.com/microsoft/vscode/issues/349600) — updated 2026-11-22T15:11:35Z
-- [Test: Create Dev Containers from Remote Environments and from sessions](https://github.com/microsoft/vscode/issues/349554) — updated 2026-11-22T14:59:29Z
+- [Editor window re-converts every agent-host session for each session summary change](https://github.com/microsoft/vscode/issues/349957) — updated 2026-11-23T20:12:59Z
+- [Agents: Dev Container handoff approval shows an internal host ID instead of the destination name](https://github.com/microsoft/vscode/issues/349763) — updated 2026-11-23T20:08:15Z
+- [Outline view for Markdown Preview](https://github.com/microsoft/vscode/issues/342919) — updated 2026-11-23T20:07:48Z
 
 ## google/googletest
 
@@ -40,15 +40,15 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [[React 19] aria attributes on custom elements behave maybe incorrectly](https://github.com/react/react/issues/32251) — updated 2026-11-22T11:06:28Z
-- [Bug: [Flight] an invalid Date (new Date(NaN)) inside props or a server action argument arrives as null](https://github.com/react/react/issues/38240) — updated 2026-11-22T05:20:57Z
-- [Perf: Inserting many siblings in one commit is quadratic in getHostSibling](https://github.com/react/react/issues/38232) — updated 2026-11-22T02:33:41Z
+- [Bug:](https://github.com/react/react/issues/38367) — updated 2026-11-23T16:16:22Z
+- [Bug: unmounting a hoistable that a third-party script removed from <head> throws "Cannot read properties of null (reading 'removeChild')"](https://github.com/react/react/issues/38359) — updated 2026-11-23T04:32:58Z
+- [[DOM] Numeric hyphenateLimitLines gets px appended, so the browser drops the declaration](https://github.com/react/react/issues/38351) — updated 2026-11-22T19:22:33Z
 
 ## openai/openai-python
 
-- [`BaseClient._prepare_url()` corrupts relative endpoint URLs when `base_url` contains query parameters](https://github.com/openai/openai-python/issues/4311) — updated 2026-11-22T15:10:45Z
-- [AsyncOpenAI.responses.stream() silently skips input validation due to stale isinstance(input, NotGiven) check](https://github.com/openai/openai-python/issues/4306) — updated 2026-11-22T12:58:04Z
-- [TranscriptGrouper / AsyncTranscriptGrouper: unvalidated additional_acknowledgments splits bare str and raises TypeError/AttributeError instead of OpenAIError](https://github.com/openai/openai-python/issues/4307) — updated 2026-11-22T05:17:14Z
+- [beta.agents: AgentTurnResult.parse() swallows TypeError for invalid output_type and raises AgentOutputParseError](https://github.com/openai/openai-python/issues/4304) — updated 2026-11-23T16:40:15Z
+- [beta.agents: environments.files.upload() reuses a single Idempotency-Key across both Files API upload and environment staging POST requests](https://github.com/openai/openai-python/issues/4305) — updated 2026-11-23T15:08:07Z
+- [chat.completions.stream() crashes with ValueError: EOF while parsing a value on leading whitespace in strict function tool call arguments](https://github.com/openai/openai-python/issues/4308) — updated 2026-11-23T05:13:22Z
 
 ## nasa/openmct
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [tf_upgrade_v2: bool literals ignored on Python 3.14, fractional pool crash](https://github.com/tensorflow/tensorflow/issues/130576) — updated 2026-11-22T05:16:37Z
-- [tf.raw_ops.SparseMatrixAdd with complex128 on GPU causes a segmentation fault](https://github.com/tensorflow/tensorflow/issues/129392) — updated 2026-11-21T01:36:26Z
-- [tf.nn.conv3d_transpose raises AbortedError (Status: 2, could not create a primitive descriptor) on CPU](https://github.com/tensorflow/tensorflow/issues/113188) — updated 2026-11-20T11:46:36Z
+- [TFLite 16x8 quantization: weight-shared CONV_2D ops with different input scales share one int64 bias, quantized for the first op's input scale (wrong output for the others)](https://github.com/tensorflow/tensorflow/issues/130615) — updated 2026-11-23T11:57:50Z
+- [`tf.get_static_value()` never folds `StridedSlice`, so `tf.shape(x)[0]` has no static value in graph mode](https://github.com/tensorflow/tensorflow/issues/129438) — updated 2026-11-23T08:53:24Z
+- [[XLA] Incorrect special-value handling in igamma and igammac](https://github.com/tensorflow/tensorflow/issues/128989) — updated 2026-11-23T06:17:16Z
 
 ## rust-lang/rust
 
-- [`#[expect]` on a lint does not prevent `long-type` files from being created.](https://github.com/rust-lang/rust/issues/166293) — updated 2026-11-22T16:05:50Z
-- [[ICE]: gpu_offload:  path with `Res::Err` but no error emitted](https://github.com/rust-lang/rust/issues/166359) — updated 2026-11-22T16:02:42Z
-- [`export_name` on provided trait associated functions has funny behavior](https://github.com/rust-lang/rust/issues/164571) — updated 2026-11-22T15:32:27Z
+- [Symbol order in executable unstable with v0 mangling when -Cmetadata changes](https://github.com/rust-lang/rust/issues/152910) — updated 2026-11-23T20:13:45Z
+- [Tracking Issue for `float_format_parse_hex`](https://github.com/rust-lang/rust/issues/160626) — updated 2026-11-23T20:06:52Z
+- [rustc generates invalid debug info for [(); usize::MAX - 1]](https://github.com/rust-lang/rust/issues/166416) — updated 2026-11-23T20:03:34Z
 
 ## nodejs/node
 
-- [`styleText` fast path bypasses `options` and `options.validateStream` validation](https://github.com/nodejs/node/issues/67700) — updated 2026-11-22T15:20:47Z
-- [Node.js 27 regression: repl implicitly awaits Promise objects](https://github.com/nodejs/node/issues/67619) — updated 2026-11-22T10:21:58Z
-- [`path.escapeGlob`](https://github.com/nodejs/node/issues/61258) — updated 2026-11-22T09:42:42Z
+- [Sourcemaps don't work in vm.Script scripts](https://github.com/nodejs/node/issues/52102) — updated 2026-11-23T17:21:19Z
+- [`styleText` fast path bypasses `options` and `options.validateStream` validation](https://github.com/nodejs/node/issues/67700) — updated 2026-11-23T16:28:39Z
+- [[REPL] Builtin objects cannot be accessed after `delete globalThis`](https://github.com/nodejs/node/issues/67702) — updated 2026-11-23T16:28:16Z
 
 ## golang/go
 
-- [runtime: make underlying implementation of channels more efficient (Reference -> https://github.com/alphadose/ZenQ)](https://github.com/golang/go/issues/52652) — updated 2026-11-22T15:56:21Z
-- [proposal: spec: add decimal float types (IEEE 754-2008)](https://github.com/golang/go/issues/19787) — updated 2026-11-22T15:56:13Z
-- [cmd/go: GOAUTH=git runs 'git credential approve/reject' in the current directory](https://github.com/golang/go/issues/83290) — updated 2026-11-22T15:49:24Z
+- [cmd/get: `go get` fails with "...found, but does not contain package" instead of resolving nested module](https://github.com/golang/go/issues/58116) — updated 2026-11-23T20:12:38Z
+- [x/website: Russian translation of A Tour of Go](https://github.com/golang/go/issues/83313) — updated 2026-11-23T20:11:15Z
+- [x/tools/go/packages: incorrect intermediate test variant computed for broken 'main' import](https://github.com/golang/go/issues/66126) — updated 2026-11-23T20:02:34Z
 
 ## llvm/llvm-project
 
-- [[X86] llc does not terminate on a v64i8 shuffle that splats the low 2 or 4 bytes of a one-use binop (AVX512BW)](https://github.com/llvm/llvm-project/issues/245049) — updated 2026-11-22T16:06:32Z
-- [[LoopDeletion] Segfault at -O1 and above in breakLoopBackedge (BasicBlock::getTerminator) on a loop containing an indirect goto](https://github.com/llvm/llvm-project/issues/244616) — updated 2026-11-22T15:54:32Z
-- [[CIR] Implement handling of AArch64 (Arm) SVE intrinsics](https://github.com/llvm/llvm-project/issues/223963) — updated 2026-11-22T15:42:28Z
+- [[OpenMP][NVPTX] -O0: two live locals array in a target parallel region can overlaps in memory](https://github.com/llvm/llvm-project/issues/245328) — updated 2026-11-23T20:11:59Z
+- [[Hexagon] HVX vector copy loops become scalar memcpy libcalls (4x slowdown in an HVX kernel)](https://github.com/llvm/llvm-project/issues/245360) — updated 2026-11-23T20:09:45Z
+- [[fuzzer-found][ConstraintElim] Miscompile from unchecked overflow when merging left-hand-side coefficients](https://github.com/llvm/llvm-project/issues/245363) — updated 2026-11-23T20:09:13Z
 
 ## mozilla/gecko-dev
 
