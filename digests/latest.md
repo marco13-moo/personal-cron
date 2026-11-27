@@ -1,4 +1,4 @@
-# Open-source issue digest — 2026-11-26
+# Open-source issue digest — 2026-11-27
 
 Recently updated open GitHub issues, excluding pull requests. Up to three per repository.
 
@@ -10,27 +10,27 @@ _No qualifying open issues._
 
 ## systemd/systemd
 
-- [systemd-ukify and systemd-stub should support Type-1 hypervisor UKIs](https://github.com/systemd/systemd/issues/44535) — updated 2026-11-26T16:27:25Z
-- [FR(scopes): a way to rename a scope or migrate it in full to a new, correctly named scope](https://github.com/systemd/systemd/issues/45080) — updated 2026-11-26T15:54:33Z
-- [Runaway memory-consuming process freezes entire GNOME desktop with out-of-box Fedora 37](https://github.com/systemd/systemd/issues/25596) — updated 2026-11-26T11:50:40Z
+- [updatectl update: Acquire downloads version that Install silently refuses](https://github.com/systemd/systemd/issues/44706) — updated 2026-11-27T16:16:44Z
+- [systemd-sysctl rejects semicolon comments documented by sysctl.d(5)](https://github.com/systemd/systemd/issues/45071) — updated 2026-11-27T16:15:06Z
+- [tmpfiles: warn about negative group and ACL permissions](https://github.com/systemd/systemd/issues/45119) — updated 2026-11-27T15:57:26Z
 
 ## containerd/containerd
 
-- [unpack: no fsync in archive.Apply + exists-skip without content validation — storage write-back loss is committed into snapshots as 0-byte files](https://github.com/containerd/containerd/issues/14503) — updated 2026-11-26T11:25:14Z
-- [mount manager: Deactivate races with GC and fails with ENOENT](https://github.com/containerd/containerd/issues/14640) — updated 2026-11-26T10:09:37Z
-- [Sandbox API: complete support for sandboxer plugins](https://github.com/containerd/containerd/issues/14356) — updated 2026-11-26T07:58:08Z
+- [dockerFetcher sends Fetch/FetchByDigest requests to hosts without pull capability on every supported release branch (fixed in main, not backported)](https://github.com/containerd/containerd/issues/14659) — updated 2026-11-27T15:38:11Z
+- [Sandbox API: complete support for sandboxer plugins](https://github.com/containerd/containerd/issues/14356) — updated 2026-11-26T18:52:25Z
+- [CRI: pauseless pods](https://github.com/containerd/containerd/issues/14106) — updated 2026-11-26T18:51:10Z
 
 ## omacom/omarchy
 
-- [Browser passkey prompt's "Turn on" button doesn't enable Bluetooth](https://github.com/omacom/omarchy/issues/17347) — updated 2026-11-26T18:24:37Z
-- [Bar: finger taps on widgets are swallowed as reorder drags (4px drag threshold too small for touch)](https://github.com/omacom/omarchy/issues/20310) — updated 2026-11-26T18:19:45Z
-- [Framework 13 Pro (PIXA3854 093A:1343): after lid resume the pad reports two phantom contacts — single-finger motion dead, two fingers still moves the pointer](https://github.com/omacom/omarchy/issues/18718) — updated 2026-11-26T18:10:29Z
+- [blank page](https://github.com/omacom/omarchy/issues/20459) — updated 2026-11-27T18:06:21Z
+- [Migration 1795441383 fails on upgraded installs: agent-account dispatchers are written through the ~/.local/share/omarchy -> /usr/share/omarchy compat symlink](https://github.com/omacom/omarchy/issues/20110) — updated 2026-11-27T18:04:08Z
+- [Document x86-64 ISA baseline (AVX2 or not?) for users + packagers](https://github.com/omacom/omarchy/issues/16798) — updated 2026-11-27T17:45:30Z
 
 ## microsoft/vscode
 
-- [Agent Host: parallel background subagents block indefinitely on unresolved shell approvals; parent turn cannot time out or cancel them](https://github.com/microsoft/vscode/issues/346743) — updated 2026-11-26T18:15:56Z
-- [Separate tab size and indent size](https://github.com/microsoft/vscode/issues/42740) — updated 2026-11-26T18:02:06Z
-- [Agents window: SSH remote agent host hangs in host key verification right after VS Code startup, then crashes the shared process SSH client](https://github.com/microsoft/vscode/issues/350582) — updated 2026-11-26T17:48:37Z
+- [Copilot harness can't install any server from an Azure API Center MCP registry: "GitHub returned details for this MCP server that couldn't be read" (malformed-card)](https://github.com/microsoft/vscode/issues/349575) — updated 2026-11-27T18:06:39Z
+- [VS Code task tools intermittently receive no invocation context in agent-host chats](https://github.com/microsoft/vscode/issues/350781) — updated 2026-11-27T18:04:41Z
+- [[Floating Comments] Long floating comments scroll bar problems](https://github.com/microsoft/vscode/issues/349910) — updated 2026-11-27T17:47:23Z
 
 ## google/googletest
 
@@ -40,21 +40,21 @@ _No qualifying open issues._
 
 ## facebook/react
 
-- [Bug: i cant add rls](https://github.com/react/react/issues/38400) — updated 2026-11-26T14:23:50Z
-- [Bug: a dehydrated Suspense boundary misses a context change when a sibling has work in the same lanes, then hydrates with the new value (#418)](https://github.com/react/react/issues/38398) — updated 2026-11-26T12:45:16Z
-- [Bug: hydration claims the `importMap` script when `<head>` renders an inline `<script>`](https://github.com/react/react/issues/38394) — updated 2026-11-26T01:10:37Z
+- [Bug: hydration claims the `importMap` script when `<head>` renders an inline `<script>`](https://github.com/react/react/issues/38394) — updated 2026-11-27T15:34:50Z
+- [Bug: [DEV] "ReferenceError: window is not defined" from Scheduler tasks after DOM environment teardown — still present in 19.3.1](https://github.com/react/react/issues/38161) — updated 2026-11-27T15:31:14Z
+- [Bug: The ESLint react-hooks/preserve-manual-memoization rule warns against optional chaining operator](https://github.com/react/react/issues/35577) — updated 2026-11-27T13:37:56Z
 
 ## openai/openai-python
 
-- [`BaseClient._prepare_url()` corrupts relative endpoint URLs when `base_url` contains query parameters](https://github.com/openai/openai-python/issues/4311) — updated 2026-11-25T19:15:54Z
-- [beta.agents: direct tool handlers returning bytes or Mapping with NaN/Infinity bypass output validation and submit success=True](https://github.com/openai/openai-python/issues/4303) — updated 2026-11-24T07:45:05Z
-- [beta.agents: AgentTurnResult.parse() swallows TypeError for invalid output_type and raises AgentOutputParseError](https://github.com/openai/openai-python/issues/4304) — updated 2026-11-23T16:40:15Z
+- [`parse(to=A | None)` raises "Unsupported type" below Python 3.14 while `Union[A, None]` works](https://github.com/openai/openai-python/issues/4339) — updated 2026-11-27T13:14:43Z
+- [`parse(to=...)` raises AttributeError on endpoints with a post-parser (embeddings, chat.completions.parse)](https://github.com/openai/openai-python/issues/4338) — updated 2026-11-27T12:59:21Z
+- [`DeprecationWarning` thrown when calling websockets (17.1 and later)](https://github.com/openai/openai-python/issues/4337) — updated 2026-11-27T01:28:45Z
 
 ## nasa/openmct
 
+- [Time Conductor should allow a fixed start time in realtime mode](https://github.com/nasa/openmct/issues/8471) — updated 2026-11-27T04:55:08Z
 - [Question about the fail-fast setting in your workflow](https://github.com/nasa/openmct/issues/8475) — updated 2026-11-26T09:16:45Z
 - [[Vue] Some computed properties are mutating their own dependencies](https://github.com/nasa/openmct/issues/7569) — updated 2026-11-25T18:22:18Z
-- [Indicators inconsistent between FireFox / Chrome](https://github.com/nasa/openmct/issues/7667) — updated 2026-11-20T00:01:34Z
 
 ## apache/kafka
 
@@ -62,33 +62,33 @@ _No qualifying open issues._
 
 ## tensorflow/tensorflow
 
-- [TFLite converter: output bytes differ between runs with _experimental_use_buffer_offset=True](https://github.com/tensorflow/tensorflow/issues/130747) — updated 2026-11-26T16:39:58Z
-- [tf.math.polyval fails for Python int coefficients with a float x](https://github.com/tensorflow/tensorflow/issues/130023) — updated 2026-11-26T15:15:00Z
-- [tf.linalg.norm rejects NumPy integer axes (np.int64), while Python ints and np.linalg.norm work](https://github.com/tensorflow/tensorflow/issues/130195) — updated 2026-11-26T15:14:41Z
+- [tf_upgrade_v2: bool literals ignored on Python 3.14, fractional pool crash](https://github.com/tensorflow/tensorflow/issues/130576) — updated 2026-11-27T11:43:24Z
+- [ssim_multiscale returns NaN with max_val=0](https://github.com/tensorflow/tensorflow/issues/130658) — updated 2026-11-27T11:41:41Z
+- [max_pool_with_argmax accepts a zero channel stride](https://github.com/tensorflow/tensorflow/issues/130659) — updated 2026-11-27T11:38:46Z
 
 ## rust-lang/rust
 
-- [Error messages refer to `core::prelude::v1::Ok` instead of `Ok` under `#![no_std]`](https://github.com/rust-lang/rust/issues/166618) — updated 2026-11-26T18:23:29Z
-- [Incorrect 'before the previous value is read' rustc warning on +=](https://github.com/rust-lang/rust/issues/159371) — updated 2026-11-26T18:19:22Z
-- [Enable SLP for O2/Os optimization levels](https://github.com/rust-lang/rust/issues/166617) — updated 2026-11-26T18:16:09Z
+- [Tracking Issue for NEON FCMA intrinsics](https://github.com/rust-lang/rust/issues/117222) — updated 2026-11-27T17:54:10Z
+- [Tracking issue for release notes of #117222: Tracking Issue for NEON FCMA intrinsics](https://github.com/rust-lang/rust/issues/166669) — updated 2026-11-27T17:54:07Z
+- [Tracking issue for release notes of #161531: Remove `T: Send + Sync` bound from `Arc::downcast`](https://github.com/rust-lang/rust/issues/166668) — updated 2026-11-27T17:49:58Z
 
 ## nodejs/node
 
-- [V8: a GC inside a fast API call skips the stacks of threads archived by v8::Unlocker (use-after-free)](https://github.com/nodejs/node/issues/67798) — updated 2026-11-26T17:54:17Z
-- [Immutable ArrayBuffer's are almost here. Are we ready?](https://github.com/nodejs/node/issues/66346) — updated 2026-11-26T17:52:09Z
-- [Expose the signature hash algorithm of X509Certificate](https://github.com/nodejs/node/issues/67794) — updated 2026-11-26T15:28:36Z
+- [http2 compat: stream is not destroyed on request timeout, unlike http1 socket](https://github.com/nodejs/node/issues/67820) — updated 2026-11-27T17:37:34Z
+- [RISC-V: "Illegal instruction" crash when vector instructions detected by V8](https://github.com/nodejs/node/issues/64538) — updated 2026-11-27T17:32:48Z
+- [zlib: native zstd decompression sporadically reports ZSTD_error_checksum_wrong on valid frames and aborts with a `!closed_` assertion](https://github.com/nodejs/node/issues/67773) — updated 2026-11-27T15:39:38Z
 
 ## golang/go
 
-- [runtime: 32-bit Android 8-10 with a Linux >= 5.1 kernel still killed by seccomp (futex_time64)](https://github.com/golang/go/issues/83366) — updated 2026-11-26T18:17:19Z
-- [os/user: Lookup error differs between cgo and pure Go when /etc/passwd is missing](https://github.com/golang/go/issues/83416) — updated 2026-11-26T18:05:35Z
-- [net/http: canceling an HTTP/1 request can fail a different request that reused its connection](https://github.com/golang/go/issues/82547) — updated 2026-11-26T17:55:44Z
+- [proposal: crypto/x509: ability to add custom curve when parsing X509 certificate](https://github.com/golang/go/issues/32874) — updated 2026-11-27T16:34:13Z
+- [cmd/compile: internal compiler error "width not calculated: [2048]uint8" on linux/s390x with go1.26 (generic func, 8-way type switch)](https://github.com/golang/go/issues/83436) — updated 2026-11-27T16:09:41Z
+- [cmd/compile: internal compiler error: mem2reg sees a load from an auto variable before any store](https://github.com/golang/go/issues/83386) — updated 2026-11-27T16:00:47Z
 
 ## llvm/llvm-project
 
-- [Inefficient code generation for XORing of byte arrays](https://github.com/llvm/llvm-project/issues/246274) — updated 2026-11-26T18:19:38Z
-- [[ExpandIRInsts] Unsigned >128-bit int to x86_fp80/fp128 conversion sets the sign bit](https://github.com/llvm/llvm-project/issues/246472) — updated 2026-11-26T18:13:47Z
-- [[mlir][vector] Remove in_bounds from Xfer Ops](https://github.com/llvm/llvm-project/issues/227821) — updated 2026-11-26T18:11:12Z
+- [[SPIR-V] OpPhi of a byval pointer argument and a GEP from it has mismatched pointer types](https://github.com/llvm/llvm-project/issues/246540) — updated 2026-11-27T18:08:15Z
+- [Bogus error "type of variable template specialization [...] declared with deduced type [...] depends on itself"](https://github.com/llvm/llvm-project/issues/214477) — updated 2026-11-27T18:07:42Z
+- [using-declarations versus default-arguments, and nested-name-specifiers](https://github.com/llvm/llvm-project/issues/14157) — updated 2026-11-27T18:06:28Z
 
 ## mozilla/gecko-dev
 
